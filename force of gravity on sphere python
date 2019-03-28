@@ -1,0 +1,15 @@
+#Dec 26 2018. Just back of the envelope type calculation for force of gravity on sphere
+p = 2.65 #in g/cm^3
+print p
+p = p/1000 #kg/cm^3
+print p
+p=p/.01**3
+print 'the density of silica is ' + str(p) + 'in kg/m^3'
+
+import math
+v = 4/3 *math.pi*(50*10**-6)**3
+print v
+m = p*v
+print m
+force = m*9.81
+print 'force of gravity on the sphere is ' + str(force) + ' kg m/s^2'

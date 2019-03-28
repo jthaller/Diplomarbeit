@@ -1,0 +1,177 @@
+%The introduction is one of the most important pieces of your thesis.  Here is a place for you to introduce the problem(s) on which you have worked and place them in the larger context of your field.  You should aim to ensure that this section is completely understandable to virtually anyone - and certainly anyone with a sophomore-level grasp of physics.  Presumably this will include references to the literature.
+
+%In addition to setting your work into context, a second good idea for your introduction is to give a short outline for what the rest of your thesis will discuss.  This is often done in the closing paragraph(s) of the introduction with sentences like ``In the following chapters \ldots " and ``Chapter 2 discusses \ldots"  Tremendous detail is not required in this outline, but rather just a brief road map for the rest of the document.
+
+\section{Motivations}
+\subsection{Historical Context}
+
+Soft Condensed Matter Physics includes the study of colloids, liquid crystals, polymers, complex fluids, rubbers, foams, many biological materials, and - what we devote most of our time to studying in the Jensen lab - gels. From cosmetics to sticky notes, soft solids are ubiquitous in everyday life and are of growing interest due to their unique properties compared to traditional hard engineering materials. 
+
+Though few people may know the term, surface stress is a familiar concept in everyday phenomena: water droplets bead up into a ball; paperclips can float on water despite being made of dense iron; and water striders navigate the water's plane thanks to their hydrophobic legs. Each of these marvels is a result of \textbf{surface stress}, $\Upsilon$ , the reversible work per unit area required to elastically stretch a surface \cite{cammarata1994surface}. In each of the above examples, there is an energetic cost to creating new surface. The water strider, for example, exerts a force on the water due to gravity. Because creating new surface costs energy, the water resists deformation, providing a restorative force that effectively balances the insect’s weight to keep it afloat.  Likewise, water droplets bead up and liquid surfaces are smooth because $\Upsilon$ opposes surface stretching, acting to minimize the surface-to-volume ratio of the liquid. (I could cite Gibbs 1906...first pointed out surface stress in solids)
+
+The energy associated with particles in the bulk is less than that of the particles at the surface. Molecules beneath the surface are attracted by the particles around them in every direction. In contrast, the particles at the surface are only attracted by the molecules directly adjacent to them or directly below them. As a result of these less favorable interactions, they are in a state of higher energy compared to molecules in the bulk. The difference in energy between particles in the bulk compared to the surface is known as the \textbf{surface free energy}, $\gamma$, often written as just surface energy. $\gamma$ can also be defined as the reversible work per unit area to creating new surface by cutting. This exposes new particles to the surface. When the surface of a fluid is stretched, however, new atoms or molecules arrive at the surface, maintaining the number of atoms per unit area as a constant value. Therefore, the surface energy is the same as the surface stress for a fluid and equal to a constant value. Because of this, $\gamma$ and $\Upsilon$ have are often referred to interchangeably as \textbf{surface tension}. (should I talk about how $\upsilon$ is a symmetric second order tensor, but in simple liquids it is isotropic and can be treated like a scalar?) 
+
+Although surface tension is most familiar in liquids, it is a property shared by solids as well. For most solids, these surface effects go unnoticed in everyday life due to the overpowering effects of the bulk's elasticity compared to any surface energies. For solids of small enough size or soft enough composition, however, the surface energies can compete with or even dominate the effects of the bulk, resulting in strange and counterintuative physics. For example, the addition of finite, microscopic, liquid droplets in a soft solid actually stiffens the material \cite{style2015stiffening}, and \emph{KEJ, can you help me find that example about stiffening microtubiules? I couldn't find it as a ref in cammarata or styles}. In metals, the origin of surface stress, on the atomic scale, derives from the crystalline structure. The epitaxial layer, or surface atoms, reside in a lower electron density and therefore a different equilibrium spacing than the bulk. The bulk atoms force the surface atoms to fit into the epitaxial overlayer of the crystalline substrate. As a result, the surface atoms are strained by the bulk, leaving the surface stressed by the underlying lattice \cite{cammarata1994surface}. 
+
+While gels are technically classified as solids, they exhibit many properties that are more closely associated with liquids. Most notably, gels are comprised mainly of fluid (by weight). Their rigidity is the result of a three-dimensional network of crosslinked molecules which entrap large amounts of liquid throughout via capillary forces. The result is a solid of varying stiffness, depending on the composition and temperature. Surface stress in soft solids is a topic of growing interest. Unlike in metals, elastocapillary physics plays a crucial role in determining the material's behavioral properties. In 2011, Jerison et. al \cite{jerison2011deformation} found that deformations of a silicone substrate due to a liquid droplet on the surface required the inclusion of surface tension. Furthermore, they determined that $\gamma_{sl}$ and $\gamma_{sv}$ must be dramatically different from one another, despite the previous assumption that the terms would be equal. \emph{So I wrote more in depth about this below, but it seems too specific to include here maybe. Not sure what I want to do. Also, note to self, the discrepancy is totally because of deformation changed the surface tension.}
+
+\subsubsection{Deformation of Elastic Substrate by Three-Phase Contact Line}
+Figure \ref{fig:three-phase} depicts a commonly drawn three-phase force diagram for a liquid droplet on an elastic substrate.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.6\textwidth]{Chapters/Figures/phase_diagram.PNG}
+	\caption[Three-Phase Diagram]{Classical Three-Phase Diagram]}
+	\label{fig:three-phase} 
+\end{figure}
+
+
+This is clearly an unbalanced force diagram in vertical direction, as the only vertical force component drawn is the liquid-vapor surface tension. The normal force from $\gamma_{lv}$ must be balanced by the elastic substrate's deformation. Calculating this value, however, is still an open question. According to continuum elastic theory, the stress exerted by $\gamma_{lv}$ diverges \cite{jerison2011deformation} at the contact line. While Contact Mechanics dates back to the 18th century, seemingly simple problems like a liquid droplet on an elastic surface are still not yet well understood and provide challenging question when inspecting on a small enough scale.
+
+Jerison et al. 2011 \cite{jerison2011deformation} found modeling the deformation of the elastic substrate due to a liquid droplet fit best with a model that incorporated both the finite thickness and surface tension of the substrate. This new model solved many issues with the previous best solution by Boussinesq: taking into account the finite thickness ensured that the deformations would go to zero far from the contact line, and the substrate's surface tension resolves the single stress singularity, eliminating the divergence of strain and vertical displacement at the origin. Additionally, Jerison found that there must be a large discrepancy in $\gamma_{sv}$ and $\gamma_{sl}$, which were previously assumed to be identical.
+
+
+In the following years, further tests of surface stress were measured with wildly varying results. It began to become clear that the surface stress of soft solids was not simply that of the fluid phase, and there is more to the mystery. See table \ref{tab:upsilon_values}
+\begin{table}[h!]
+\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Silicone}       & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Young's Modulus \\ (kPa)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Measured $\Upsilon$ \\ (mN m$^{-1}$)\end{tabular}}} & \textbf{Reference} \\ \hline
+		Sylgard 184             & 770                                                                       & 19                                                                                    &                    \\ \hline
+		Gelest                  & 5.6                                                                       & 20                                                                                    &                    \\ \hline
+		Sylgard 184             & 18                                                                        & 30-70                                                                                 &                    \\ \hline
+		Sylgard 184             & 1000                                                                      & 40-50                                                                                 &                    \\ \hline
+		Dow Corning CY52-276A/B & 3                                                                         & 30                                                                                    &                    \\ \hline
+		Dow Corning CY52-276A/B & 3                                                                         & 42-59                                                                                 &                    \\ \hline
+	\end{tabular}
+	\caption[Measured $\Upsilon$ Values]{A Collection of Previously Measured $\Upsilon$ Values}
+\label{tab:upsilon_values} 
+\end{table}
+
+In contrast to liquids, when a surface of a solid is elastically stretched, the number of atoms per unit area changes, such that generally $ \gamma \neq \Upsilon$ in solids \cite{cammarata1994surface}. The relationship between surface energy and surface stress can be derived through the use of the elastic deformation tensor $\epsilon_{ij}$, where $i,j=1,2$. We can then define $d\epsilon_{ij}$ to be an infinitesimal and elastic (reversible) strain as a result in a variation of the surface area, $A$. The surface stress tensor, $\Upsilon_{ij}$, is the work associated with the variation in the excess free energy of the surface due to strain, $\gamma A$. Thus, we can write, \[d(\gamma A) = A \Upsilon_{ij} d\epsilon_{ij}\] Expanding out the first term, $d(\gamma A) = \gamma dA + A d\gamma$. Utilizing symmetries, we can say that $dA = A \delta_{ij} d\epsilon_{ij}$, where $\delta_{ij}$ is the Kronecker delta. Making the substitution, we find \[\gamma dA + A d\gamma = \gamma A \delta_{ij} d\epsilon_{ij} + A d\gamma = A \Upsilon_{ij} d\epsilon_{ij}\] And thus,
+\begin{equation}
+	\label{shuttleworth_eqn}
+	\Upsilon_{ij} = \delta_{ij}\gamma + \frac{\partial \gamma}{\partial \epsilon_{ij}} 
+\end{equation}
+This is known as the Shuttleworth Equation (\ref{shuttleworth_eqn}), and clearly shows that both $\gamma$ and $\Upsilon$ in solids are dependent on the strain state of the material.
+
+In soft matter, however, the opposite assumption has been true; it has been widely assumed that the surface-stress in soft matter would be nearly strain-independent. This assumption is based off the behavior of liquids. The surface stress in liquids is constant and equal to the surface energy of the substance $(\Upsilon = \gamma)$. Because gels are comprised mainly of fluid, people believed that deforming a gel would not have a significant effect on the surface tension, given that the fluid could flow back to the stretched surface of the gel. 
+
+Experimental measurements of surface stress have been around as early as the 1960 \emph{(make references to Cammarata's citations of 17-22)}, though measurements of strain-dependent surface stress have only been attempted much more recently and returned scant results. Metals are an incredibly useful building tool due to their strength\footnote{Strength: the maximum force per unit area a material can withstand}, but their stiffness\footnote{Stiffness: the material's resistance to deformation via strain} also makes measuring properties as a function of strain severely limited, as most metals will fracture after a few percent strain.
+
+Soft solids provide a unique opportunity to measure strain-dependent surface stress. Despite being a solid, soft solids, such as gels, can easily be stretched elastically. In 2017, Xu, Jensen et. al published a paper \cite{xu2017direct} making the first direct measurement of strain-dependent surface stress in solids. Their measurements suggest a linear relationship between surface-stress and strain, measuring that the surface stress of their PDMS substrate more than doubled at 20\% strain. This surface stress measurement - made using contact angles - was met with skepticism from the field. Additionally, their method of measurement is limited to a select combination of materials. We have developed a method for measuring strain dependent surface stress that is applicable to a wide variety of soft materials. To provide greater evidence of strain dependent surface stress, we made a separate measurement in PDMS as well as a variety of other soft materials using soft adhesion. In this thesis, I present the full background, methods, and underlying physics of the process.    
+
+
+%Balancing, we find
+%\[F_{vertical} = \gamma * \sin(\theta) = E * \delta,\]
+%where $F_{vertical}$ is the force per unit length in the vertical direction, $\gamma$ is the surface tension of the liquid, E is the Young's modulus of a substrate, and $\delta$ is deformation of the substrate. Zooming
+
+\subsubsection{Universal Deformation of Soft Substrates Near a Contact Line and the Direct Measurement of Solid Surface Stresses}
+Measuring the surface stresses in solids is a difficult problem that has been met with various degrees of success of the years \emph{(Cite a few things here?)}. A modern method of measuring the deformation of elastic solid imposed by the liquid droplet in Figure \ref{fig:three-phase} was introduced by Style \emph{et al.} in 2013 \cite{style2013universal} which, unlike previous methods, does not require prior knowledge about the bulk elastic properties of the substrate material.
+
+To measure the surface stress of the material, Style first places glycerol or fluorinated oil droplets atop a soft, elastic silicone gel substrate (CY52-276A/B). To measure surface deformations, the substrate is first coated with fluorescent beads, which can subsequently be measured using confocal microscopy. The located positions of the fluorescent beads outline the surface and allows for a reconstructions of the surface deformations. This is the same method utilized by Jerison \emph{et al.} in 2011. \cite{jerison2011deformation}. \\
+\\
+\emph{note to self: Rob had about 2000 fluorescent beads per 170$\mu$m-square.}
+
+While this technique is effective, it is limited in its applications due to material properties. The method only works for immiscible fluids such that the gel does not absorb the surface droplets. Furthermore, the fluid must also have a low volatility; otherwise, the droplet would begin to evaporate while waiting for the surface deformations to settle.  
+
+\subsubsection{Surface Tension and Contact with Soft Elastic Solids}
+-Relevant Summary
+
+\section{Classical Contact Mechanics and JKR Theory}
+
+Hertzian Mechanics, developed by Heinrich Hertz in the 1800's, allows for the calculation of stress and deformation based on the elastic moduli of the contacted surfaces, as well as their radii of curvature and applied force. While Hertzian mechanics stood for a long time, it neglected to take into account the adhesion energy of the system.  
+
+In 1971, Johnson, Kendall, and Roberts (JKR) sought to remedy this omission by developing a classical theory of contact mechanics that balances the forces of adhesion with elasticity from the bulk and the surface free energy \cite{johnson1971surface}. \\ 
+
+JKR Theory, while a great improvement over Hertztian Mechanics, breaks down in the elastocapillary regime. Specifically, at lengths where 
+\begin{equation}
+	\label{EC_regime}
+	L_{c} \leq \frac{\Upsilon}{E}
+\end{equation}
+the surface energies compete with those of the bulk and can no longer be ignored. Fittingly, $L_c$ is referred to as the elastocapillary length. 
+
+The increased importance of surface stress in this regime leads to some material properties that are counter-intuitive to our everyday experiences. For example, soft solids can be stiffened with the inclusion of pockets of fluids below the elastocapillary length. In this regime, the surface tension dominates. And thus, the inclusion of a hole, while removing material affects the elastic stiffness, it also increases the surface area of the substrate. In this regime, this increase in surface area is more important, and thus leads to a solid of increased stiffness.
+
+Over the last few years, there has been a significant amount of work regarding adhesion in soft solids. We want to take advantage of what is known about the role of surface stress in soft solids to directly measure the surface stress while varying the properties of the underlying substrate. In doing so, we will have created a new form of measuring surface stress, applicable to virtually any soft solid capable of being stretched. The specifics of this technique are covered in the following chapter.
+
+\subsection{Organosilicon Polymer Chemistry}
+\emph{MUST MOVE THIS. I should definitely talk about what the heck Silicone actually is, and what we're really using, and frankly why gels are stretchy. I think that I should say something in the introduction, and maybe designate an appendix if I want to go more in depth.} 
+
+PDMS, or Poly-Dimethyl-Siloxane, is a commonly used gel in the field of soft condensed matter. The gel is composed of a polymer network of crosslinkers, as well as a second polymer in the fluid phase. When stretched, the configuration of the system changes such that the tangled crosslinkers begin to unwind and untangle. From a statistical mechanics perspective, this decreases the configurational entropy, thus increasing the free energy. \emph{Which free energy though? I think this is what we're covering next in 302...Also I got this from that unpublished review article}
+
+Below (Fig. \ref{fig:DMS-V31}) is the chemical structure for the vinyl-terminated PDMS that comprises the fluid phase.
+% Set chemical bonds length
+\setatomsep{20pt}
+
+% -------------From chemfig manual, useful macro--------------------
+\newcommand\setpolymerdelim[2]{\def\delimleft{#1}\def\delimright{#2}}
+\def\makebraces(#1,#2)#3#4#5{%
+	\edef\delimhalfdim{\the\dimexpr(#1+#2)/2}%
+	\edef\delimvshift{\the\dimexpr(#1-#2)/2}%
+	\chemmove{
+		\node[at=(#4),yshift=(\delimvshift)]
+		{$
+			\left\delimleft
+			\vrule height\delimhalfdim depth\delimhalfdim width0pt
+			\right.
+			$};
+		\node[at=(#5),yshift=(\delimvshift)]
+		{$
+			\left.
+			\vrule height\delimhalfdim depth\delimhalfdim width0pt
+			\right\delimright_{\rlap{#3}}
+			$};
+	}%
+}
+
+%PDMS DMS-V31 Figure
+\begin{figure}[h!]
+	\centering
+	\scalebox{2}{
+\setpolymerdelim()
+
+\chemfig{H_2C=C(-[-3]H)--[@{op,0}]Si(-[2]CH_3)(-[6]CH_3)-O--[@{cl,0}]Si(-[2]CH_3)(-[6]CH_3)-C(-[7]H)=CH_2}
+
+\makebraces(20pt,20pt){$\!\!n$}{op}{cl}
+}
+\label{fig:DMS-V31}
+\caption[DMS-V31]{Divinyl-terminated Polydimethylsiloxane (DMS-V31)}
+\end{figure}
+
+The crosslinker for the system is a trimethylsiloxane terminated 25-35\% methylhydrosiloxane - dimethylsiloxane copolymer. The crosslinker is much shorter on average than the PDMS, containing roughly 20-30 repeating monomer groups. The single hydrogen on the methylhudrosiloxane is weakly bound, and can be replaced by one of the hydrogen atoms in the PDMS. This bonding happens over and over again, creating the long twisted chains that create the mesh network of the gel. Increasing density of crosslinkers provides an easy and controllable method to vary the gel's stiffness.
+
+%PDMS Crosslinker HMS-301 Figure
+\begin{figure}
+	\centering
+	\scalebox{1.75}{
+		\setpolymerdelim()
+		
+		\chemfig{H_3C-Si(-[2]CH_3)(-[6]CH_3)-O--[@{op,0}]Si(-[2]H)(-[6]CH_3)-O-[@{cl,.5}]-[@{op2,.5}]Si(-[2]CH_3)(-[6]CH3)-O--[@{cl2,0}]Si(-[2]CH_3)(-[6]CH_3)-CH_3}
+
+\makebraces(20pt,20pt){$\!\!m$}{op}{cl}
+\makebraces(20pt,20pt){$\!\!n$}{op2}{cl2}
+}		
+\label{fig:HMS-301}
+\caption[HMS-301]{Trimethylsiloxane terminated 25-35\% methylhydrosiloxane ($m$) - dimethylsiloxane ($n$). This is the crosslinker. \emph{I could make that lone H red to help make clearer where the crosslinker bonding is happening. Thoughts?}}
+\end{figure}
+
+\begin{table}[h!]
+	\caption[PDMS ratios Characterization]{PDMS gel characterization}
+	\begin{center}
+		\begin{tabular}{|c||c||c|}
+			\hline
+			Mix Ratio (A\&B) & Young's Modulus (kPa) & Sol Fraction (\%)\\
+			\hline
+			$7.5:1$ & $2.5 \,\pm\, 0.1$ & 65.2\\
+			\hline
+			$9:1$ & $5.0 \, \pm\, 0.1$  & 64.7\\
+			\hline
+			$11:1$ & $10.0 \,\pm\, 1$  & 63.7\\
+			\hline
+		\end{tabular}
+	\end{center}
+\label{tab:recipes}
+\end{table}
+
+
+

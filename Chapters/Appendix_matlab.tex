@@ -1,0 +1,23 @@
+%appendix3
+Looking at previous majumder theses, they all seem to include appendices with their matlab code. I think I have too much to include the actual code, but I think it would be useful to include what .m files I use, what they do, and in what order to run them. How else will someone know what to do with them? I also think it would be useful to put them in my github account in a new project folder and permilink there.
+
+\subsection{Confocal Analysis Codes}
+Below I list the MATLAB codes used in analyzing the raw .ome.tif files obtained from the confocal imaging process. I will list them in the order executed to obtain the desired d vs. R values. In each description, I will also include the required files needed to run the script.
+
+\subsubsection*{iterative\_locating\_input\_parameters\_2018}
+adfasd
+\subsubsection*{iterative\_particle\_locating.m}
+asdfasdf
+\subsubsection*{process\_and\_collapse\_confocal\_data.m}
+asdfasdf
+\subsubsection*{circle\_fit\_confocal\_profiles.m}
+asdfasfd
+
+\subsection{Strain Calculation Codes}
+The codes used for calculating the strain are credited to Rob Styles.  
+
+\subsubsection{\textsf{master\_tracking\_gui.m}}
+
+
+\subsection{Silicone Characterization Measurements}
+To measure the stiffness of our silicone (Young's Modulus, E), we use the \emph{something something Texture Analyzer}. We measure the force of resistance (N) vs. depth of compression (m) for several points near the center of the bulk. We only use points near the center to isolate the silicone. Measuring near the sides could include the restorative force from the walls of the container. We run \textsf{measure\_modulus.m}, which calculates the average slope of this curve. This is the Young's Modulus of the substrate.  $(\sigma/\epsilon)$.
