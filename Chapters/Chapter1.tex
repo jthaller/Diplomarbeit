@@ -5,7 +5,7 @@
 \section{Motivations}
 \subsection{Historical Context}
 
-Soft Condensed Matter Physics includes the study of colloids, liquid crystals, polymers, complex fluids, rubbers, foams, many biological materials, and - what we devote most of our time to studying in the Jensen lab - gels. From cosmetics to sticky notes, soft solids are ubiquitous in everyday life and are of growing interest due to their unique properties compared to traditional hard engineering materials. 
+Soft Condensed Matter Physics includes the study of colloids, liquid crystals, polymers, complex fluids, rubbers, foams, many biological materials, and - what we devote most of our time to studying in the Jensen lab - gels. From cosmetics to sticky notes, soft solids are ubiquitous in everyday life and are of growing interest due to their unique properties compared to traditional (hard) engineering materials. 
 
 Though few people may know the term, surface stress is a familiar concept in everyday phenomena: water droplets bead up into a ball; paperclips can float on water despite being made of dense iron; and water striders navigate the water's plane thanks to their hydrophobic legs. Each of these marvels is a result of \textbf{surface stress}, $\Upsilon$ , the reversible work per unit area required to elastically stretch a surface \cite{cammarata1994surface}. In each of the above examples, there is an energetic cost to creating new surface. The water strider, for example, exerts a force on the water due to gravity. Because creating new surface costs energy, the water resists deformation, providing a restorative force that effectively balances the insect’s weight to keep it afloat.  Likewise, water droplets bead up and liquid surfaces are smooth because $\Upsilon$ opposes surface stretching, acting to minimize the surface-to-volume ratio of the liquid. (I could cite Gibbs 1906...first pointed out surface stress in solids)
 
@@ -29,6 +29,7 @@ This is clearly an unbalanced force diagram in vertical direction, as the only v
 
 Jerison et al. 2011 \cite{jerison2011deformation} found modeling the deformation of the elastic substrate due to a liquid droplet fit best with a model that incorporated both the finite thickness and surface tension of the substrate. This new model solved many issues with the previous best solution by Boussinesq: taking into account the finite thickness ensured that the deformations would go to zero far from the contact line, and the substrate's surface tension resolves the single stress singularity, eliminating the divergence of strain and vertical displacement at the origin. Additionally, Jerison found that there must be a large discrepancy in $\gamma_{sv}$ and $\gamma_{sl}$, which were previously assumed to be identical.
 
+\emph{I}
 
 In the following years, further tests of surface stress were measured with wildly varying results. It began to become clear that the surface stress of soft solids was not simply that of the fluid phase, and there is more to the mystery. See table \ref{tab:upsilon_values}
 \begin{table}[h!]
@@ -65,14 +66,14 @@ Soft solids provide a unique opportunity to measure strain-dependent surface str
 %\[F_{vertical} = \gamma * \sin(\theta) = E * \delta,\]
 %where $F_{vertical}$ is the force per unit length in the vertical direction, $\gamma$ is the surface tension of the liquid, E is the Young's modulus of a substrate, and $\delta$ is deformation of the substrate. Zooming
 
-\subsubsection{Universal Deformation of Soft Substrates Near a Contact Line and the Direct Measurement of Solid Surface Stresses}
+\subsubsection{Direct Measurement of Solid Surface Stresses}
+Theoretical calculations for surface stress generally involve the taking the derivative of the predicted surface free energy with respect to strain. Various methods for metals involve calculating the electronic density, the kinetic energy, and the electrostatic exchange-correlation\footnote{Forgoing the independent electron approximation, the electronic exchange is a measure of deflection due to the presence of other electrons} \cite{GURTIN1978431}. 
+ 
 Measuring the surface stresses in solids is a difficult problem that has been met with various degrees of success of the years \emph{(Cite a few things here?)}. A modern method of measuring the deformation of elastic solid imposed by the liquid droplet in Figure \ref{fig:three-phase} was introduced by Style \emph{et al.} in 2013 \cite{style2013universal} which, unlike previous methods, does not require prior knowledge about the bulk elastic properties of the substrate material.
 
-To measure the surface stress of the material, Style first places glycerol or fluorinated oil droplets atop a soft, elastic silicone gel substrate (CY52-276A/B). To measure surface deformations, the substrate is first coated with fluorescent beads, which can subsequently be measured using confocal microscopy. The located positions of the fluorescent beads outline the surface and allows for a reconstructions of the surface deformations. This is the same method utilized by Jerison \emph{et al.} in 2011. \cite{jerison2011deformation}. \\
-\\
-\emph{note to self: Rob had about 2000 fluorescent beads per 170$\mu$m-square.}
+To measure the surface stress of the material, Style first places glycerol or fluorinated oil droplets atop a soft, elastic silicone gel substrate (CY52-276A/B). To measure surface deformations, the substrate is first coated with fluorescent beads, which can subsequently be measured using confocal microscopy. The located positions of the fluorescent beads outline the surface and allows for a reconstructions of the surface deformations. This is the same method utilized by Jerison \emph{et al.} in 2011  \cite{jerison2011deformation}.
 
-While this technique is effective, it is limited in its applications due to material properties. The method only works for immiscible fluids such that the gel does not absorb the surface droplets. Furthermore, the fluid must also have a low volatility; otherwise, the droplet would begin to evaporate while waiting for the surface deformations to settle.  
+While this technique is effective, it is limited in its applications due to material properties. The method only works for immiscible fluids such that the gel does not absorb the surface droplets. Furthermore, the fluid must also have a low volatility; otherwise, the droplet would begin to evaporate while waiting for the surface deformations to settle.
 
 \subsubsection{Surface Tension and Contact with Soft Elastic Solids}
 -Relevant Summary

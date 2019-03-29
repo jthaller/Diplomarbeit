@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  28 MAR 2019 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  29 MAR 2019 01:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2162,12 +2162,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--14
 
 
 ] (./Chapters/ExecutiveSummary.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2176,7 +2176,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: Chapters/Figures/2017natcomfig.png Graphic file (type png)
 <use Chapters/Figures/2017natcomfig.png>
 Package pdftex.def Info: Chapters/Figures/2017natcomfig.png  used on input line
- 7.
+ 6.
 (pdftex.def)             Requested size: 328.82706pt x 281.53235pt.
  [2
 
@@ -2213,25 +2213,20 @@ Package pdftex.def Info: Chapters/Figures/phase_diagram.PNG  used on input line
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2] [3 <./Chapters/Figures/phase_diagram.PNG>] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 71--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 [5]
 
-Package caption Warning: \label without proper reference on input line 137.
+Package caption Warning: \label without proper reference on input line 138.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:DMS-V31' on page 6 undefined on input line 102.
+LaTeX Warning: Reference `fig:DMS-V31' on page 6 undefined on input line 103.
 
 [6]
-Overfull \hbox (11.82004pt too wide) in paragraph at lines 153--155
+Overfull \hbox (11.82004pt too wide) in paragraph at lines 154--156
  [][] 
  []
 
@@ -2297,12 +2292,12 @@ File: Chapters/Figures/13ml_stretched_2D_located.png Graphic file (type png)
 <use Chapters/Figures/13ml_stretched_2D_located.png>
 Package pdftex.def Info: Chapters/Figures/13ml_stretched_2D_located.png  used o
 n input line 51.
-(pdftex.def)             Requested size: 328.82706pt x 128.86255pt.
+(pdftex.def)             Requested size: 469.75499pt x 184.08702pt.
 File: Chapters/Figures/13ml_stretched_2D_located.png Graphic file (type png)
 <use Chapters/Figures/13ml_stretched_2D_located.png>
 Package pdftex.def Info: Chapters/Figures/13ml_stretched_2D_located.png  used o
 n input line 58.
-(pdftex.def)             Requested size: 328.82706pt x 128.86255pt.
+(pdftex.def)             Requested size: 469.75499pt x 184.08702pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2474,11 +2469,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26094 strings out of 492982
- 504217 string characters out of 6134895
- 545381 words of memory out of 5000000
- 29219 multiletter control sequences out of 15000+600000
- 545259 words of font info for 76 fonts, out of 8000000 for 9000
+ 26096 strings out of 492982
+ 504264 string characters out of 6134895
+ 545396 words of memory out of 5000000
+ 29222 multiletter control sequences out of 15000+600000
+ 544965 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,17n,88p,10412b,811s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
@@ -2491,15 +2486,14 @@ type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on JKT_MainDraft.pdf (37 pages, 11427446 bytes).
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on JKT_MainDraft.pdf (37 pages, 11419895 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 178 compressed objects within 2 object streams
+ 271 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {1.1}Motivations}{1}
 \contentsline {subsection}{\numberline {1.1.1}Historical Context}{1}
 \contentsline {subsubsection}{Deformation of Elastic Substrate by Three-Phase Contact Line}{2}
-\contentsline {subsubsection}{Universal Deformation of Soft Substrates Near a Contact Line and the Direct Measurement of Solid Surface Stresses}{5}
+\contentsline {subsubsection}{Direct Measurement of Solid Surface Stresses}{5}
 \contentsline {subsubsection}{Surface Tension and Contact with Soft Elastic Solids}{5}
 \contentsline {section}{\numberline {1.2}Classical Contact Mechanics and JKR Theory}{5}
 \contentsline {subsection}{\numberline {1.2.1}Organosilicon Polymer Chemistry}{6}
@@ -25,14 +25,16 @@
 \contentsline {section}{\numberline {3.1}Calibration}{15}
 \contentsline {subsubsection}{Measuring Strain}{16}
 \contentsline {chapter}{\numberline {4}Data Analysis and Results}{19}
-\contentsline {section}{\numberline {4.1}Data}{19}
+\contentsline {section}{\numberline {4.1}Preliminary Data}{19}
 \contentsline {subsection}{\numberline {4.1.1}Standard Candles}{19}
+\contentsline {section}{\numberline {4.2}Data}{20}
 \contentsline {chapter}{\numberline {5}Future Work}{23}
+\contentsline {section}{\numberline {5.1}Neue Materialen: Gummib\IeC {\"a}rli}{23}
 \contentsline {chapter}{\numberline {A}Stretching Apparatus Engineering Design Document}{24}
 \contentsline {chapter}{\numberline {B}Fluorescent Confocal Microscopy}{26}
 \contentsline {subsection}{\numberline {B.0.1}Preparing a Fluorescent Bead Solution}{26}
 \contentsline {chapter}{\numberline {C}MATLAB Code}{27}
 \contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{27}
 \contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{27}
-\contentsline {subsubsection}{\textsf {master\_tracking\_gui.m}}{28}
+\contentsline {subsubsection}{master\_tracking\_gui.m}{28}
 \contentsline {subsection}{\numberline {C.0.3}Silicone Characterization Measurements}{28}

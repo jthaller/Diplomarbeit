@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: JKT_MainDraft.aux
 The style file: goodStyle.bst
 Database file #1: bibliography.bib
-You've used 10 entries,
+You've used 11 entries,
             2244 wiz_defined-function locations,
-            571 strings with 5682 characters,
-and the built_in function-call counts, 3778 in all, are:
-= -- 249
-> -- 152
+            579 strings with 5828 characters,
+and the built_in function-call counts, 4155 in all, are:
+= -- 277
+> -- 161
 < -- 1
-+ -- 72
-- -- 36
-* -- 219
-:= -- 431
-add.period$ -- 29
-call.type$ -- 10
-change.case$ -- 10
++ -- 76
+- -- 38
+* -- 243
+:= -- 473
+add.period$ -- 32
+call.type$ -- 11
+change.case$ -- 11
 chr.to.int$ -- 0
-cite$ -- 10
-duplicate$ -- 379
-empty$ -- 354
-format.name$ -- 44
-if$ -- 822
+cite$ -- 11
+duplicate$ -- 415
+empty$ -- 393
+format.name$ -- 47
+if$ -- 906
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 101
-newline$ -- 52
-num.names$ -- 10
-pop$ -- 149
+int.to.str$ -- 11
+missing$ -- 110
+newline$ -- 57
+num.names$ -- 11
+pop$ -- 160
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 84
+skip$ -- 91
 stack$ -- 0
-substring$ -- 144
-swap$ -- 265
+substring$ -- 171
+swap$ -- 290
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 22
-width$ -- 12
-write$ -- 109
+while$ -- 24
+width$ -- 13
+write$ -- 120
