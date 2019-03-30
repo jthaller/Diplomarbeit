@@ -20,11 +20,14 @@
 %\geometry{landscape}                		% Activate for for rotated page geometry
 \usepackage[pdftex]{graphicx}				% Use pdf, png, jpg, or eps� with pdflatex;  change to xlatex if you want comic sans...   use eps in DVI mode	
 
+
+%Added for chem figs
 \usepackage{chemfig}
+
 
 \usepackage{setspace}
 \usepackage{physics}
-\usepackage{subcaption}
+%\usepackage{subcaption}
 \usepackage[numbers]{natbib}
 \usepackage{pdfpages}
 \usepackage{bm}
@@ -46,6 +49,13 @@
 \setlength{\marginparwidth}{1in}
 
 
+\usepackage{hyperref} %Makes clickable T.o.c.
+\hypersetup{
+	colorlinks=true, %set true if you want colored links
+	linktoc=all,     %set to all if you want both sections and subsections linked
+	linkcolor=black,  %choose some color if you want links to stand out
+}
+
 %\begin{document} starts LaTeX looking for actual content.  Everything above this point is purely formatting.
 \begin{document}
 
@@ -55,20 +65,20 @@
 % \vspace* creates some vertical white space on the page to make the title page look more pleasing.  \vspace would do much the same thing, but would not insert the white space if we were at the top of a fresh page.  As this is the start of the document we're obviously at the beginning of a page, so the asterisk is necessary to ensure we still put in two cm of white space.
 \vspace*{2cm}
 
-{\huge Silicone Valley Episode 1: Stretchy Bois} % \huge sets the font size.  Other options include things like \large, \Large, \small, \tiny, etc.
+{\huge Silicone Valley Episode 1: An Adhesion Based Measurement of Strain-Dependent Surface Stress in Soft Solids} % \huge sets the font size.  Other options include things like \large, \Large, \small, \tiny, etc.
 
 \vspace{2cm}
 
-{\large STARRING\\Jeremy K. Thaller}
+{\large By\\\vspace{.5em}Jeremy K. Thaller}
 
 \vspace{2cm}
 {Professor Katharine E. Jensen, Advice Czar}
 
-\begin{figure}[h]
-	\vspace{.5cm}
-	\centering
-	\includegraphics[width=.25\textwidth]{Chapters/Figures/seal.PNG}
-\end{figure}  
+%\begin{figure}[h]
+%	\vspace{.5cm}
+%	\centering
+%	\includegraphics[width=.25\textwidth]{Chapters/Figures/seal.PNG}
+%\end{figure}  
 
 % \vfill creates an arbitrary amount of vertical white space as necessary to fill the page
 \vfill
