@@ -33,10 +33,15 @@ Below I list the MATLAB codes used in analyzing the raw .ome.tif files obtained 
 \end{itemize}
 
 \subsection{Strain Calculation Codes}
-The codes used for calculating the strain are credited to Rob Styles.  
+The codes used for calculating the strain are credited to Rob Styles (I think. I need to check who wrote what).  
 
 \subsubsection{master\_tracking\_gui.m}
 
 
 \subsection{Silicone Characterization Measurements}
-To measure the stiffness of our silicone (Young's Modulus, E), we use the \emph{something something Texture Analyzer}. We measure the force of resistance (N) vs. depth of compression (m) for several points near the center of the bulk. We only use points near the center to isolate the silicone. Measuring near the sides could include the restorative force from the walls of the container. We run \code{measure\_modulus.m}, which calculates the average slope of this curve. This is the Young's Modulus of the substrate.  $(\sigma/\epsilon)$.
+To measure the stiffness of our silicone (Young's Modulus, E), we use the \emph{something something Texture Analyzer}. We measure the force of resistance (N) vs. depth of compression (m) for several points near the center of the bulk. We only use points near the center to isolate the silicone. Measuring near the sides could include the restorative force from the walls of the container.
+\subsubsection*{measure\_modulus.m}
+\begin{itemize}
+	\item Calculates the average slope of this curve. This is the Young's Modulus of the substrate.  $(\sigma/\epsilon)$
+	\item The requested starting position is the x-axis value where the linear slope approximately begins. It is better to overshoot the starting value than undershoot it
+\end{itemize}
