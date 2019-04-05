@@ -7,29 +7,29 @@
 \contentsline {subsubsection}{Deformation of Elastic Substrate by Three-Phase Contact Line}{2}{section*.6}
 \contentsline {subsubsection}{Direct Measurement of Solid Surface Stresses}{5}{section*.7}
 \contentsline {subsubsection}{Surface Tension and Contact with Soft Elastic Solids}{5}{section*.8}
-\contentsline {subsection}{\numberline {1.1.2}Organosilicon Polymer Chemistry}{6}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Outline of the Thesis}{7}{section.1.2}
-\contentsline {chapter}{\numberline {2}Experimental Setup}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Beyond Contact Mechanics and JKR Theory}{8}{section.2.1}
-\contentsline {section}{\numberline {2.2}Measuring Surface Stress via Adhesion}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Force Balance Derivation}{9}{subsection.2.2.1}
-\contentsline {subsubsection}{Surface Energy}{9}{section*.9}
-\contentsline {subsubsection}{Elastic Energy}{10}{section*.10}
-\contentsline {subsubsection}{Adhesion Energy}{10}{section*.11}
-\contentsline {subsubsection}{Force Balance}{10}{section*.12}
-\contentsline {subsection}{\numberline {2.2.2}Gameplan .... change this subtitle. Suggestions?}{11}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Preparing a Stretchable Substrate}{11}{section.2.3}
-\contentsline {subsubsection}{Silcone Preparation and Spin Coating}{11}{section*.13}
-\contentsline {subsubsection}{Fluorescent Confocal Microscopy}{13}{section*.14}
-\contentsline {section}{\numberline {2.4}Stretch Calibration}{14}{section.2.4}
-\contentsline {chapter}{\numberline {3}Engineering of an Equibiaxial Stretcher for Soft Substrates}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Calibration}{16}{section.3.1}
-\contentsline {subsubsection}{Measuring Strain}{17}{section*.15}
-\contentsline {chapter}{\numberline {4}Data Analysis and Results}{20}{chapter.4}
+\contentsline {section}{\numberline {1.2}Outline of the Thesis}{6}{section.1.2}
+\contentsline {chapter}{\numberline {2}Experimental Setup}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Beyond Contact Mechanics and JKR Theory}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Measuring Surface Stress via Adhesion}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Force Balance Derivation}{8}{subsection.2.2.1}
+\contentsline {subsubsection}{Surface Energy}{8}{section*.9}
+\contentsline {subsubsection}{Elastic Energy}{9}{section*.10}
+\contentsline {subsubsection}{Adhesion Energy}{9}{section*.11}
+\contentsline {subsubsection}{Force Balance}{9}{section*.12}
+\contentsline {subsection}{\numberline {2.2.2}Gameplan .... change this subtitle. Suggestions?}{10}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Preparing a Stretchable Substrate}{10}{section.2.3}
+\contentsline {subsubsection}{Silcone Preparation and Spin Coating}{10}{section*.13}
+\contentsline {subsubsection}{Fluorescent Confocal Microscopy}{12}{section*.14}
+\contentsline {section}{\numberline {2.4}Stretch Calibration}{13}{section.2.4}
+\contentsline {chapter}{\numberline {3}Engineering of an Equibiaxial Stretcher for Soft Substrates}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}Calibration}{15}{section.3.1}
+\contentsline {subsubsection}{Measuring Strain}{16}{section*.15}
+\contentsline {chapter}{\numberline {4}Data Analysis and Results}{19}{chapter.4}
+\contentsline {subsection}{\numberline {4.0.1}Organosilicon Polymer Chemistry}{19}{subsection.4.0.1}
 \contentsline {section}{\numberline {4.1}Preliminary Data}{20}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Raw Data Files}{20}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Standard Candles}{21}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Data}{21}{section.4.2}
+\contentsline {section}{\numberline {4.2}Data}{22}{section.4.2}
 \contentsline {chapter}{\numberline {5}Future Work}{25}{chapter.5}
 \contentsline {section}{\numberline {5.1}Neue Materialen: Gummib\IeC {\"a}rli}{25}{section.5.1}
 \contentsline {chapter}{\numberline {A}Stretching Apparatus Engineering Design Document}{26}{appendix.A}

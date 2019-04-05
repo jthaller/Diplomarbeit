@@ -22,11 +22,37 @@ E.~R. Jerison, Y.~Xu, L.~A. Wilen, and E.~R. Dufresne.
   line}.
 \newblock Physical review letters, 106(18):186103 (2011).
 
-\bibitem{GURTIN1978431}
-M.~E. Gurtin and A.~I. Murdoch.
-\newblock \emph{Surface stress in solids}.
-\newblock International Journal of Solids and Structures, 14(6):431 -- 440
-  (1978).
+\bibitem{xu2016surface}
+X.~Xu, A.~Jagota, D.~Paretkar, and C.-Y. Hui.
+\newblock \emph{Surface tension measurement from the indentation of clamped
+  thin films}.
+\newblock Soft Matter, 12(23):5121--5126 (2016).
+
+\bibitem{jensen2015wetting}
+K.~E. Jensen et~al.
+\newblock \emph{Wetting and phase separation in soft adhesion}.
+\newblock Proceedings of the National Academy of Sciences, 112(47):14490--14494
+  (2015).
+
+\bibitem{jagota2012surface}
+A.~Jagota, D.~Paretkar, and A.~Ghatak.
+\newblock \emph{Surface-tension-induced flattening of a nearly plane elastic
+  solid}.
+\newblock Physical Review E, 85(5):051602 (2012).
+
+\bibitem{nadermann2013solid}
+N.~Nadermann, C.-Y. Hui, and A.~Jagota.
+\newblock \emph{Solid surface tension measured by a liquid drop under a solid
+  film}.
+\newblock Proceedings of the National Academy of Sciences, 110(26):10541--10545
+  (2013).
+
+\bibitem{mondal2015estimation}
+S.~Mondal, M.~Phukan, and A.~Ghatak.
+\newblock \emph{Estimation of solid--liquid interfacial tension using curved
+  surface of a soft solid}.
+\newblock Proceedings of the National Academy of Sciences, 112(41):12563--12568
+  (2015).
 
 \bibitem{style2013universal}
 R.~W. Style, R.~Boltyanskiy, Y.~Che, J.~Wettlaufer, L.~A. Wilen, and E.~R.
@@ -34,6 +60,18 @@ R.~W. Style, R.~Boltyanskiy, Y.~Che, J.~Wettlaufer, L.~A. Wilen, and E.~R.
 \newblock \emph{Universal deformation of soft substrates near a contact line
   and the direct measurement of solid surface stresses}.
 \newblock Physical review letters, 110(6):066103 (2013).
+
+\bibitem{park2014visualization}
+S.~J. Park, B.~M. Weon, J.~San~Lee, J.~Lee, J.~Kim, and J.~H. Je.
+\newblock \emph{Visualization of asymmetric wetting ridges on soft solids with
+  x-ray microscopy}.
+\newblock Nature communications, 5:4369 (2014).
+
+\bibitem{GURTIN1978431}
+M.~E. Gurtin and A.~I. Murdoch.
+\newblock \emph{Surface stress in solids}.
+\newblock International Journal of Solids and Structures, 14(6):431 -- 440
+  (1978).
 
 \bibitem{johnson1971surface}
 K.~L. Johnson, K.~Kendall, and A.~Roberts.
