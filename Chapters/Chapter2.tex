@@ -1,22 +1,21 @@
 In this chapter we discuss the setup of the experiment from start to finish. We walk through the data acquisition and analysis for a single sphere. My aim is to include extensive details to eliminate all the experimental iterations underwent in developing the process. Further details can be found in the appendices.
 
+\emph{Add paragraph here to generally explain the plan. Basically rehash the ending paragraph from ch. 1 I think.}
 
-\section{Measuring Surface Stress via Adhesion}
-
-\section{Classical Contact Mechanics and JKR Theory}
+\section{Beyond Contact Mechanics and JKR Theory}
 
 Hertzian Mechanics, developed by Heinrich Hertz in the 1800's, allows for the calculation of stress and deformation based on the elastic moduli of the contacted surfaces, as well as their radii of curvature and applied force. While Hertzian mechanics stood for a long time, it neglected to take into account the adhesion energy of the system.  
 
-In 1971, Johnson, Kendall, and Roberts (JKR) sought to remedy this omission by developing a classical theory of contact mechanics that balances the forces of adhesion with elasticity from the bulk and the surface free energy \cite{johnson1971surface}. \\ 
-
+In 1971, Johnson, Kendall, and Roberts (JKR) sought to remedy this omission by developing a classical theory of contact mechanics that balances the forces of adhesion with elasticity from the bulk and the surface free energy {\cite{johnson1971surface}}.
 JKR Theory, while a great improvement over Hertztian Mechanics, breaks down in the elastocapillary regime. Specifically, at lengths where 
 \begin{equation}
 \label{EC_regime}
 L_{c} \leq \frac{\Upsilon}{E}
 \end{equation}
-the surface energies compete with those of the bulk and can no longer be ignored. Fittingly, $L_c$ is referred to as the elastocapillary length. 
+the surface energies compete with those of the bulk and can no longer be ignored. Fittingly, $L_c$ is referred to as the elastocapillary length. By understanding the role of surface tension in soft adhesion, we can measure the physical properties of a balanced system in the elastocapillary regime and deduce the surface stress and adhesion energy from the balance of forces. \emph{come back and fix this transition. Consider making sectio a subsection} 
 
 
+\section{Measuring Surface Stress via Adhesion}
 \subsection{Force Balance Derivation}
 When materials are soft or small enough, three main forces balance to determine the contact mechanics of the system. Adhesive forces increase the contact area between the silica sphere and the silicone substrate. Increasing the contact area has the effect of "pulling" the sphere into the gel. As a consequence, the substrate is being compressed [vertically], which is counteracted by the elastic forces within the bulk. This compression also has the effect of stretching the surface of the substrate, which is counteracted by substrate's surface tension. The force of gravity on the microsphere is negligible compared to the other forces. The density of silica (silicon-dioxide) is $2.65$ g/cm$^3$. For a very large sphere with radius (or is this diameter...) 50 microns, gravity applies a force of roughly 1.02e-08 N. \emph{I put the python script in die Diplomarbeit folder.}.
 
@@ -101,7 +100,7 @@ where c is a geometric factor to be determined in the next step. Because the ene
 2 \pi \Upsilon_{sv}d  + \frac{5cER^{1/2}d^{3/2}}{2 \left( 1-\nu ^2 \right) }  - 2 \pi WR = 0
 \end{equation}
 
-Where $ c = \frac{8}{5\sqrt{3}} $. This value of c is chosen to recover classical JKR theory, which predicts an indentation of $ d =  \left[\frac{\sqrt{3}\pi W (1 - \mu^2)}{2E} \right]^{2/3}R^{1/3}$ 
+Where $ c = \frac{8}{5\sqrt{3}} $. This value of c is chosen to recover classical JKR theory, which predicts an indentation of $ d =  \left[\frac{\sqrt{3}\pi W (1 - \mu^2)}{2E} \right]^{2/3}R^{1/3}$ \cite{style2013surface}. \emph{come back to this. That's not a good enough derivation for c.}
 
 
 \subsection{Gameplan .... change this subtitle. Suggestions?}
@@ -109,7 +108,7 @@ In equation \ref{THEeqn}, we can easily measure some of the parameters, and less
 
 Of course, our interest is not just in developing a new technique for measuring, $W$ and $\Upsilon$, but in understanding how those values change when under strain. As needed, we have built our own equibiaxial stretching apparatus capable of maintaining up to 35\% strain in our silicone samples. The design is based off of previous work designed for stretching biological tissues \cite{na2008time} and is similar in design to the apparatus used in the 2017 $\Upsilon(\epsilon)$ measurements \cite{xu2017direct}. Design documents can be found in Appendix A, and an in-depth review of the stretcher can be found in Chapter 3. 
 
-\subsection{The Process}
+\section{Preparing a Stretchable Substrate}
 In the following section, I detail the steps needed in preparation for creating the measurements. My aim is to provide enough details that one could recreate my measurements, forgoing the trouble-shooting process I underwent. 
 
 \subsubsection{Silcone Preparation and Spin Coating} 

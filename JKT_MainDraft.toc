@@ -10,18 +10,18 @@
 \contentsline {subsection}{\numberline {1.1.2}Organosilicon Polymer Chemistry}{6}{subsection.1.1.2}
 \contentsline {section}{\numberline {1.2}Outline of the Thesis}{7}{section.1.2}
 \contentsline {chapter}{\numberline {2}Experimental Setup}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Measuring Surface Stress via Adhesion}{8}{section.2.1}
-\contentsline {section}{\numberline {2.2}Classical Contact Mechanics and JKR Theory}{8}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Force Balance Derivation}{8}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.1}Beyond Contact Mechanics and JKR Theory}{8}{section.2.1}
+\contentsline {section}{\numberline {2.2}Measuring Surface Stress via Adhesion}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Force Balance Derivation}{9}{subsection.2.2.1}
 \contentsline {subsubsection}{Surface Energy}{9}{section*.9}
 \contentsline {subsubsection}{Elastic Energy}{10}{section*.10}
 \contentsline {subsubsection}{Adhesion Energy}{10}{section*.11}
 \contentsline {subsubsection}{Force Balance}{10}{section*.12}
 \contentsline {subsection}{\numberline {2.2.2}Gameplan .... change this subtitle. Suggestions?}{11}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}The Process}{11}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Preparing a Stretchable Substrate}{11}{section.2.3}
 \contentsline {subsubsection}{Silcone Preparation and Spin Coating}{11}{section*.13}
 \contentsline {subsubsection}{Fluorescent Confocal Microscopy}{13}{section*.14}
-\contentsline {section}{\numberline {2.3}Stretch Calibration}{13}{section.2.3}
+\contentsline {section}{\numberline {2.4}Stretch Calibration}{14}{section.2.4}
 \contentsline {chapter}{\numberline {3}Engineering of an Equibiaxial Stretcher for Soft Substrates}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}Calibration}{16}{section.3.1}
 \contentsline {subsubsection}{Measuring Strain}{17}{section*.15}
