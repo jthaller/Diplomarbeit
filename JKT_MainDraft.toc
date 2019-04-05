@@ -15,13 +15,13 @@
 \contentsline {subsection}{\numberline {2.1.1}Force Balance Derivation}{8}{subsection.2.1.1}
 \contentsline {subsubsection}{Surface Energy}{8}{section*.9}
 \contentsline {subsubsection}{Elastic Energy}{9}{section*.10}
-\contentsline {subsubsection}{Adhesion Energy}{9}{section*.11}
-\contentsline {subsubsection}{Force Balance}{9}{section*.12}
+\contentsline {subsubsection}{Adhesion Energy}{10}{section*.11}
+\contentsline {subsubsection}{Force Balance}{10}{section*.12}
 \contentsline {subsection}{\numberline {2.1.2}Gameplan .... change this subtitle. Suggestions?}{10}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}The Process}{10}{subsection.2.1.3}
-\contentsline {subsubsection}{Silcone Preparation and Spin Coating}{10}{section*.13}
-\contentsline {subsubsection}{Fluorescent Confocal Microscopy}{12}{section*.14}
-\contentsline {section}{\numberline {2.2}Stretch Calibration}{12}{section.2.2}
+\contentsline {subsection}{\numberline {2.1.3}The Process}{11}{subsection.2.1.3}
+\contentsline {subsubsection}{Silcone Preparation and Spin Coating}{11}{section*.13}
+\contentsline {subsubsection}{Fluorescent Confocal Microscopy}{13}{section*.14}
+\contentsline {section}{\numberline {2.2}Stretch Calibration}{13}{section.2.2}
 \contentsline {chapter}{\numberline {3}Engineering of an Equibiaxial Stretcher for Soft Substrates}{14}{chapter.3}
 \contentsline {section}{\numberline {3.1}Calibration}{15}{section.3.1}
 \contentsline {subsubsection}{Measuring Strain}{16}{section*.15}

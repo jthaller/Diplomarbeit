@@ -9,14 +9,70 @@ When materials are soft or small enough, three main forces balance to determine 
 \subsubsection{Surface Energy}
 $\Upsilon$ is the surface stress, which is equal to the energy cost per unit area required to create surface via cutting or stretching the material. For a flat substrate being stretched via the indendation of a sphere, the energetic cost is
 \begin{equation}
-\label{surface_energy}
-U_{surface} = \pi \Upsilon_{sv}d^2
+\label{generic_surface_energy}
+U_{surface} = \pi \Upsilon_{sv}\Delta A
 \end{equation}
 
-\emph{Please double check this term/suggest a place to find it. I'm sure this is a common term all good Hertzian children know. I just integrated the first term in equation \ref{THEeqn}. Starting with the answer is not a great way to prove something huehue}
+where $\Delta A$ is the change in surface area when stretched by part of an indenting sphere (spherical cap). Determining the change in area is a simple geometrical problem.
+
+\begin{equation}
+\Delta A = A_{cap} - A_{circle}. 
+\end{equation}
+
+Let a be the base radius of the circle projected on the plane of the substrate's surface. Let R be the radius of the indenting sphere, and d be the depth into which it is stretching. We can find a relationship between these variables using the Pythagorean theorem.
+
+\begin{SCfigure}[][h]
+	\begin{minipage}{.5\textwidth}
+	\begin{align*}
+	&a^2 + (R-d)^2 = R^2 \\
+	&a^2 + R^2 - 2Rd +d^2 = R^2 \\
+	&a^2 = 2Rd -d^2 \\
+	&2Rd = a^2 + d^2
+	\end{align*}
+	\end{minipage}%
+	\begin{minipage}{.5\textwidth}
+	\centering
+	\includegraphics[width=.5\linewidth]{Chapters/Figures/SphericalCap}
+	\caption{Spherical Cap Geometry}
+	\label{fig:sphericalcap}
+	\end{minipage}
+\end{SCfigure}
+
+%
+%
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width=.3\linewidth]{Chapters/Figures/SphericalCap}
+%	\caption[Spherical Cap Geometry]{}
+%	\label{fig:sphericalcap}
+%\end{figure}
+%
+%\begin{align*}
+%&a^2 + (R-d)^2 = R^2 \\
+%&a^2 = 2Rd -d^2 
+%\end{align*}
+%
+
+Now, solving for $ \Delta A $ and using the substituting the above relationship in the last step, we find
+
+\begin{align*}
+\Delta A &= 2\pi Rd - \pi a^2 \\
+&= \pi(a^2+d^2) - \pi a^2 \\
+&= \pi d^2
+\end{align*}
+ 
+ Rewriting (\ref{generic_surface_energy}), we can simplify surface energy in this geometry as 
+ 
+ \begin{equation}
+ \label{surface_energy}
+ U_{surface} = \pi \Upsilon_{sv} d^2
+ \end{equation}
+
+
 
 \subsubsection{Elastic Energy}
 The energy required to make a circular indentation of radius R and depth d is derived from Hertzian contact mechanics \cite{hertz1882uber}
+
 \begin{equation}
 \label{elastic_energy}
 U_{elastic} \approx  \frac{ER^{1/2}d^{5/2}}{1-\nu^2}
