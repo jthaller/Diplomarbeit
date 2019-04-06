@@ -19,6 +19,9 @@ the surface energies compete with those of the bulk and can no longer be ignored
 \subsection{Force Balance Derivation}
 When materials are soft or small enough, three main forces balance to determine the contact mechanics of the system. Adhesive forces increase the contact area between the silica sphere and the silicone substrate. Increasing the contact area has the effect of "pulling" the sphere into the gel. As a consequence, the substrate is being compressed [vertically], which is counteracted by the elastic forces within the bulk. This compression also has the effect of stretching the surface of the substrate, which is counteracted by substrate's surface tension. The force of gravity on the microsphere is negligible compared to the other forces. The density of silica (silicon-dioxide) is $2.65$ g/cm$^3$. For a very large sphere with radius (or is this diameter...) 50 microns, gravity applies a force of roughly 1.02e-08 N. \emph{I put the python script in die Diplomarbeit folder.}.
 
+
+\emph{I think I should restructure the derivation and equation to be Elastic, then adhesion, then surface energy. This will reflect the development of Hertzian $ \rightarrow $ JKR $ \rightarrow $ Styles}
+
 \subsubsection{Surface Energy}
 $\Upsilon$ is the surface stress, which is equal to the energy cost per unit area required to create surface via cutting or stretching the material. For a flat substrate being stretched via the indendation of a sphere, the energetic cost is
 \begin{equation}
@@ -70,15 +73,32 @@ Now, solving for $ \Delta A $ and using the substituting the above relationship 
 
 
 \subsubsection{Elastic Energy}
-The energy required to make a circular indentation of radius R and depth d is derived from Hertzian contact mechanics \cite{hertz1882uber}
+The energy required to make a circular indentation of radius R and depth d can be derived from Hertzian contact mechanics \cite{hertz1882uber} \cite{style2013surface} \cite{cao2016nanoparticles}. Contact between a sphere and an elastic half space\footnote{i.e. the contact area is $ \ll $ the characteristic radius of the object. A flat plan can be thought of as $ R = \infty $}   is a classic Hertzian contact problem. It is easiest to calculate the force and then integrate to determine the potential energy. For two elastic surfaces in contact with no externally applied forces, the force from elastic contact is:
 
+\begin{equation}
+	F = \frac{4}{3}E^*R^{1/2}d^{3/2}
+	\label{elastic_force_eqn}
+\end{equation} 
+where 
+\begin{align*}
+ \frac{1}{E^*} = \frac{1-\nu_{sphere}^2}{E_{sphere}} + \frac{1-\nu_{substrate}^2}{E_{substrate}} 
+\end{align*}
+For a glass sphere sinking into a soft substrate, $ E_{sphere} \ll 1-\nu_{sphere}^2 $, so this first term can be dropped as a reasonable approximation\footnote{$\nu_{Si0_2} \approx .17 $ and $ E_{Si0_2} \approx 70 \cross 10^9 $ Pa}. Thus we can approximate $ E^* \approx \frac{E_{sphere}}{1-\nu_{sphere}^2} $. Substituting this into equation (\ref{elastic_force_eqn}), we find:
+
+\begin{equation}
+F \approx \frac{4}{3}\frac{ER^{1/2}d^{3/2}}{1-\nu^2}
+\label{elastic_force_eqn2}
+\end{equation}
+Because $F = \frac{\partial U}{\partial d}$, we can simply integrate equation (\ref{elastic_force_eqn2}) to obtain the energy relation:
 \begin{equation}
 \label{elastic_energy}
 U_{elastic} \approx  \frac{ER^{1/2}d^{5/2}}{1-\nu^2}
 \end{equation}
-\emph{so I sort of read that German 1882 H. Hertz paper I just cited, and that equation doesn't show up. So I assume it's just derived from the contact mechanics Hertz laid down back then. Would like to better know where it comes from and derive it myself if room. Note, this equation was lifted from \cite{style2013surface}}.
 
-This approximates a spherical cap in a flat plane.
+\emph{Is the derivation too much? Too little? I can start earlier in the derivation and balance contact pressure. But also, I could start with rigid sphere and plane. Also, I don't even need the energy equation...But I should still keep it right? For consistency}
+
+
+
 \subsubsection{Adhesion Energy}
 The energy of adhesion is W multiplied by the surface area in contact (as found above). Namely,
 \begin{equation}

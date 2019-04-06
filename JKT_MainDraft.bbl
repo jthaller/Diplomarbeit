@@ -22,18 +22,6 @@ E.~R. Jerison, Y.~Xu, L.~A. Wilen, and E.~R. Dufresne.
   line}.
 \newblock Physical review letters, 106(18):186103 (2011).
 
-\bibitem{xu2016surface}
-X.~Xu, A.~Jagota, D.~Paretkar, and C.-Y. Hui.
-\newblock \emph{Surface tension measurement from the indentation of clamped
-  thin films}.
-\newblock Soft Matter, 12(23):5121--5126 (2016).
-
-\bibitem{jensen2015wetting}
-K.~E. Jensen et~al.
-\newblock \emph{Wetting and phase separation in soft adhesion}.
-\newblock Proceedings of the National Academy of Sciences, 112(47):14490--14494
-  (2015).
-
 \bibitem{jagota2012surface}
 A.~Jagota, D.~Paretkar, and A.~Ghatak.
 \newblock \emph{Surface-tension-induced flattening of a nearly plane elastic
@@ -52,6 +40,18 @@ S.~Mondal, M.~Phukan, and A.~Ghatak.
 \newblock \emph{Estimation of solid--liquid interfacial tension using curved
   surface of a soft solid}.
 \newblock Proceedings of the National Academy of Sciences, 112(41):12563--12568
+  (2015).
+
+\bibitem{xu2016surface}
+X.~Xu, A.~Jagota, D.~Paretkar, and C.-Y. Hui.
+\newblock \emph{Surface tension measurement from the indentation of clamped
+  thin films}.
+\newblock Soft Matter, 12(23):5121--5126 (2016).
+
+\bibitem{jensen2015wetting}
+K.~E. Jensen et~al.
+\newblock \emph{Wetting and phase separation in soft adhesion}.
+\newblock Proceedings of the National Academy of Sciences, 112(47):14490--14494
   (2015).
 
 \bibitem{style2013universal}
@@ -88,6 +88,11 @@ H.~R. Hertz.
 R.~W. Style, C.~Hyland, R.~Boltyanskiy, J.~S. Wettlaufer, and E.~R. Dufresne.
 \newblock \emph{Surface tension and contact with soft elastic solids}.
 \newblock Nature communications, 4:2728 (2013).
+
+\bibitem{cao2016nanoparticles}
+Z.~Cao and A.~V. Dobrynin.
+\newblock \emph{Nanoparticles as adhesives for soft polymeric materials}.
+\newblock Macromolecules, 49(9):3586--3592 (2016).
 
 \bibitem{na2008time}
 S.~Na, A.~Trache, J.~Trzeciakowski, Z.~Sun, G.~Meininger, and J.~Humphrey.

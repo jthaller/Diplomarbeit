@@ -14,29 +14,29 @@
 \contentsline {subsection}{\numberline {2.2.1}Force Balance Derivation}{8}{subsection.2.2.1}
 \contentsline {subsubsection}{Surface Energy}{8}{section*.9}
 \contentsline {subsubsection}{Elastic Energy}{9}{section*.10}
-\contentsline {subsubsection}{Adhesion Energy}{9}{section*.11}
-\contentsline {subsubsection}{Force Balance}{9}{section*.12}
+\contentsline {subsubsection}{Adhesion Energy}{10}{section*.11}
+\contentsline {subsubsection}{Force Balance}{10}{section*.12}
 \contentsline {subsection}{\numberline {2.2.2}Gameplan .... change this subtitle. Suggestions?}{10}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Preparing a Stretchable Substrate}{10}{section.2.3}
-\contentsline {subsubsection}{Silcone Preparation and Spin Coating}{10}{section*.13}
-\contentsline {subsubsection}{Fluorescent Confocal Microscopy}{12}{section*.14}
+\contentsline {section}{\numberline {2.3}Preparing a Stretchable Substrate}{11}{section.2.3}
+\contentsline {subsubsection}{Silcone Preparation and Spin Coating}{11}{section*.13}
+\contentsline {subsubsection}{Fluorescent Confocal Microscopy}{13}{section*.14}
 \contentsline {section}{\numberline {2.4}Stretch Calibration}{13}{section.2.4}
-\contentsline {chapter}{\numberline {3}Engineering of an Equibiaxial Stretcher for Soft Substrates}{14}{chapter.3}
-\contentsline {section}{\numberline {3.1}Calibration}{15}{section.3.1}
-\contentsline {subsubsection}{Measuring Strain}{16}{section*.15}
-\contentsline {chapter}{\numberline {4}Data Analysis and Results}{19}{chapter.4}
-\contentsline {subsection}{\numberline {4.0.1}Organosilicon Polymer Chemistry}{19}{subsection.4.0.1}
-\contentsline {section}{\numberline {4.1}Preliminary Data}{20}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Raw Data Files}{20}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Standard Candles}{21}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Data}{22}{section.4.2}
-\contentsline {chapter}{\numberline {5}Future Work}{25}{chapter.5}
-\contentsline {section}{\numberline {5.1}Neue Materialen: Gummib\IeC {\"a}rli}{25}{section.5.1}
-\contentsline {chapter}{\numberline {A}Stretching Apparatus Engineering Design Document}{26}{appendix.A}
-\contentsline {chapter}{\numberline {B}Fluorescent Confocal Microscopy}{28}{appendix.B}
-\contentsline {subsection}{\numberline {B.0.1}Preparing a Fluorescent Bead Solution}{28}{subsection.B.0.1}
-\contentsline {chapter}{\numberline {C}MATLAB Code}{29}{appendix.C}
-\contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{29}{subsection.C.0.1}
-\contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{30}{subsection.C.0.2}
-\contentsline {subsubsection}{master\_tracking\_gui.m}{30}{section*.20}
-\contentsline {subsection}{\numberline {C.0.3}Silicone Characterization Measurements}{30}{subsection.C.0.3}
+\contentsline {chapter}{\numberline {3}Engineering of an Equibiaxial Stretcher for Soft Substrates}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Calibration}{16}{section.3.1}
+\contentsline {subsubsection}{Measuring Strain}{17}{section*.15}
+\contentsline {chapter}{\numberline {4}Data Analysis and Results}{20}{chapter.4}
+\contentsline {subsection}{\numberline {4.0.1}Organosilicon Polymer Chemistry}{20}{subsection.4.0.1}
+\contentsline {section}{\numberline {4.1}Preliminary Data}{21}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Raw Data Files}{21}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Standard Candles}{22}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Data}{23}{section.4.2}
+\contentsline {chapter}{\numberline {5}Future Work}{26}{chapter.5}
+\contentsline {section}{\numberline {5.1}Neue Materialen: Gummib\IeC {\"a}rli}{26}{section.5.1}
+\contentsline {chapter}{\numberline {A}Stretching Apparatus Engineering Design Document}{27}{appendix.A}
+\contentsline {chapter}{\numberline {B}Fluorescent Confocal Microscopy}{29}{appendix.B}
+\contentsline {subsection}{\numberline {B.0.1}Preparing a Fluorescent Bead Solution}{29}{subsection.B.0.1}
+\contentsline {chapter}{\numberline {C}MATLAB Code}{30}{appendix.C}
+\contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{30}{subsection.C.0.1}
+\contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{31}{subsection.C.0.2}
+\contentsline {subsubsection}{master\_tracking\_gui.m}{31}{section*.20}
+\contentsline {subsection}{\numberline {C.0.3}Silicone Characterization Measurements}{31}{subsection.C.0.3}

@@ -3,53 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: JKT_MainDraft.aux
 The style file: goodStyle.bst
 Database file #1: bibliography.bib
-Repeated entry---line 200 of file bibliography.bib
- : @article{jensen2015wetting
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 233 of file bibliography.bib
- : @article{style2013universal
- :                            ,
-I'm skipping whatever remains of this entry
-You've used 17 entries,
+You've used 18 entries,
             2244 wiz_defined-function locations,
-            619 strings with 7044 characters,
-and the built_in function-call counts, 6681 in all, are:
-= -- 462
-> -- 251
+            627 strings with 7194 characters,
+and the built_in function-call counts, 7068 in all, are:
+= -- 493
+> -- 260
 < -- 1
-+ -- 118
-- -- 59
-* -- 408
-:= -- 756
-add.period$ -- 50
-call.type$ -- 17
-change.case$ -- 17
++ -- 122
+- -- 61
+* -- 433
+:= -- 799
+add.period$ -- 53
+call.type$ -- 18
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 647
-empty$ -- 632
-format.name$ -- 74
-if$ -- 1454
+cite$ -- 18
+duplicate$ -- 683
+empty$ -- 671
+format.name$ -- 77
+if$ -- 1538
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 173
-newline$ -- 87
-num.names$ -- 17
-pop$ -- 245
+int.to.str$ -- 18
+missing$ -- 182
+newline$ -- 92
+num.names$ -- 18
+pop$ -- 256
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 136
+skip$ -- 143
 stack$ -- 0
-substring$ -- 343
-swap$ -- 453
+substring$ -- 374
+swap$ -- 478
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 40
-width$ -- 19
-write$ -- 186
-(There were 2 error messages)
+while$ -- 43
+width$ -- 20
+write$ -- 197
