@@ -3,9 +3,9 @@
 \contentsline {chapter}{Acknowledgements}{iv}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivations}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Historical Context}{1}{subsection.1.1.1}
-\contentsline {subsubsection}{Deformation of Elastic Substrate by Three-Phase Contact Line}{2}{section*.6}
-\contentsline {subsubsection}{Direct Measurement of Solid Surface Stresses}{5}{section*.7}
+\contentsline {subsection}{\numberline {1.1.1}Surface Stress in Solids}{1}{subsection.1.1.1}
+\contentsline {subsubsection}{Direct Measurement of Solid Surface Stresses}{3}{section*.6}
+\contentsline {subsubsection}{Deformation of Elastic Substrate by Three-Phase Contact Line}{4}{section*.7}
 \contentsline {subsubsection}{Surface Tension and Contact with Soft Elastic Solids}{5}{section*.8}
 \contentsline {section}{\numberline {1.2}Outline of the Thesis}{6}{section.1.2}
 \contentsline {chapter}{\numberline {2}Experimental Setup}{7}{chapter.2}

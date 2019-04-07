@@ -11,6 +11,11 @@ R.~C. Cammarata and K.~Sieradzki.
 \newblock \emph{Surface and interface stresses}.
 \newblock Annual Review of Materials Science, 24(1):215--234 (1994).
 
+\bibitem{gibbs1906scientific}
+J.~W. Gibbs.
+\newblock \emph{The scientific papers of J. Willard Gibbs}, volume~1.
+\newblock Longmans, Green and Company (1906).
+
 \bibitem{style2015stiffening}
 R.~W. Style et~al.
 \newblock \emph{Stiffening solids with liquid inclusions}.
@@ -66,6 +71,34 @@ S.~J. Park, B.~M. Weon, J.~San~Lee, J.~Lee, J.~Kim, and J.~H. Je.
 \newblock \emph{Visualization of asymmetric wetting ridges on soft solids with
   x-ray microscopy}.
 \newblock Nature communications, 5:4369 (2014).
+
+\bibitem{mays1968surface}
+C.~Mays, J.~Vermaak, and D.~Kuhlmann-Wilsdorf.
+\newblock \emph{On surface stress and surface tension: Ii. determination of the
+  surface stress of gold}.
+\newblock Surface science, 12(2):134--140 (1968).
+
+\bibitem{wasserman1970determination}
+H.~Wasserman and J.~Vermaak.
+\newblock \emph{On the determination of a lattice contraction in very small
+  silver particles}.
+\newblock Surface Science, 22(1):164--172 (1970).
+
+\bibitem{hanneman1962elastic}
+R.~Hanneman, M.~Finn, and H.~Gatos.
+\newblock \emph{Elastic strain energy associated with the “a” surfaces of
+  the iii--v compounds}.
+\newblock Journal of Physics and Chemistry of Solids, 23(11):1553--1556 (1962).
+
+\bibitem{martinez1990direct}
+R.~E. Martinez, W.~M. Augustyniak, and J.~A. Golovchenko.
+\newblock \emph{Direct measurement of crystal surface stress}.
+\newblock Physical review letters, 64(9):1035 (1990).
+
+\bibitem{schell1990mechanical}
+A.~Schell-Sorokin and R.~Tromp.
+\newblock \emph{Mechanical stresses in (sub) monolayer epitaxial films}.
+\newblock Physical review letters, 64(9):1039 (1990).
 
 \bibitem{GURTIN1978431}
 M.~E. Gurtin and A.~I. Murdoch.

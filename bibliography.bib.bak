@@ -197,7 +197,7 @@
   publisher = {Royal Society of Chemistry},
 }
 
-@Article{jensen2015wetting,
+@Article{Jensen2015,
   author    = {Jensen, Katharine E and Sarfati, Raphael and Style, Robert W and Boltyanskiy, Rostislav and Chakrabarti, Aditi and Chaudhury, Manoj K and Dufresne, Eric R},
   title     = {Wetting and phase separation in soft adhesion},
   journal   = {Proceedings of the National Academy of Sciences},
@@ -230,7 +230,7 @@
   publisher = {National Acad Sciences},
 }
 
-@Article{style2013universal,
+@Article{Style2013,
   author    = {Style, Robert W and Boltyanskiy, Rostislav and Che, Yonglu and Wettlaufer, JS and Wilen, Larry A and Dufresne, Eric R},
   title     = {Universal deformation of soft substrates near a contact line and the direct measurement of solid surface stresses},
   journal   = {Physical review letters},
@@ -260,6 +260,80 @@
   number    = {41},
   pages     = {12563--12568},
   publisher = {National Acad Sciences},
+}
+
+@Article{cao2016nanoparticles,
+  author    = {Cao, Zhen and Dobrynin, Andrey V},
+  title     = {Nanoparticles as adhesives for soft polymeric materials},
+  journal   = {Macromolecules},
+  year      = {2016},
+  volume    = {49},
+  number    = {9},
+  pages     = {3586--3592},
+  publisher = {ACS Publications},
+}
+
+@Book{gibbs1906scientific,
+  title     = {The scientific papers of J. Willard Gibbs},
+  publisher = {Longmans, Green and Company},
+  year      = {1906},
+  author    = {Gibbs, Josiah Willard},
+  volume    = {1},
+}
+
+@Article{mays1968surface,
+  author    = {Mays, CW and Vermaak, JS and Kuhlmann-Wilsdorf, D},
+  title     = {On surface stress and surface tension: II. Determination of the surface stress of gold},
+  journal   = {Surface science},
+  year      = {1968},
+  volume    = {12},
+  number    = {2},
+  pages     = {134--140},
+  publisher = {Elsevier},
+}
+
+@Article{wasserman1970determination,
+  author    = {Wasserman, HJ and Vermaak, JS},
+  title     = {On the determination of a lattice contraction in very small silver particles},
+  journal   = {Surface Science},
+  year      = {1970},
+  volume    = {22},
+  number    = {1},
+  pages     = {164--172},
+  publisher = {Elsevier},
+}
+
+@Article{hanneman1962elastic,
+  author    = {Hanneman, RE and Finn, MC and Gatos, HC},
+  title     = {Elastic strain energy associated with the “A” surfaces of the III--V compounds},
+  journal   = {Journal of Physics and Chemistry of Solids},
+  year      = {1962},
+  volume    = {23},
+  number    = {11},
+  pages     = {1553--1556},
+  publisher = {Elsevier},
+}
+
+@Article{martinez1990direct,
+  author    = {Martinez, Robert E and Augustyniak, Walter M and Golovchenko, Jene A},
+  title     = {Direct measurement of crystal surface stress},
+  journal   = {Physical review letters},
+  year      = {1990},
+  volume    = {64},
+  number    = {9},
+  pages     = {1035},
+  publisher = {APS},
+}
+
+@Article{schell1990mechanical,
+  author    = {Schell-Sorokin, AJ and Tromp, RM},
+  title     = {Mechanical stresses in (sub) monolayer epitaxial films},
+  journal   = {Physical review letters},
+  year      = {1990},
+  volume    = {64},
+  number    = {9},
+  pages     = {1039},
+  publisher = {APS},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
