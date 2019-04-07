@@ -2,7 +2,7 @@ In this chapter we discuss the setup of the experiment from start to finish. We 
 
 \emph{Add paragraph here to generally explain the plan. Basically rehash the ending paragraph from ch. 1 I think.}
 
-\section{Beyond Contact Mechanics and JKR Theory}
+\section{Beyond Hertzian Mechanics and JKR Theory}
 
 Hertzian Mechanics, developed by Heinrich Hertz in the 1800's, allows for the calculation of stress and deformation based on the elastic moduli of the contacted surfaces, as well as their radii of curvature and applied force. While Hertzian mechanics stood for a long time, it neglected to take into account the adhesion energy of the system.  
 
@@ -12,15 +12,13 @@ JKR Theory, while a great improvement over Hertztian Mechanics, breaks down in t
 \label{EC_regime}
 L_{c} \leq \frac{\Upsilon}{E}
 \end{equation}
-the surface energies compete with those of the bulk and can no longer be ignored. Fittingly, $L_c$ is referred to as the elastocapillary length. By understanding the role of surface tension in soft adhesion, we can measure the physical properties of a balanced system in the elastocapillary regime and deduce the surface stress and adhesion energy from the balance of forces. \emph{come back and fix this transition. Consider making sectio a subsection} 
+the surface energies compete with those of the bulk and can no longer be ignored. Fittingly, $L_c$ is referred to as the elastocapillary length. By understanding the role of surface tension in soft adhesion, we can measure the physical properties of a balanced system in the elastocapillary regime and deduce the surface stress and adhesion energy from the balance of forces\todo[color=yellow]{come back and fix this transition. Consider making sectio a subsection}.
 
 
 \section{Measuring Surface Stress via Adhesion}
 \subsection{Force Balance Derivation}
-When materials are soft or small enough, three main forces balance to determine the contact mechanics of the system. Adhesive forces increase the contact area between the silica sphere and the silicone substrate. Increasing the contact area has the effect of "pulling" the sphere into the gel. As a consequence, the substrate is being compressed [vertically], which is counteracted by the elastic forces within the bulk. This compression also has the effect of stretching the surface of the substrate, which is counteracted by substrate's surface tension. The force of gravity on the microsphere is negligible compared to the other forces. The density of silica (silicon-dioxide) is $2.65$ g/cm$^3$. For a very large sphere with radius (or is this diameter...) 50 microns, gravity applies a force of roughly 1.02e-08 N. \emph{I put the python script in die Diplomarbeit folder.}.
-
-
-\emph{I think I should restructure the derivation and equation to be Elastic, then adhesion, then surface energy. This will reflect the development of Hertzian $ \rightarrow $ JKR $ \rightarrow $ Styles}
+When materials are soft or small enough, three main forces balance to determine the contact mechanics of the system. Adhesive forces increase the contact area between the silica sphere and the silicone substrate. Increasing the contact area has the effect of "pulling" the sphere into the gel. As a consequence, the substrate is being compressed [vertically], which is counteracted by the elastic forces within the bulk. This compression also has the effect of stretching the surface of the substrate, which is counteracted by substrate's surface tension. The force of gravity on the microsphere is negligible compared to the other forces. The density of silica (silicon-dioxide) is $2.65$ g/cm$^3$. For a very large sphere with radius (or is this diameter...) 50 microns, gravity applies a force of roughly 1.02e-08 N.
+\todo[inline,color=yellow]{I think I should restructure the derivation and equation to be Elastic, then adhesion, then surface energy. This will reflect the development of Hertzian $ \rightarrow $ JKR $ \rightarrow $ Styles}
 
 \subsubsection{Surface Energy}
 $\Upsilon$ is the surface stress, which is equal to the energy cost per unit area required to create surface via cutting or stretching the material. For a flat substrate being stretched via the indendation of a sphere, the energetic cost is
@@ -95,7 +93,7 @@ Because $F = \frac{\partial U}{\partial d}$, we can simply integrate equation (\
 U_{elastic} \approx  \frac{ER^{1/2}d^{5/2}}{1-\nu^2}
 \end{equation}
 
-\emph{Is the derivation too much? Too little? I can start earlier in the derivation and balance contact pressure. But also, I could start with rigid sphere and plane. Also, I don't even need the energy equation...But I should still keep it right? For consistency?} 
+\todo[inline,color=yellow]{Is the derivation too much? Too little? I can start earlier in the derivation and balance contact pressure. But also, I could start with rigid sphere and plane. Also, I don't even need the energy equation...But I should still keep it right? For consistency?} 
 
 
 
@@ -105,7 +103,7 @@ The energy of adhesion is W multiplied by the surface area in contact (as found 
 \label{W_energy}
 U_{adhesion} \approx -2\pi W R d 
 \end{equation}
-where W is the adhesion energy. \emph{I think I should explain adhesion somewhere and talk about the Dupre equation 1869. Not sure where I want to put this, however. Maybe some of this stuff and the derivations should actually be in chapter 1. Also ``energy of adhesion = const. * adhesion energy'' lol hmmm}. 
+where W is the adhesion energy. \todo[inline,color=yellow]{I think I should explain adhesion somewhere and talk about the Dupre equation 1869. Not sure where I want to put this, however. Maybe some of this stuff and the derivations should actually be in chapter 1. Also ``energy of adhesion = const. * adhesion energy'' lol hmmm}. 
 
 \subsubsection{Force Balance}
 At static equilibrium, the sum of the energies is:
