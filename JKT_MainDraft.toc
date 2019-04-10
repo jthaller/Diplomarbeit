@@ -25,22 +25,23 @@
 \contentsline {subsubsection}{Silcone Preparation and Spin Coating}{11}{section*.22}
 \contentsline {subsubsection}{Fluorescent Confocal Microscopy}{13}{section*.23}
 \contentsline {section}{\numberline {2.4}Stretch Calibration}{14}{section.2.4}
-\contentsline {chapter}{\numberline {3}Engineering of an Equibiaxial Stretcher for Soft Substrates}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Calibration}{16}{section.3.1}
-\contentsline {subsubsection}{Measuring Strain}{17}{section*.24}
-\contentsline {chapter}{\numberline {4}Data Analysis and Results}{20}{chapter.4}
-\contentsline {section}{\numberline {4.1}Organosilicon Polymer Chemistry}{20}{section.4.1}
-\contentsline {section}{\numberline {4.2}Preliminary Data}{21}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Raw Data Files}{21}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Standard Candles}{22}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Data}{23}{section.4.3}
-\contentsline {chapter}{\numberline {5}Future Work}{26}{chapter.5}
-\contentsline {section}{\numberline {5.1}Neue Materialen: Gummib\IeC {\"a}rli}{26}{section.5.1}
-\contentsline {chapter}{\numberline {A}Stretching Apparatus Engineering Design Document}{27}{appendix.A}
-\contentsline {chapter}{\numberline {B}Fluorescent Confocal Microscopy}{29}{appendix.B}
-\contentsline {subsection}{\numberline {B.0.1}Preparing a Fluorescent Bead Solution}{29}{subsection.B.0.1}
-\contentsline {chapter}{\numberline {C}MATLAB Code}{30}{appendix.C}
-\contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{30}{subsection.C.0.1}
-\contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{31}{subsection.C.0.2}
-\contentsline {subsubsection}{master\_tracking\_gui.m}{31}{section*.29}
-\contentsline {subsection}{\numberline {C.0.3}Silicone Characterization Measurements}{31}{subsection.C.0.3}
+\contentsline {section}{\numberline {2.5}Calibration}{14}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Measuring Strain}{15}{subsection.2.5.1}
+\contentsline {chapter}{\numberline {3}Data Acquisition and Image Analysis}{18}{chapter.3}
+\contentsline {section}{\numberline {3.1}Fluorescent Confocal Microscopy}{18}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Preparing a Fluorescent Bead Solution}{19}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Image Analysis}{19}{section.3.2}
+\contentsline {chapter}{\numberline {4}Surface Stress and Adhesion Results}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Organosilicon Polymer Chemistry}{21}{section.4.1}
+\contentsline {section}{\numberline {4.2}Preliminary Data}{22}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Raw Data Files}{22}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Standard Candles}{23}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Data}{24}{section.4.3}
+\contentsline {chapter}{\numberline {5}Future Work}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Neue Materialen: Gummib\IeC {\"a}rli}{27}{section.5.1}
+\contentsline {chapter}{\numberline {A}Stretching Apparatus Engineering Design Document}{28}{appendix.A}
+\contentsline {chapter}{\numberline {B}MATLAB Code}{30}{appendix.B}
+\contentsline {subsection}{\numberline {B.0.1}Confocal Analysis Codes}{30}{subsection.B.0.1}
+\contentsline {subsection}{\numberline {B.0.2}Strain Calculation Codes}{31}{subsection.B.0.2}
+\contentsline {subsubsection}{master\_tracking\_gui.m}{31}{section*.30}
+\contentsline {subsection}{\numberline {B.0.3}Silicone Characterization Measurements}{31}{subsection.B.0.3}
