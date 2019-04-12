@@ -4,13 +4,6 @@
 \section{Fluorescent Confocal Microscopy}
 Confocal Microscopy is a technique capable of probing a sample with true 3-Dimensional optical resolution. The technique works by only allowing in focus light through a pinhole. By changing the plane of focus, one can traverse an object azimuthally or reconstruct a full three-dimensional image by compiling a ``stack'' of these images.  
 
-%\begin{figure}[h!]
-%	\centering
-%	\floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
-%	{\caption[Confocal Optics 1]{PLACE HOLDER. MAKE OWN VERSION OF DIAGRAM SO YOU DON'T HAVE TO CITE WHEREVER THIS CAME FROM}\label{fig:confocal_1}}
-%	\includegraphics[width=0.4\linewidth]{confocal_stuff/confocal_orig_fi_1-1}
-%\end{figure}
-
 \begin{wrapfigure}{r}{.5\textwidth}
 	
 	\centering
@@ -26,9 +19,9 @@ Fluorescent Confocal Microscopy works by the same general principle, only with t
 
 Fluorescent Confocal Microscopy works by illuminating the specimen with a laser. The laser light passes through a pinhole, then is reflected by the dichroic mirror and then focused by the objective lens on a small area of the specimen. The re-emitted light from the fluorophores has a longer wavelength than the laser, so it is then transmitted through mirror.  It then then passes through the pinhole where it is travels to the photo-detector.
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
-	\includegraphics[width=.8\linewidth]{confocal_stuff/confocalpatent}
+	\includegraphics[width=.3\linewidth]{confocal_stuff/confocalpatent}
 	\caption[Minsky Patent Diagram]{Also placeholder. I think my plan is to break this into chunks, though it almost deserves it's own appendix.}
 	\label{fig:confocalpatent}
 \end{figure}
@@ -39,5 +32,67 @@ Make sure to also note that the solution should be wrapped to avoid light exposu
 
 \section{Image Analysis}
 In the following section, we will step through the process of analyzing a single sphere. Recall that in order to determine the surface stress and adhesion energy, we must fit a line to a collection of spheres ranging in size.  
+\todo[inline,color=yellow]{Insert raw data file....currently it's in chapter 4. It should be in here instead}
 
- \todo[inline, color=yellow]{Run through sphere011 for the Gelest 9:1 on glass that looked pretty}
+\subsection{Particle Location}
+To turn a raw image file (saved as a .ome.tif) into usable data, we use sophisticated MATLAB program to locate each fluorescent bead. Plotted for the sphere in Figure \ref{fig:190215g91glasssphere011surface}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/particle_located_normalized}
+	\caption[Particle Located: Normalized-Axes]{}
+	\caption{}
+	\label{fig:particlelocatednormalized}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/particle_located_stretched}
+	\caption[Particle Located: Stretched-Axes]{}
+	\caption{}
+	\label{fig:particlelocatedstretched}
+\end{figure}
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/circle_fit}
+	\caption[Circle Fit]{}
+	\caption{}
+	\label{fig:circlefit}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/circle_fit_zoomed}
+	\caption[Circle Fit Zoomed]{}
+	\caption{}
+	\label{fig:circlefitzoomed}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=2\linewidth]{Chapters/Figures/sphere011_ia/particle_located_top_view}
+	\caption[Partlce Located: Top View]{}
+	\caption{}
+	\label{fig:particlelocatedtopview}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/side_collapsed}
+	\caption[Side Collapse]{}
+	\caption{}
+	\label{fig:sidecollapsed}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/side_collapsed_zoomed}
+	\caption[Collapsed Side Profile: Zoomed]{}
+	\caption{}
+	\label{fig:sidecollapsedzoomed}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/single_d_vs_r}
+	\caption[D vs R plot]{}
+	\caption{}
+	\label{fig:singledvsr}
+\end{figure}
