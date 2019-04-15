@@ -32,17 +32,18 @@
 \contentsline {subsection}{\numberline {3.1.1}Preparing a Fluorescent Bead Solution}{19}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}Image Analysis}{19}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Particle Location}{19}{subsection.3.2.1}
-\contentsline {chapter}{\numberline {4}Surface Stress and Adhesion Results}{25}{chapter.4}
-\contentsline {section}{\numberline {4.1}Organosilicon Polymer Chemistry}{25}{section.4.1}
-\contentsline {section}{\numberline {4.2}Preliminary Data}{26}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Raw Data Files}{26}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Standard Candles}{28}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Data}{28}{section.4.3}
-\contentsline {chapter}{\numberline {5}Future Work}{31}{chapter.5}
-\contentsline {section}{\numberline {5.1}Neue Materialen: Gummib\IeC {\"a}rli}{31}{section.5.1}
-\contentsline {chapter}{\numberline {A}Stretching Apparatus Engineering Design Document}{32}{appendix.A}
-\contentsline {chapter}{\numberline {B}MATLAB Code}{34}{appendix.B}
-\contentsline {subsection}{\numberline {B.0.1}Confocal Analysis Codes}{34}{subsection.B.0.1}
-\contentsline {subsection}{\numberline {B.0.2}Strain Calculation Codes}{35}{subsection.B.0.2}
-\contentsline {subsubsection}{master\_tracking\_gui.m}{35}{section*.31}
-\contentsline {subsection}{\numberline {B.0.3}Silicone Characterization Measurements}{35}{subsection.B.0.3}
+\contentsline {subsection}{\numberline {3.2.2}Depth and Radius Determination}{21}{subsection.3.2.2}
+\contentsline {chapter}{\numberline {4}Surface Stress and Adhesion Results}{26}{chapter.4}
+\contentsline {section}{\numberline {4.1}Organosilicon Polymer Chemistry}{26}{section.4.1}
+\contentsline {section}{\numberline {4.2}Preliminary Data}{27}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Raw Data Files}{27}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Standard Candles}{29}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Data}{31}{section.4.3}
+\contentsline {chapter}{\numberline {5}Future Work}{32}{chapter.5}
+\contentsline {section}{\numberline {5.1}Neue Materialen: Gummib\IeC {\"a}rli}{32}{section.5.1}
+\contentsline {chapter}{\numberline {A}Stretching Apparatus Engineering Design Document}{33}{appendix.A}
+\contentsline {chapter}{\numberline {B}MATLAB Code}{35}{appendix.B}
+\contentsline {subsection}{\numberline {B.0.1}Confocal Analysis Codes}{35}{subsection.B.0.1}
+\contentsline {subsection}{\numberline {B.0.2}Strain Calculation Codes}{36}{subsection.B.0.2}
+\contentsline {subsubsection}{master\_tracking\_gui.m}{36}{section*.33}
+\contentsline {subsection}{\numberline {B.0.3}Silicone Characterization Measurements}{36}{subsection.B.0.3}

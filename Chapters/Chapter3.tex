@@ -35,33 +35,37 @@ In the following section, we will step through the process of analyzing a single
 \todo[inline,color=yellow]{Insert raw data file....currently it's in chapter 4. It should be in here instead}
 
 \subsection{Particle Location}
-To turn a raw image file (saved as a .ome.tif) into usable data, we use sophisticated MATLAB program to locate each fluorescent bead. Plotted for the sphere in Figure \ref{fig:190215g91glasssphere011surface}
+To turn a raw image file (saved as a .ome.tif) into usable data, we use sophisticated MATLAB program to locate each fluorescent bead. This is plotted in \ref{fig:190215g91glasssphere011surface}. The flat orange plane of points is the surface, and the dark blue are the fluorescent beads crushed underneath the microsphere as it sinks into the substrate. It is easy to see the outline of the microsphere, and we can use this information to determine d and R for the sphere. 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/particle_located_normalized}
 	\caption[Particle Located: Normalized-Axes]{}
 	\label{fig:particlelocatednormalized}
 \end{figure}
+Figure \ref{fig:particlelocatedstretched} shows the same sphere but stretched in the vertical axis to see the fluorescent bead density towards the bottom of the sphere. 
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/particle_located_stretched}
-	\caption[Particle Located: Stretched-Axes]{}
+	\caption[Particle Located: Stretched-Axes]{Fluorescent bead location for the same sphere as Fig.  \ref{fig:particlelocatedstretched}, only with a stretched vertical axis to showcase the bead density under the bottom of the sphere.}
 	\label{fig:particlelocatedstretched}
 \end{figure}
 
-
-
-
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/particle_located_top_view}
 	\caption[Particle Located: Top View]{}
 	\label{fig:particlelocatedtopview}
 \end{figure}
+\subsection{Depth and Radius Determination}
+After locating all the fluorescent beads and reconstructing our raw image in a useful format, we can then use this information to extract the depth and the radius of the sphere. To accomplish this, we first determine the center of out sphere from the top (x-y plane) and collapse the side profile of the \todo{clunky} sphere. Figure \ref{fig:sidecollapsed} depicts the x-z plane as a cross-section through center of the sphere. We only need half of the sphere's profile to fit a circle. This ensures we have a large field of view to properly level and determine the substrate's surface. Figure \ref{fig:sidecollapsedzoomed} provides a zoomed in view of Fig. \ref{fig:sidecollapsed} to better indicate the resolution to which we try to fit a circle. Note the abrupt cut off around 26 $\mu$m and how the substrate is lifted up above the zero-plane due to adhesion. Also notice the flatness on of the substrate between $ ~26-29 \mu $m. Not all sample have this flat ridge; many sphere lift the substrate to a point which the immediately slopes downward back to the zero-plane. This behavior depends slightly on the sphere size, but it is mainly a reflection of the amount of phase-separation induced. This is a property of the each silicone which depends on the environmental conditions.
+
+It is important to be careful with the circle-fits in the case where the sphere is small enough to sink into the substrate beyond the great circle. In these instances, there the side profile is non-continuous, and we only fit the sphere to the bottom portion of the profile before the break.
+
 \begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/side_collapsed}
-	\caption[Collapsed Side Profile]{}
+	\caption[Collapsed Side Profile]{The constructed image of the outlined sphere with normalized axes. The Axes are in microns.}
 	\label{fig:sidecollapsed}
 \end{figure}
 \begin{figure}
