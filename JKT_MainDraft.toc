@@ -30,15 +30,15 @@
 \contentsline {chapter}{\numberline {3}Data Acquisition and Image Analysis}{18}{chapter.3}
 \contentsline {section}{\numberline {3.1}Fluorescent Confocal Microscopy}{18}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Preparing a Fluorescent Bead Solution}{19}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Image Analysis}{19}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Particle Location}{19}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Depth and Radius Determination}{21}{subsection.3.2.2}
-\contentsline {chapter}{\numberline {4}Surface Stress and Adhesion Results}{26}{chapter.4}
-\contentsline {section}{\numberline {4.1}Organosilicon Polymer Chemistry}{26}{section.4.1}
-\contentsline {section}{\numberline {4.2}Preliminary Data}{27}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Raw Data Files}{27}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Standard Candles}{29}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Data}{31}{section.4.3}
+\contentsline {subsection}{\numberline {3.1.2}Raw Data Files}{19}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Image Analysis}{20}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Particle Location}{20}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Depth and Radius Determination}{22}{subsection.3.2.2}
+\contentsline {chapter}{\numberline {4}Surface Stress and Adhesion Results}{28}{chapter.4}
+\contentsline {section}{\numberline {4.1}Organosilicon Polymer Chemistry}{28}{section.4.1}
+\contentsline {section}{\numberline {4.2}Preliminary Data}{29}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Standard Candles}{29}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Data}{30}{section.4.3}
 \contentsline {chapter}{\numberline {5}Future Work}{32}{chapter.5}
 \contentsline {section}{\numberline {5.1}Neue Materialen: Gummib\IeC {\"a}rli}{32}{section.5.1}
 \contentsline {chapter}{\numberline {A}Stretching Apparatus Engineering Design Document}{33}{appendix.A}
