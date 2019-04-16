@@ -42,8 +42,11 @@
 \contentsline {chapter}{\numberline {5}Future Work}{32}{chapter.5}
 \contentsline {section}{\numberline {5.1}Neue Materialen: Gummib\IeC {\"a}rli}{32}{section.5.1}
 \contentsline {chapter}{\numberline {A}Stretching Apparatus Engineering Design Document}{33}{appendix.A}
-\contentsline {chapter}{\numberline {B}MATLAB Code}{35}{appendix.B}
-\contentsline {subsection}{\numberline {B.0.1}Confocal Analysis Codes}{35}{subsection.B.0.1}
-\contentsline {subsection}{\numberline {B.0.2}Strain Calculation Codes}{36}{subsection.B.0.2}
-\contentsline {subsubsection}{master\_tracking\_gui.m}{36}{section*.33}
-\contentsline {subsection}{\numberline {B.0.3}Silicone Characterization Measurements}{36}{subsection.B.0.3}
+\contentsline {chapter}{\numberline {B}Substrate Stiffness Measurement}{35}{appendix.B}
+\contentsline {section}{\numberline {B.1}Texture Analyzer Measurements}{35}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Hertzian Contact Mechanics Derivation?}{35}{subsection.B.1.1}
+\contentsline {chapter}{\numberline {C}MATLAB Code}{37}{appendix.C}
+\contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{37}{subsection.C.0.1}
+\contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{38}{subsection.C.0.2}
+\contentsline {subsubsection}{master\_tracking\_gui.m}{38}{section*.37}
+\contentsline {subsection}{\numberline {C.0.3}Silicone Characterization Measurements}{38}{subsection.C.0.3}

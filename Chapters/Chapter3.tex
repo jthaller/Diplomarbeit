@@ -60,33 +60,39 @@ Figure \ref{fig:particlelocatedstretched} shows the same sphere but stretched in
 \subsection{Depth and Radius Determination}
 After locating all the fluorescent beads and reconstructing our raw image in a useful format, we can then use this information to extract the depth and the radius of the sphere. To accomplish this, we first determine the center of out sphere from the top (x-y plane) and collapse the side profile of the \todo{clunky} sphere. Figure \ref{fig:sidecollapsed} depicts the x-z plane as a cross-section through center of the sphere. We only need half of the sphere's profile to fit a circle. This ensures we have a large field of view to properly level and determine the substrate's surface. Figure \ref{fig:sidecollapsedzoomed} provides a zoomed in view of Fig. \ref{fig:sidecollapsed} to better indicate the resolution to which we try to fit a circle. Note the abrupt cut off around 26 $\mu$m and how the substrate is lifted up above the zero-plane due to adhesion. Also notice the flatness on of the substrate between $ ~26-29 \mu $m. Not all sample have this flat ridge; many sphere lift the substrate to a point which the immediately slopes downward back to the zero-plane. This behavior depends slightly on the sphere size, but it is mainly a reflection of the amount of phase-separation induced. This is a property of the each silicone which depends on the environmental conditions.
 
-It is important to be careful with the circle-fits in the case where the sphere is small enough to sink into the substrate beyond the great circle. In these instances, there the side profile is non-continuous, and we only fit the sphere to the bottom portion of the profile before the break.
 
-\begin{figure}
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/side_collapsed}
 	\caption[Collapsed Side Profile]{The constructed image of the outlined sphere with normalized axes. The Axes are in microns.}
 	\label{fig:sidecollapsed}
 \end{figure}
-\begin{figure}
+\begin{figure}[h!]
 	\centering
-	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/side_collapsed_zoomed}
+	\includegraphics[width=.9\linewidth]{Chapters/Figures/sphere011_ia/side_collapsed_zoomed}
 	\caption[Collapsed Side Profile: Zoomed]{}
 	\label{fig:sidecollapsedzoomed}
 \end{figure}
 
-\begin{figure}
+It is important to be careful with the circle-fits in the case where the sphere is small enough to sink into the substrate beyond the great circle. In these instances, there the side profile is non-continuous, and we only fit the sphere to the bottom portion of the profile before the break. \todo[inline]{Add an example profile of one of these tiny spheres?} 
+
+
+
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/circle_fit}
 	\caption[Circle Fit]{Notice how the surface plane is completely flat and centered at a depth of 0.}
 	\label{fig:circlefit}
 \end{figure}
-\begin{figure}
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/circle_fit_zoomed}
 	\caption[Circle Fit Zoomed]{The orange dots are the data points being used to fit the circle. Notice how the sphere fits nicely in the indentation all the way up to the cusp, past the points being used for the fit.}
 	\label{fig:circlefitzoomed}
 \end{figure}
+
+After fitting the circle to the substrate's side profile, we can add the depth vs the radius. The radius of the sphere is obviously just the radius of the circle, and the depth is the lowest point of the circle in the z-plane, which we center at $ x=0 $ in Figures \ref{fig:circlefit} and \ref{fig:circlefitzoomed}.  
+
 \begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/single_d_vs_r}
