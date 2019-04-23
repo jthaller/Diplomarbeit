@@ -22,11 +22,6 @@ P.-G.~d. Gennes.
   waves}.
 \newblock Springer, New York (2003).
 
-\bibitem{style2015stiffening}
-R.~W. Style et~al.
-\newblock \emph{Stiffening solids with liquid inclusions}.
-\newblock Nature Physics, 11(1):82 (2015).
-
 \bibitem{mays1968surface}
 C.~Mays, J.~Vermaak, and D.~Kuhlmann-Wilsdorf.
 \newblock \emph{On surface stress and surface tension: Ii. determination of the
@@ -55,6 +50,11 @@ A.~Schell-Sorokin and R.~Tromp.
 \newblock \emph{Mechanical stresses in (sub) monolayer epitaxial films}.
 \newblock Physical review letters, 64(9):1039 (1990).
 
+\bibitem{style2015stiffening}
+R.~W. Style et~al.
+\newblock \emph{Stiffening solids with liquid inclusions}.
+\newblock Nature Physics, 11(1):82 (2015).
+
 \bibitem{jerison2011deformation}
 E.~R. Jerison, Y.~Xu, L.~A. Wilen, and E.~R. Dufresne.
 \newblock \emph{Deformation of an elastic substrate by a three-phase contact
@@ -74,6 +74,25 @@ R.~W. Style, R.~Boltyanskiy, Y.~Che, J.~Wettlaufer, L.~A. Wilen, and E.~R.
   and the direct measurement of solid surface stresses}.
 \newblock Physical review letters, 110(6):066103 (2013).
 
+\bibitem{xu2016surface}
+X.~Xu, A.~Jagota, D.~Paretkar, and C.-Y. Hui.
+\newblock \emph{Surface tension measurement from the indentation of clamped
+  thin films}.
+\newblock Soft Matter, 12(23):5121--5126 (2016).
+
+\bibitem{jensen2015wetting}
+K.~E. Jensen et~al.
+\newblock \emph{Wetting and phase separation in soft adhesion}.
+\newblock Proceedings of the National Academy of Sciences, 112(47):14490--14494
+  (2015).
+
+\bibitem{mondal2015estimation}
+S.~Mondal, M.~Phukan, and A.~Ghatak.
+\newblock \emph{Estimation of solid--liquid interfacial tension using curved
+  surface of a soft solid}.
+\newblock Proceedings of the National Academy of Sciences, 112(41):12563--12568
+  (2015).
+
 \bibitem{jagota2012surface}
 A.~Jagota, D.~Paretkar, and A.~Ghatak.
 \newblock \emph{Surface-tension-induced flattening of a nearly plane elastic
@@ -86,25 +105,6 @@ N.~Nadermann, C.-Y. Hui, and A.~Jagota.
   film}.
 \newblock Proceedings of the National Academy of Sciences, 110(26):10541--10545
   (2013).
-
-\bibitem{mondal2015estimation}
-S.~Mondal, M.~Phukan, and A.~Ghatak.
-\newblock \emph{Estimation of solid--liquid interfacial tension using curved
-  surface of a soft solid}.
-\newblock Proceedings of the National Academy of Sciences, 112(41):12563--12568
-  (2015).
-
-\bibitem{xu2016surface}
-X.~Xu, A.~Jagota, D.~Paretkar, and C.-Y. Hui.
-\newblock \emph{Surface tension measurement from the indentation of clamped
-  thin films}.
-\newblock Soft Matter, 12(23):5121--5126 (2016).
-
-\bibitem{jensen2015wetting}
-K.~E. Jensen et~al.
-\newblock \emph{Wetting and phase separation in soft adhesion}.
-\newblock Proceedings of the National Academy of Sciences, 112(47):14490--14494
-  (2015).
 
 \bibitem{park2014visualization}
 S.~J. Park, B.~M. Weon, J.~San~Lee, J.~Lee, J.~Kim, and J.~H. Je.
