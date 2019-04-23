@@ -113,18 +113,24 @@ Where $ c = \frac{8}{5\sqrt{3}} $. This value of c is chosen to recover classica
 Equation \ref{THEeqn} gives us a quantitative relationship between the spontaneous indentation depth, $ d $, sphere radius, $ R $, and key material properties: $ \Upsilon, E, \nu, \text{and }W $. The Young Modulus, E, and the Poisson ratio, $\nu$ of the substrate can be measured separately for the substrate material. The depth $d$, and the radius $R$ of the sphere can be measured using fluorescent confocal microscopy, as described in section \ref{ch:microscopy}. The only remaining terms, $W$ and $\Upsilon$, the adhesion energy and the surface stress, respectively, can be determined with a two-parameter fit of $ d $ vs. $ R. $ Alternatively, it is possible to measure the adhesion energy separately. This technique, though not critically important to the experiment, is of interest andf exploring if not just for the benefit of adding the capability to the lab.   
 
 \section{Stretching Apparatus}
-
 Our interest is not just in  measuring, $W$ and $\Upsilon$ for a given substrate, but in understanding how those values change when under strain. As needed, we have built our own equibiaxial stretching apparatus capable of maintaining up to 35\% strain in our silicone samples. The design is based off of previous work designed for stretching biological tissues \cite{na2008time} and is similar in design to the apparatus used in the 2017 $\Upsilon(\epsilon)$ measurements \cite{xu2017direct}. Below is a general description of the design, though detailed design documents can be found in Appendix A.
 
 \subsection{Stretcher Design}
-\todo[inline, color = pink]{Bring the writing from stretch calibration to here.}
+Geometrically, the stretching apparatus is constructed of two concentric cylinders connected at the base to create a channel between them. The top of each ring is flat, apart from a slight chamfer to reduce the risk of ripping the sheet as it is stretched. Each ring is then coated in Dow Corning vacuum grease to make a seal. It is critical that the inner ring has an ample amount of grease so that when a vacuum is pulled in the channel, the sheet will stretch from the center outwards  and not from the edges inwards. The sheet is held in place with an o-ring wrapped around the outside of the cylinder, which is then clamped down by a removable outer ring using a tension clamp. The tension provided by the o-ring and clamp ensure that a solid vacuum is kept and the edges of the sheet are minimally stretched into the trough.add to appendix?
+
 \todo[inline, color=red]{Make/include graphic of stretcher}
- 
+
+A tapped screw hole on the side of the apparatus connects the chamber to a syringe via thin, plastic tubing. To pull a vacuum in the channel, we withdraw air using a syringe pump. This allows us to have a consistent withdraw rate and control over the amount of air withdrawn to a high degree of precision.
 
 \section{Preparing a Stretchable Substrate}
-In the following section, I detail the steps needed in preparation for creating the measurements. My aim is to provide enough details that one could recreate my measurements, forgoing the trouble-shooting process I underwent. 
+In the following section, we outline the process of preparing a soft substrate for testing. Specific details for our substrate types can be found in Chapter 4.
 
-\subsubsection{Silcone Preparation and Spin Coating} 
+Before preparing the substrate, we prepare the surface on which the substrate will be held, from hereon referred to as the underlayer. For a non stretched sample, we use a glass coverslip, and for a stretched sample we use a thin PDMS sheet. \todo[color=pink]{I don't like underlayer name. Base plate? Substratum base?} We first coat this layer with fluorescent beads in order to later locate the bottom of our substrate. This is simply to gauge the substrate's thickness to ensure the indenting spheres do not feel a force of resistance from the underlayer.
+
+Next, it is time to coat the underlayer with out substrate to be tested. It is important that our substrate be even
+
+
+\subsubsection{Overly Specific Silcone Preparation and Spin Coating}\todo[inline,color=green]{This whole section needs to get broken up and moved into parts ch3 and ch4}
 In preparing our substrate, there are two important factors to consider: evenness of the surface and thickness. The substrate must be thick enough such that the the indenting microspheres do not feel a significant force from the thin PDMS underlayer. \emph{this probably sounds unclear. Change Later}. We know the stiffness of the gel we are curing, and by having a thick enough coating, we can ensure that the microspheres are only interacting with this gel. 100 $\mu m$ is a reasonable aim, and our substrates generally are between $80-100$ $\mu m$. The second concern is with thickness. In principal, as long as the surface is locally flat with respect to each microsphere, we can determine where the surface level lies and still measure the depth. In reality, it is not difficult to produce an even coating of silicone using a spin-coater. 
 
 Before spin-coating it is useful to coat the underlayer with fluorescent beads. It is not vital, but this is helpful in determining the substrate's thickness. The only information obtained by this coating is the location of the substrate's bottom surface, so a dense bead coverage is not required, and could potentially be harmful if there is light bleeding. I suggest coating the bottom surface with 40nm beads for 1 minute. Full directions for preparing a fluroescent bead solution can be found in Appendix B. After this time, you may return the fluorescent beads back to the solution for re-use. A significant number of beads will remain on the underlayer. To remove some excess, gently wash the substrate with de-ionized water. For a coverslip, simply submerge the entire slip in water and gently remove it at a 45\degree angle, trying to prevent the water from breaking-up into smaller droplets. This process is slightly more difficult for the petri dish due to the larger size. I suggest  (either) using a very large container of water (it can be shallow, really you just need a large opening). If this proves challenging, I have found success using a 1000mL beaker tilted at an angle. It is also possible to use an autopipet for washing; repeat the same process used for the fluorescent bead coating, only use water this time. I have had mixed success with this technique, however. It often leaves a water droplet and has led to an uneven coating of fluorescent beads, manifested as streaks across the surface.
@@ -160,24 +166,6 @@ Data was obtained using the Nikon Ti2 Eclipse Microscope as the base, attached t
 \end{figure}
 
 For silica spheres ranging from $5-50 \mu$m in size, we have found the best scaling factor to be $.104 \mu$m/pixel in the horizontal plane for an image of 1024 x 1024 resolution. We set the vertical step size (z-direction) to $.225 \mu$m/px or $.25 \mu$m/px depending on what the confocal recommended. Both provided adequate vertical resolutions. 16x averaging using the resonant scanner took up to 5 minutes per scan, but provided excellent resolution. 
-
-
-\section{Stretch Calibration}
-% CHAPTER 3
-
-
-In order to measure the surface stress of soft matter at varying strains, it is necessary to have a device capable of controllably stretching and holding silicone sheets at a constant strain equibiaxially. To achieve this, we built a stretching apparatus based off of the work of Na \cite{na2008time} and Xu \cite{xu2017direct}. Full details of the stretching apparatus can be found in appendix A. 
-
-Aluminum was chosen as the base material because of its sturdy yet malleable nature, making it an excellent material with which to mill. Acrylic was considered, but was not chosen because of its brittle nature; we were concerned about cracking when drilling the UNF threads connecting to the Luer-lock syringe.
-
-Geometrically, the stretching apparatus is constructed of two cylinders connected at the base to create a channel between them. The top of each ring is flat, apart from a slight chamfer to reduce the risk of ripping the sheet needed to be stretched. Each ring is then coated in Dow Corning vacuum grease to make a seal. It is critical that the inner ring has an ample amount of grease so that when a vacuum is pulled in the channel, the sheet will stretch from the center outwards  and not from the edges inwards.  
-
-The stretched sheet is laid over the lubricated apparatus and fixed in place using a 48.7mm diameter by 1.6mm thick rubber O-ring. A removable plastic ring is then placed on top of the o-ring and clamped down using a tension clamp attached to a fitted plastic base. The plastic ring is constructed from an engineering plastic that came from a similar but malfunctioning device used by our colleagues at ETH Zürich. The tension provided by the o-ring and clamp ensure that a solid vacuum is kept and the edges of the sheet are minimally stretched into the trough. The outer ring could easily be laser cut from a plastic or milled out of aluminum if desired. 
-
-To pull a vacuum, a 1/4-28 UNF to female Luer connects the apparatus to a plastic 100ml Luer-lock syringe. We found a more consistent stretch was held by lining the inner walls of the syringe in more Dow Corning vacuum grease. The UNF to female luer connector is stainless steal, and \emph{sealed into place with epoxy resin. Note: I haven't done this yet 190322, but I think I should. But make sure to get the o-ring size first...and i think one size smaller would actually work better}
-coated with Dow Corning vacuum grease. The inclusion of a small o-ring between the UNF threads and the cylindrical base proved critical in holding vacuum for sustained periods of time.
-
-The vacuum pull was controlled by a Harvard Apparatus Elite 11 Syringe Pump. Stretching was found to work best at maximum withdrawal rate. Our stretching apparatus has sustained a constant equibiaxial stretch at 36\% strain for as long as 5 hours. Maximum strain percentage and during of maintained stretch is yet to be fully tested.
 
 
 \section{Calibration}
