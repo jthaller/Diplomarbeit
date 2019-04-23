@@ -112,7 +112,14 @@ Where $ c = \frac{8}{5\sqrt{3}} $. This value of c is chosen to recover classica
 \subsection{Experimental Approach}
 Equation \ref{THEeqn} gives us a quantitative relationship between the spontaneous indentation depth, $ d $, sphere radius, $ R $, and key material properties: $ \Upsilon, E, \nu, \text{and }W $. The Young Modulus, E, and the Poisson ratio, $\nu$ of the substrate can be measured separately for the substrate material. The depth $d$, and the radius $R$ of the sphere can be measured using fluorescent confocal microscopy, as described in section \ref{ch:microscopy}. The only remaining terms, $W$ and $\Upsilon$, the adhesion energy and the surface stress, respectively, can be determined with a two-parameter fit of $ d $ vs. $ R. $ Alternatively, it is possible to measure the adhesion energy separately. This technique, though not critically important to the experiment, is of interest andf exploring if not just for the benefit of adding the capability to the lab.   
 
-Of course, our interest is not just in developing a new technique for measuring, $W$ and $\Upsilon$, but in understanding how those values change when under strain. As needed, we have built our own equibiaxial stretching apparatus capable of maintaining up to 35\% strain in our silicone samples. The design is based off of previous work designed for stretching biological tissues \cite{na2008time} and is similar in design to the apparatus used in the 2017 $\Upsilon(\epsilon)$ measurements \cite{xu2017direct}. Design documents can be found in Appendix A, and an in-depth review of the stretcher can be found in Chapter 3. 
+\section{Stretching Apparatus}
+
+Our interest is not just in  measuring, $W$ and $\Upsilon$ for a given substrate, but in understanding how those values change when under strain. As needed, we have built our own equibiaxial stretching apparatus capable of maintaining up to 35\% strain in our silicone samples. The design is based off of previous work designed for stretching biological tissues \cite{na2008time} and is similar in design to the apparatus used in the 2017 $\Upsilon(\epsilon)$ measurements \cite{xu2017direct}. Below is a general description of the design, though detailed design documents can be found in Appendix A.
+
+\subsection{Stretcher Design}
+\todo[inline, color = pink]{Bring the writing from stretch calibration to here.}
+\todo[inline, color=red]{Make/include graphic of stretcher}
+ 
 
 \section{Preparing a Stretchable Substrate}
 In the following section, I detail the steps needed in preparation for creating the measurements. My aim is to provide enough details that one could recreate my measurements, forgoing the trouble-shooting process I underwent. 
@@ -132,7 +139,13 @@ After spin-coating, the silicone requires time to cure. We cure Dow-Corning 1:1 
 
 After the silicone cures, it is time to coat the surface with fluorescent beads again. It is important that the beads are dense enough to give a high resolution, yet not so dense as to become indistinguishable; this presents a challenge the MATLAB particle locating software. Secondly, too dense a bead coverage risks light bleeding to vertically adjacent stacks. For the 40nm bead solution prescribed in Appendix B, I suggest letting the solution soak for up to 3 minutes before removing and washing the substrate. While the fluorescent beads chosen are most susceptible to light at \emph{shoot, what wavelength? Like 440?} nm, there is still the risk of photobleaching the fluorophores, and worth dimming the lights in the lab when working with them. 
 
-The final preparation step is to sprinkle silica spheres of a range in size on top of the silicone. This should be done at least 30 minutes before collecting data so that the spheres have time to settle into an equilibrium state into the silicone. From a side view, the final setup should look as follows:
+The final preparation step is to sprinkle silica spheres of a range in size on top of the silicone. This should be done at least 30 minutes before collecting data so that the spheres have time to settle into an equilibrium state into the silicone. From a side view, the final setup should look as follows: \todo[inline, color=green]{Rid the writing in the graphic. Maybe put the figure to be wrapped in text?}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Chapters/Figures/substrate_graphic}
+	\caption[Prepared Substrate Profile]{Above is the side profile of a prepared substrate sample. There are two layers of fluorescent beads, the bottom layer used to measure the substrates thickness, and the surface layer used as tracer particles to outline the profile of the larger, indenting sphere.}
+	\label{fig:substrategraphic}
+\end{figure}
 
 
 
