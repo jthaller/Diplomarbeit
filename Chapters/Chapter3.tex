@@ -1,4 +1,3 @@
-%Appendeix2
 
 %Not really sure what this pdf is, but I like it, and will post the link so I don't forget about it https://spie.org/samples/TT69.pdf
 \section{Fluorescent Confocal Microscopy} \label{ch:microscopy}
@@ -26,6 +25,19 @@ Fluorescent Confocal Microscopy works by illuminating the specimen with a laser.
 	\label{fig:confocalpatent}
 \end{figure}
 \cite{patent:3013467} 
+
+\subsubsection{Fluorescent Confocal Microscopy}
+Data was obtained using the Nikon A1R+ Confocal Microscope. To take image stacks of the Fluorescent beads, we use a 50x water-immersion objective lens. We set the laser to 440nm and adjust the power (HV) and gain as needed. Generally these values are around 5.0\% and 40 Volts, respectively. \emph{so, does this mean anything to anyone but me? Like, I don't even know what units that would be, and I it translates to anything other than the Nikon machines, right?} In order to get clear locating, it is important not to saturate the photo-detector. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{confocal_stuff/Ti2_diagram_1}
+	\caption[Nikon Ti2 Microscope Base]{This may only be here because it's pretty....Also, I'd like to remove the measurements when I have time. Also, not sure how to cite the manual yet.}
+	\label{fig:ti2diagram1}
+\end{figure}
+
+For silica spheres ranging from $5-50 \mu$m in size, we have found the best scaling factor to be $.104 \mu$m/pixel in the horizontal plane for an image of 1024 x 1024 resolution. We set the vertical step size (z-direction) to $.225 \mu$m/px or $.25 \mu$m/px depending on what the confocal recommended. Both provided adequate vertical resolutions. 16x averaging using the resonant scanner took up to 5 minutes per scan, but provided excellent resolution. 
+
 
 \subsection{Preparing a Fluorescent Bead Solution}
 Make sure to also note that the solution should be wrapped to avoid light exposure and to keep them in the refrigerator. \todo[inline, color=yellow]{I think the actual borate buffer recipe might belong in an appendix}
