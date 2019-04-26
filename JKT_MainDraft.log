@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  26 APR 2019 11:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  26 APR 2019 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2581,8 +2581,9 @@ File: confocal_stuff/Ti2_diagram_1.png Graphic file (type png)
 <use confocal_stuff/Ti2_diagram_1.png>
 Package pdftex.def Info: confocal_stuff/Ti2_diagram_1.png  used on input line 4
 3.
-(pdftex.def)             Requested size: 328.82706pt x 176.05856pt.
-<Chapters/Figures/190215_g91_glass_sphere011_surface.png, id=756, 1027.84pt x 1
+(pdftex.def)             Requested size: 375.80542pt x 201.2109pt.
+ [21 <./confocal_stuff/Ti2_diagram_1.png>]
+<Chapters/Figures/190215_g91_glass_sphere011_surface.png, id=762, 1027.84pt x 1
 027.84pt>
 File: Chapters/Figures/190215_g91_glass_sphere011_surface.png Graphic file (typ
 e png)
@@ -2590,8 +2591,8 @@ e png)
 Package pdftex.def Info: Chapters/Figures/190215_g91_glass_sphere011_surface.pn
 g  used on input line 55.
 (pdftex.def)             Requested size: 352.31624pt x 352.31538pt.
- [21 <./confocal_stuff/Ti2_diagram_1.png>]
-<Chapters/Figures/190215_g91_glass_sphere011_cascade1.png, id=766, 1027.84pt x 
+ [22 <./Chapters/Figures/190215_g91_glass_sphere011_surface.png (PNG copy)>]
+<Chapters/Figures/190215_g91_glass_sphere011_cascade1.png, id=770, 1027.84pt x 
 1027.84pt>
 File: Chapters/Figures/190215_g91_glass_sphere011_cascade1.png Graphic file (ty
 pe png)
@@ -2599,7 +2600,7 @@ pe png)
 Package pdftex.def Info: Chapters/Figures/190215_g91_glass_sphere011_cascade1.p
 ng  used on input line 66.
 (pdftex.def)             Requested size: 155.02pt x 155.01625pt.
-<Chapters/Figures/190215_g91_glass_sphere011_cascade2.png, id=767, 1027.84pt x 
+<Chapters/Figures/190215_g91_glass_sphere011_cascade2.png, id=771, 1027.84pt x 
 1027.84pt>
 File: Chapters/Figures/190215_g91_glass_sphere011_cascade2.png Graphic file (ty
 pe png)
@@ -2607,7 +2608,7 @@ pe png)
 Package pdftex.def Info: Chapters/Figures/190215_g91_glass_sphere011_cascade2.p
 ng  used on input line 66.
 (pdftex.def)             Requested size: 155.02pt x 155.01625pt.
-<Chapters/Figures/190215_g91_glass_sphere011_cascade3.png, id=768, 1027.84pt x 
+<Chapters/Figures/190215_g91_glass_sphere011_cascade3.png, id=772, 1027.84pt x 
 1027.84pt>
 File: Chapters/Figures/190215_g91_glass_sphere011_cascade3.png Graphic file (ty
 pe png)
@@ -2615,7 +2616,7 @@ pe png)
 Package pdftex.def Info: Chapters/Figures/190215_g91_glass_sphere011_cascade3.p
 ng  used on input line 66.
 (pdftex.def)             Requested size: 155.02pt x 155.01625pt.
-<Chapters/Figures/190215_g91_glass_sphere011_cascade4.png, id=769, 1027.84pt x 
+<Chapters/Figures/190215_g91_glass_sphere011_cascade4.png, id=773, 1027.84pt x 
 1027.84pt>
 File: Chapters/Figures/190215_g91_glass_sphere011_cascade4.png Graphic file (ty
 pe png)
@@ -2623,7 +2624,7 @@ pe png)
 Package pdftex.def Info: Chapters/Figures/190215_g91_glass_sphere011_cascade4.p
 ng  used on input line 69.
 (pdftex.def)             Requested size: 155.02pt x 155.01625pt.
-<Chapters/Figures/190215_g91_glass_sphere011_cascade5.png, id=770, 1027.84pt x 
+<Chapters/Figures/190215_g91_glass_sphere011_cascade5.png, id=774, 1027.84pt x 
 1027.84pt>
 File: Chapters/Figures/190215_g91_glass_sphere011_cascade5.png Graphic file (ty
 pe png)
@@ -2631,7 +2632,7 @@ pe png)
 Package pdftex.def Info: Chapters/Figures/190215_g91_glass_sphere011_cascade5.p
 ng  used on input line 69.
 (pdftex.def)             Requested size: 155.02pt x 155.01625pt.
-<Chapters/Figures/190215_g91_glass_sphere011_cascade6.png, id=771, 1027.84pt x 
+<Chapters/Figures/190215_g91_glass_sphere011_cascade6.png, id=775, 1027.84pt x 
 1027.84pt>
 File: Chapters/Figures/190215_g91_glass_sphere011_cascade6.png Graphic file (ty
 pe png)
@@ -2644,151 +2645,128 @@ Overfull \hbox (31.30502pt too wide) in paragraph at lines 65--73
 [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[22 <./Chapters/Figures/190215_g91_glass_sphere011_surface.png (PNG copy)>]
 <Chapters/Figures/sphere011_ia/particle_located_normalized.pdf, id=779, 613.343
 75pt x 184.58011pt>
 File: Chapters/Figures/sphere011_ia/particle_located_normalized.pdf Graphic fil
 e (type pdf)
 <use Chapters/Figures/sphere011_ia/particle_located_normalized.pdf>
 Package pdftex.def Info: Chapters/Figures/sphere011_ia/particle_located_normali
-zed.pdf  used on input line 84.
+zed.pdf  used on input line 85.
 (pdftex.def)             Requested size: 469.75499pt x 141.3751pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Chapters/Figures/sphere011_ia/particle_located_stretched.pdf, id=781, 474.8409
-3pt x 270.82874pt>
-File: Chapters/Figures/sphere011_ia/particle_located_stretched.pdf Graphic file
- (type pdf)
-<use Chapters/Figures/sphere011_ia/particle_located_stretched.pdf>
-Package pdftex.def Info: Chapters/Figures/sphere011_ia/particle_located_stretch
-ed.pdf  used on input line 92.
-(pdftex.def)             Requested size: 469.75499pt x 267.93944pt.
 [23 <./Chapters/Figures/190215_g91_glass_sphere011_cascade1.png (PNG copy)> <./
 Chapters/Figures/190215_g91_glass_sphere011_cascade2.png (PNG copy)> <./Chapter
 s/Figures/190215_g91_glass_sphere011_cascade3.png (PNG copy)> <./Chapters/Figur
 es/190215_g91_glass_sphere011_cascade4.png (PNG copy)> <./Chapters/Figures/1902
 15_g91_glass_sphere011_cascade5.png (PNG copy)> <./Chapters/Figures/190215_g91_
 glass_sphere011_cascade6.png (PNG copy)>]
-<Chapters/Figures/sphere011_ia/particle_located_top_view.pdf, id=788, 707.46002
+<Chapters/Figures/sphere011_ia/particle_located_stretched.pdf, id=789, 474.8409
+3pt x 270.82874pt>
+File: Chapters/Figures/sphere011_ia/particle_located_stretched.pdf Graphic file
+ (type pdf)
+<use Chapters/Figures/sphere011_ia/particle_located_stretched.pdf>
+Package pdftex.def Info: Chapters/Figures/sphere011_ia/particle_located_stretch
+ed.pdf  used on input line 93.
+(pdftex.def)             Requested size: 469.75499pt x 267.93944pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapters/Figures/sphere011_ia/particle_located_top_view.pdf, id=792, 707.46002
 pt x 405.58217pt>
 File: Chapters/Figures/sphere011_ia/particle_located_top_view.pdf Graphic file 
 (type pdf)
 <use Chapters/Figures/sphere011_ia/particle_located_top_view.pdf>
 Package pdftex.def Info: Chapters/Figures/sphere011_ia/particle_located_top_vie
-w.pdf  used on input line 99.
+w.pdf  used on input line 100.
 (pdftex.def)             Requested size: 469.75499pt x 269.31268pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24 <./Chapters/Figures/sphere011_ia/particle_located_normalized.pdf> <./Chapte
-rs/Figures/sphere011_ia/particle_located_stretched.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/Figures/sphere011_ia/particl
-e_located_stretched.pdf): PDF inclusion: multiple pdfs with page group included
- in a single page
->]
-<Chapters/Figures/sphere011_ia/side_collapsed.pdf, id=817, 707.46002pt x 409.51
+<Chapters/Figures/sphere011_ia/side_collapsed.pdf, id=798, 707.46002pt x 409.51
 094pt>
 File: Chapters/Figures/sphere011_ia/side_collapsed.pdf Graphic file (type pdf)
 <use Chapters/Figures/sphere011_ia/side_collapsed.pdf>
 Package pdftex.def Info: Chapters/Figures/sphere011_ia/side_collapsed.pdf  used
- on input line 109.
+ on input line 110.
 (pdftex.def)             Requested size: 469.75499pt x 271.92143pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/sphere011_ia/side_collapsed_zoomed.pdf, id=818, 707.46002pt x
+<Chapters/Figures/sphere011_ia/side_collapsed_zoomed.pdf, id=799, 707.46002pt x
  406.88786pt>
 File: Chapters/Figures/sphere011_ia/side_collapsed_zoomed.pdf Graphic file (typ
 e pdf)
 <use Chapters/Figures/sphere011_ia/side_collapsed_zoomed.pdf>
 Package pdftex.def Info: Chapters/Figures/sphere011_ia/side_collapsed_zoomed.pd
-f  used on input line 115.
-(pdftex.def)             Requested size: 422.77661pt x 243.15984pt.
+f  used on input line 116.
+(pdftex.def)             Requested size: 469.75499pt x 270.17967pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/sphere011_ia/circle_fit.pdf, id=819, 707.46002pt x 405.58217p
+[24 <./Chapters/Figures/sphere011_ia/particle_located_normalized.pdf>]
+<Chapters/Figures/sphere011_ia/circle_fit.pdf, id=820, 707.46002pt x 405.58217p
 t>
 File: Chapters/Figures/sphere011_ia/circle_fit.pdf Graphic file (type pdf)
 <use Chapters/Figures/sphere011_ia/circle_fit.pdf>
 Package pdftex.def Info: Chapters/Figures/sphere011_ia/circle_fit.pdf  used on 
-input line 126.
+input line 127.
 (pdftex.def)             Requested size: 469.75499pt x 269.31268pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/sphere011_ia/circle_fit_zoomed.pdf, id=820, 707.46002pt x 405
+<Chapters/Figures/sphere011_ia/circle_fit_zoomed.pdf, id=823, 707.46002pt x 405
 .58217pt>
 File: Chapters/Figures/sphere011_ia/circle_fit_zoomed.pdf Graphic file (type pd
 f)
 <use Chapters/Figures/sphere011_ia/circle_fit_zoomed.pdf>
 Package pdftex.def Info: Chapters/Figures/sphere011_ia/circle_fit_zoomed.pdf  u
-sed on input line 132.
+sed on input line 133.
 (pdftex.def)             Requested size: 469.75499pt x 269.31268pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25 <./Chapters/Figures/sphere011_ia/particle_located_top_view.pdf>]
-
-LaTeX Warning: Text page 26 contains only floats.
-
-
-Overfull \vbox (2.61958pt too high) has occurred while \output is active []
-
-
-[26 <./Chapters/Figures/sphere011_ia/side_collapsed.pdf> <./Chapters/Figures/sp
-here011_ia/side_collapsed_zoomed.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/Figures/sphere011_ia/side_co
-llapsed_zoomed.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
->]
-<Chapters/Figures/sphere011_ia/single_d_vs_r.pdf, id=854, 707.46002pt x 406.135
+<Chapters/Figures/sphere011_ia/single_d_vs_r.pdf, id=828, 707.46002pt x 406.135
 06pt>
 File: Chapters/Figures/sphere011_ia/single_d_vs_r.pdf Graphic file (type pdf)
 <use Chapters/Figures/sphere011_ia/single_d_vs_r.pdf>
 Package pdftex.def Info: Chapters/Figures/sphere011_ia/single_d_vs_r.pdf  used 
-on input line 141.
+on input line 142.
 (pdftex.def)             Requested size: 469.75499pt x 269.6798pt.
-) [27 <./Chapters/Figures/sphere011_ia/circle_fit.pdf>] [28 <./Chapters/Figures
-/sphere011_ia/circle_fit_zoomed.pdf>] [29 <./Chapters/Figures/sphere011_ia/sing
-le_d_vs_r.pdf>]
+) [25 <./Chapters/Figures/sphere011_ia/particle_located_stretched.pdf>]
+[26 <./Chapters/Figures/sphere011_ia/particle_located_top_view.pdf>] [27 <./Cha
+pters/Figures/sphere011_ia/side_collapsed.pdf>] [28 <./Chapters/Figures/sphere0
+11_ia/side_collapsed_zoomed.pdf>] [29 <./Chapters/Figures/sphere011_ia/circle_f
+it.pdf>] [30 <./Chapters/Figures/sphere011_ia/circle_fit_zoomed.pdf>] [31 <./Ch
+apters/Figures/sphere011_ia/single_d_vs_r.pdf>]
 Chapter 4.
-(./Chapters/Chapter4.tex [30
+(./Chapters/Chapter4.tex [32
 
 ]
 Overfull \hbox (11.82004pt too wide) in paragraph at lines 61--63
  [][] 
  []
 
-[31] [32]
+[33] [34]
 File: Chapters/Figures/sc1_unstretched_v_8ml.pdf Graphic file (type pdf)
 <use Chapters/Figures/sc1_unstretched_v_8ml.pdf>
 Package pdftex.def Info: Chapters/Figures/sc1_unstretched_v_8ml.pdf  used on in
 put line 110.
 (pdftex.def)             Requested size: 469.75499pt x 249.8705pt.
-<Chapters/Figures/glass_vs_stretched_190218.pdf, id=902, 697.8572pt x 392.96812
+<Chapters/Figures/glass_vs_stretched_190218.pdf, id=929, 697.8572pt x 392.96812
 pt>
 File: Chapters/Figures/glass_vs_stretched_190218.pdf Graphic file (type pdf)
 <use Chapters/Figures/glass_vs_stretched_190218.pdf>
 Package pdftex.def Info: Chapters/Figures/glass_vs_stretched_190218.pdf  used o
 n input line 117.
 (pdftex.def)             Requested size: 469.75499pt x 264.52248pt.
-<Chapters/Figures/w_ups_fit_G9-1.pdf, id=903, 708.39656pt x 380.33502pt>
+<Chapters/Figures/w_ups_fit_G9-1.pdf, id=930, 708.39656pt x 380.33502pt>
 File: Chapters/Figures/w_ups_fit_G9-1.pdf Graphic file (type pdf)
 <use Chapters/Figures/w_ups_fit_G9-1.pdf>
 Package pdftex.def Info: Chapters/Figures/w_ups_fit_G9-1.pdf  used on input lin
 e 128.
 (pdftex.def)             Requested size: 469.75499pt x 252.21158pt.
-<Chapters/Figures/WUps_fit_DC190404.pdf, id=904, 629.08763pt x 426.62999pt>
+<Chapters/Figures/WUps_fit_DC190404.pdf, id=931, 629.08763pt x 426.62999pt>
 File: Chapters/Figures/WUps_fit_DC190404.pdf Graphic file (type pdf)
 <use Chapters/Figures/WUps_fit_DC190404.pdf>
 Package pdftex.def Info: Chapters/Figures/WUps_fit_DC190404.pdf  used on input 
@@ -2798,21 +2776,21 @@ line 136.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [33] [34] [35 <./Chapters/Figures/glass_vs_stretched_190218.pdf> <./Chapters/
+) [35] [36] [37 <./Chapters/Figures/glass_vs_stretched_190218.pdf> <./Chapters/
 Figures/w_ups_fit_G9-1.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/Figures/w_ups_fit_G9-1.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
->] [36 <./Chapters/Figures/WUps_fit_DC190404.pdf>]
+>] [38 <./Chapters/Figures/WUps_fit_DC190404.pdf>]
 Chapter 5.
-(./Chapters/Chapter5.tex) [37
+(./Chapters/Chapter5.tex) [39
 
 ]
 Appendix A.
-(./Chapters/Appendix.tex [38
+(./Chapters/Appendix.tex [40
 
 ]
-<Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF, id=949, 794.97pt x 
+<Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF, id=976, 794.97pt x 
 614.295pt>
 File: Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF Graphic file (t
 ype pdf)
@@ -2820,7 +2798,7 @@ ype pdf)
 Package pdftex.def Info: Chapters/Figures/Stretcher_body_with_screwtap_updated.
 PDF  used on input line 18.
 (pdftex.def)             Requested size: 516.72438pt x 399.287pt.
-<Chapters/Figures/Stretcher_outer.pdf, id=950, 624.10275pt x 483.90598pt>
+<Chapters/Figures/Stretcher_outer.pdf, id=977, 624.10275pt x 483.90598pt>
 File: Chapters/Figures/Stretcher_outer.pdf Graphic file (type pdf)
 <use Chapters/Figures/Stretcher_outer.pdf>
 Package pdftex.def Info: Chapters/Figures/Stretcher_outer.pdf  used on input li
@@ -2830,10 +2808,10 @@ ne 31.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [39 <./Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF>] [40 <./Cha
+) [41 <./Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF>] [42 <./Cha
 pters/Figures/Stretcher_outer.pdf, page is rotated 90 degrees>]
 Appendix B.
-(./Chapters/Appendix_beads.tex) [41
+(./Chapters/Appendix_beads.tex) [43
 
 ]
 Appendix C.
@@ -2848,12 +2826,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
- [42
+ [44
 
 ])
-(./JKT_MainDraft.bbl [43] [44
+(./JKT_MainDraft.bbl [45] [46
 
-]) [45]
+]) [47]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (./JKT_MainDraft.aux)
@@ -2868,10 +2846,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
- 29590 strings out of 492982
- 560989 string characters out of 6134895
- 655229 words of memory out of 5000000
- 32423 multiletter control sequences out of 15000+600000
+ 29589 strings out of 492982
+ 560949 string characters out of 6134895
+ 655188 words of memory out of 5000000
+ 32421 multiletter control sequences out of 15000+600000
  544827 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,17n,88p,10417b,910s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2900,10 +2878,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist
 /type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on JKT_MainDraft.pdf (54 pages, 16990049 bytes).
+Output written on JKT_MainDraft.pdf (56 pages, 16992831 bytes).
 PDF statistics:
- 1162 PDF objects out of 1200 (max. 8388607)
- 975 compressed objects within 10 object streams
- 230 named destinations out of 1000 (max. 500000)
+ 1189 PDF objects out of 1200 (max. 8388607)
+ 992 compressed objects within 10 object streams
+ 231 named destinations out of 1000 (max. 500000)
  556 words of extra memory for PDF output out of 10000 (max. 10000000)
 
