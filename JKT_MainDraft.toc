@@ -25,30 +25,32 @@
 \contentsline {section}{\numberline {2.3}Stretching Apparatus}{11}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Stretcher Design}{12}{subsection.2.3.1}
 \contentsline {section}{\numberline {2.4}Calibration}{13}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Measuring Strain}{13}{subsection.2.4.1}
-\contentsline {chapter}{\numberline {3}Data Acquisition and Image Analysis}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}Fluorescent Confocal Microscopy}{16}{section.3.1}
-\contentsline {subsubsection}{Fluorescent Confocal Microscopy}{17}{section*.32}
-\contentsline {subsection}{\numberline {3.1.1}Preparing a Fluorescent Bead Solution}{17}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Raw Data Files}{18}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Image Analysis}{18}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Particle Location}{19}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Depth and Radius Determination}{19}{subsection.3.2.2}
-\contentsline {chapter}{\numberline {4}Surface Stress and Adhesion Results}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}Organosilicon Polymer Chemistry}{27}{section.4.1}
-\contentsline {subsubsection}{Overly Specific Silcone Preparation and Spin Coating}{28}{section*.38}
-\contentsline {section}{\numberline {4.2}Preliminary Data: Gelest}{30}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Standard Candles}{30}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Dow-Corning PDMS}{30}{section.4.3}
-\contentsline {chapter}{\numberline {5}Future Work}{34}{chapter.5}
-\contentsline {section}{\numberline {5.1}Neue Materialen: Gummib\IeC {\"a}rli}{34}{section.5.1}
-\contentsline {chapter}{\numberline {A}Stretching Apparatus Engineering Design Document}{35}{appendix.A}
-\contentsline {section}{\numberline {A.1}Details of Stretcher Design}{35}{section.A.1}
-\contentsline {chapter}{\numberline {B}Substrate Stiffness Measurement}{38}{appendix.B}
-\contentsline {section}{\numberline {B.1}Texture Analyzer Measurements}{38}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}Hertzian Contact Mechanics Derivation?}{38}{subsection.B.1.1}
-\contentsline {chapter}{\numberline {C}MATLAB Code}{40}{appendix.C}
-\contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{40}{subsection.C.0.1}
-\contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{41}{subsection.C.0.2}
-\contentsline {subsubsection}{master\_tracking\_gui.m}{41}{section*.48}
-\contentsline {subsection}{\numberline {C.0.3}Silicone Characterization Measurements}{41}{subsection.C.0.3}
+\contentsline {subsection}{\numberline {2.4.1}Measuring Strain}{14}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.5}Material Characterization}{16}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Hertzian Contact Mechanics Derivation?}{17}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.6}Putting it all Together}{18}{section.2.6}
+\contentsline {chapter}{\numberline {3}Data Acquisition and Image Analysis}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Fluorescent Confocal Microscopy}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Applying Fluorescent Confocal Microscopy to our Sample}{21}{section.3.2}
+\contentsline {subsubsection}{Fluorescent Confocal Microscopy Data Collection}{21}{section*.38}
+\contentsline {subsection}{\numberline {3.2.1}Raw Data Files}{21}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Image Analysis}{23}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Particle Location}{23}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Depth and Radius Determination}{25}{subsection.3.3.2}
+\contentsline {chapter}{\numberline {4}Surface Stress and Adhesion Results}{30}{chapter.4}
+\contentsline {section}{\numberline {4.1}Organosilicon Polymer Chemistry}{30}{section.4.1}
+\contentsline {subsubsection}{Overly Specific Silcone Preparation and Spin Coating}{31}{section*.43}
+\contentsline {section}{\numberline {4.2}Preliminary Data: Gelest}{33}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Standard Candles}{33}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Dow-Corning PDMS}{33}{section.4.3}
+\contentsline {chapter}{\numberline {5}Future Work}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Neue Materialen: Gummib\IeC {\"a}rli}{37}{section.5.1}
+\contentsline {chapter}{\numberline {A}Stretching Apparatus Design}{38}{appendix.A}
+\contentsline {section}{\numberline {A.1}Details of Stretcher Design}{38}{section.A.1}
+\contentsline {chapter}{\numberline {B}Fluorescent Bead Recipe}{41}{appendix.B}
+\contentsline {section}{\numberline {B.1}Preparing a Fluorescent Bead Solution}{41}{section.B.1}
+\contentsline {chapter}{\numberline {C}MATLAB Code}{42}{appendix.C}
+\contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{42}{subsection.C.0.1}
+\contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{43}{subsection.C.0.2}
+\contentsline {subsubsection}{master\_tracking\_gui.m}{43}{section*.51}
+\contentsline {subsection}{\numberline {C.0.3}Silicone Characterization Measurements}{43}{subsection.C.0.3}

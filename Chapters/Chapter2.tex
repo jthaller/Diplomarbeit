@@ -134,7 +134,19 @@ Our interest is not just in  measuring, $W$ and $\Upsilon$ for a given substrate
 \subsection{Stretcher Design}
 Geometrically, the stretching apparatus is constructed of two concentric cylinders connected at the base to create a channel between them. The top of each ring is flat, apart from a slight chamfer to reduce the risk of ripping the sheet as it is stretched. Each ring is then coated in Dow Corning vacuum grease to make a seal. It is critical that the inner ring has an ample amount of grease so that when a vacuum is pulled in the channel, the sheet will stretch from the center outwards  and not from the edges inwards. The sheet is held in place with an o-ring wrapped around the outside of the cylinder, which is then clamped down by a removable outer ring using a tension clamp. The tension provided by the o-ring and clamp ensure that a solid vacuum is kept and the edges of the sheet are minimally stretched into the trough.add to appendix?  
 
-\todo[inline, color=red]{Make/include graphic of stretcher}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\linewidth]{Chapters/Figures/exploded_stretcher}
+	\caption[Stretching Apparatus Design]{Here is an exploded view of the stretching apparatus. The substrate goes on top of the base (substrate side down). It is then held down with an o-ring, which sits on the outside ledge. A second ring sits on top of the o-ring and is then held down by the microscope mount (not pictured here).}
+	\label{fig:explodedstretcher}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Chapters/Figures/stretcher_side}
+	\caption[Side Profile of Stretching Apparatus]{Above is the side profile of the stretching apparatus. Note the channel attached at the base, and the large center hole at the base where our substrate can be accessed by the microscope.}
+	\label{fig:stretcherside}
+\end{figure}
+
 
 A tapped screw hole on the side of the apparatus connects the chamber to a syringe via thin, plastic tubing. To pull a vacuum in the channel, we withdraw air using a syringe pump. This allows us to have a consistent withdraw rate and control over the amount of air withdrawn to a high degree of precision.
 
@@ -178,5 +190,42 @@ The induced strain is a tensor of rank two. \emph{If I'm bored and have time, I'
 	\caption[Stretched]{These are placeholders for now. I don't really like how they look and I don't think they're totally necessary. It might be nice to keep them if I can clean them up. Especially if I get some nice stretch data with the new DC}
 	\label{fig:13mlstretched2dlocated}
 \end{figure}
+\todo[inline,color=green]{There's an alternate image where each point is an x for before after. Replace figure with that and zoom in on sphere cluster.}
+
+\section{Material Characterization}
+To measure the stiffness of our substrate, we do not use the confocal measurement sample. Instead, when preparing the sample, we cure a surplus of the substrate material in a vial to test the bulk characteristics of the sample. 
+
+We take a standard bulk stiffness measurement using the \todo[color=green]{Include Brand Name}texture analyzer. A rigid cylinder with radius $R = 1.5$ mm is slowly indented into the bulk substrate. The force response vs. indentation depth is recorded for several tests with varying starting heights and locations (See Figure \ref{fig:Bulkstiffness_raw}). We use the average E value obtained from these tests in our W,$ \Upsilon $ fitting. The fitting processed will be reviewed in Chapter 3. 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Chapters/Figures/190406_DC_1-1RT1-5.png}
+	\caption[Bulk Modulus Test]{Force vs indentation depth for a bulk sample of silicone. Each color representats a separate measurement at varying starting heights and locations on the sample.\todo[inline, color=green]{Do you think the axis values are too small? I haven't seen this printed yet.}}
+	\label{fig:Bulkstiffness_raw}
+\end{figure}
+
+\subsection{Hertzian Contact Mechanics Derivation?}
+We calculate the Young's modulus for the bulk sample using classic Hertzian Contact mechanics between a flat, rigid cylinder and an elastic half-space.
+
+\begin{equation}
+F=2RE^*d
+\end{equation}
+
+where 
+\begin{equation*}
+\frac{1}{E^*} = \frac{1-\nu_1^2}{E1} + \frac{1-\nu_2^2}{E2}
+\end{equation*}
+For Silicone, $ \nu \approx .5$ for low strains; for the rigid cylinder, $ E \gg 1-\nu^2 $, so we can ignore that term. From the Force vs. depth information, we can write an equation for E.
+
+\begin{align}
+\frac{1}{E^*} &= \frac{2Rd}{F} \\
+\frac{1 -\nu^2}{E} &= \frac{2Rd}{F} \\
+E &= \frac{\left( 1-\nu^2 \right) F}{2Rd} \\
+E &= \frac{\left( 1-.5^2 \right) F}{2(1.5 \cross 10^{-3})d}
+\end{align}
+\todo[color=yellow]{Equation alignment doesn't look right}
+
+
+\section{Putting it all Together}
+Using the texture analyzer, we can measure $ E $ and $ \nu $ for our substrate. We can then use confocal fluorescent microscopy to measure $ d $ vs. $ R $ for many sphere per sample. We can then run a two parameter fit using this Equation \ref{THEeqn} to determine $ \Upsilon $ and $ W $. Using our equibiaxial stretching apparatus, we can repeat the $ d $ vs. $ R $ measurements at a range of strain to determine $ \Upsilon(\epsilon) $. The process of collecting the $ d $ vs. $ R $ measurements for a single sphere is explained in Chapter 3.
 
 %
