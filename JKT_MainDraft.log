@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  28 APR 2019 00:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  28 APR 2019 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2505,24 +2505,12 @@ File: Chapters/Figures/13ml_stretched_2D_located.png Graphic file (type png)
 Package pdftex.def Info: Chapters/Figures/13ml_stretched_2D_located.png  used o
 n input line 180.
 (pdftex.def)             Requested size: 469.75499pt x 184.08702pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: Chapters/Figures/13ml_stretched_2D_located.png Graphic file (type png)
 <use Chapters/Figures/13ml_stretched_2D_located.png>
 Package pdftex.def Info: Chapters/Figures/13ml_stretched_2D_located.png  used o
 n input line 187.
 (pdftex.def)             Requested size: 469.75499pt x 184.08702pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Chapters/Figures/190406_DC_1-1RT1-5.png, id=711, 3129.6925pt x 2501.345pt>
-File: Chapters/Figures/190406_DC_1-1RT1-5.png Graphic file (type png)
-<use Chapters/Figures/190406_DC_1-1RT1-5.png>
-Package pdftex.def Info: Chapters/Figures/190406_DC_1-1RT1-5.png  used on input
- line 199.
-(pdftex.def)             Requested size: 469.75499pt x 375.41457pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2533,13 +2521,25 @@ ANALYSIS  \OT1/cmr/m/n/12 15
  []
 
 [15 <./Chapters/Figures/1xzoom_constellation_zeroStrain.png (PNG copy)> <./Chap
-ters/Figures/1xzoom_constellation_zeroStrain_supercontrast.png (PNG copy)>]
+ters/Figures/1xzoom_constellation_zeroStrain_supercontrast.png (PNG copy)> <./C
+hapters/Figures/13ml_stretched_2D_located.png (PNG copy)>]
+<Chapters/Figures/190406_DC_1-1RT1-5.png, id=717, 3129.6925pt x 2501.345pt>
+File: Chapters/Figures/190406_DC_1-1RT1-5.png Graphic file (type png)
+<use Chapters/Figures/190406_DC_1-1RT1-5.png>
+Package pdftex.def Info: Chapters/Figures/190406_DC_1-1RT1-5.png  used on input
+ line 199.
+(pdftex.def)             Requested size: 469.75499pt x 375.41457pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Overfull \hbox (33.28558pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CHAPTER 2.  EXPERIMENTAL APPROACH: SETUP, DATA ACQUISITION, & 
 ANALYSIS  \OT1/cmr/m/n/12 16
  []
 
-[16 <./Chapters/Figures/13ml_stretched_2D_located.png (PNG copy)>]
+[16]
 Overfull \hbox (33.28558pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CHAPTER 2.  EXPERIMENTAL APPROACH: SETUP, DATA ACQUISITION, & 
 ANALYSIS  \OT1/cmr/m/n/12 17
@@ -2668,14 +2668,14 @@ ed.pdf  used on input line 93.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/sphere011_ia/particle_located_top_view.pdf, id=807, 707.46002
-pt x 405.58217pt>
+<Chapters/Figures/sphere011_ia/particle_located_top_view.pdf, id=807, 393.55222
+pt x 374.64796pt>
 File: Chapters/Figures/sphere011_ia/particle_located_top_view.pdf Graphic file 
 (type pdf)
 <use Chapters/Figures/sphere011_ia/particle_located_top_view.pdf>
 Package pdftex.def Info: Chapters/Figures/sphere011_ia/particle_located_top_vie
 w.pdf  used on input line 100.
-(pdftex.def)             Requested size: 469.75499pt x 269.31268pt.
+(pdftex.def)             Requested size: 469.75499pt x 447.2086pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2777,7 +2777,7 @@ put line 108.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/glass_vs_stretched_190218.pdf, id=975, 697.8572pt x 392.96812
+<Chapters/Figures/glass_vs_stretched_190218.pdf, id=976, 697.8572pt x 392.96812
 pt>
 File: Chapters/Figures/glass_vs_stretched_190218.pdf Graphic file (type pdf)
 <use Chapters/Figures/glass_vs_stretched_190218.pdf>
@@ -2787,29 +2787,29 @@ n input line 117.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/w_ups_fit_G9-1.pdf, id=976, 708.39656pt x 380.33502pt>
+<Chapters/Figures/w_ups_fit_G9-1.pdf, id=977, 631.1901pt x 371.25064pt>
 File: Chapters/Figures/w_ups_fit_G9-1.pdf Graphic file (type pdf)
 <use Chapters/Figures/w_ups_fit_G9-1.pdf>
 Package pdftex.def Info: Chapters/Figures/w_ups_fit_G9-1.pdf  used on input lin
 e 124.
-(pdftex.def)             Requested size: 469.75499pt x 252.21158pt.
+(pdftex.def)             Requested size: 469.75499pt x 276.29599pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [37]
-<Chapters/Figures/d_vs_r_stretch_vs_no_stretch_DC181115.pdf, id=984, 712.7297pt
- x 385.0563pt>
+<Chapters/Figures/d_vs_r_stretch_vs_no_stretch_DC181115.pdf, id=985, 623.31589p
+t x 432.79984pt>
 File: Chapters/Figures/d_vs_r_stretch_vs_no_stretch_DC181115.pdf Graphic file (
 type pdf)
 <use Chapters/Figures/d_vs_r_stretch_vs_no_stretch_DC181115.pdf>
 Package pdftex.def Info: Chapters/Figures/d_vs_r_stretch_vs_no_stretch_DC181115
 .pdf  used on input line 137.
-(pdftex.def)             Requested size: 469.75499pt x 253.78542pt.
+(pdftex.def)             Requested size: 469.75499pt x 326.17082pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapters/Figures/WUps_fit_DC190404.pdf, id=985, 629.08763pt x 426.62999pt>
+<Chapters/Figures/WUps_fit_DC190404.pdf, id=986, 629.08763pt x 426.62999pt>
 File: Chapters/Figures/WUps_fit_DC190404.pdf Graphic file (type pdf)
 <use Chapters/Figures/WUps_fit_DC190404.pdf>
 Package pdftex.def Info: Chapters/Figures/WUps_fit_DC190404.pdf  used on input 
@@ -2819,20 +2819,15 @@ line 144.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [38] [39 <./Chapters/Figures/glass_vs_stretched_190218.pdf>] [40 <./Chapters/
-Figures/w_ups_fit_G9-1.pdf> <./Chapters/Figures/d_vs_r_stretch_vs_no_stretch_DC
-181115.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/Figures/d_vs_r_stretch_vs_no
-_stretch_DC181115.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
->] [41 <./Chapters/Figures/WUps_fit_DC190404.pdf>]
+Figures/w_ups_fit_G9-1.pdf>] [41 <./Chapters/Figures/d_vs_r_stretch_vs_no_stret
+ch_DC181115.pdf>] [42 <./Chapters/Figures/WUps_fit_DC190404.pdf>]
 Chapter 5.
-(./Chapters/Chapter5.tex) [42
+(./Chapters/Chapter5.tex) [43
 
 ]
 Appendix A.
 (./Chapters/Appendix.tex
-<Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF, id=1032, 794.97pt x
+<Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF, id=1038, 794.97pt x
  614.295pt>
 File: Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF Graphic file (t
 ype pdf)
@@ -2844,7 +2839,7 @@ PDF  used on input line 18.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/Stretcher_outer.pdf, id=1033, 624.10275pt x 483.90598pt>
+<Chapters/Figures/Stretcher_outer.pdf, id=1039, 624.10275pt x 483.90598pt>
 File: Chapters/Figures/Stretcher_outer.pdf Graphic file (type pdf)
 <use Chapters/Figures/Stretcher_outer.pdf>
 Package pdftex.def Info: Chapters/Figures/Stretcher_outer.pdf  used on input li
@@ -2853,12 +2848,12 @@ ne 31.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [43
+) [44
 
-] [44 <./Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF>]
-[45 <./Chapters/Figures/Stretcher_outer.pdf, page is rotated 90 degrees>]
+] [45 <./Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF>]
+[46 <./Chapters/Figures/Stretcher_outer.pdf, page is rotated 90 degrees>]
 Appendix B.
-(./Chapters/Appendix_beads.tex) [46
+(./Chapters/Appendix_beads.tex) [47
 
 ]
 Appendix C.
@@ -2873,12 +2868,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
- [47
+ [48
 
 ])
-(./JKT_MainDraft.bbl [48] [49
+(./JKT_MainDraft.bbl [49] [50
 
-]) [50]
+]) [51]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (./JKT_MainDraft.aux)
@@ -2893,10 +2888,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
- 29621 strings out of 492982
- 562166 string characters out of 6134895
- 656530 words of memory out of 5000000
- 32443 multiletter control sequences out of 15000+600000
+ 29619 strings out of 492982
+ 562085 string characters out of 6134895
+ 654159 words of memory out of 5000000
+ 32439 multiletter control sequences out of 15000+600000
  544827 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,17n,88p,10417b,910s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2925,10 +2920,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist
 /type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on JKT_MainDraft.pdf (59 pages, 17282050 bytes).
+Output written on JKT_MainDraft.pdf (60 pages, 17273297 bytes).
 PDF statistics:
- 1252 PDF objects out of 1440 (max. 8388607)
- 1041 compressed objects within 11 object streams
- 238 named destinations out of 1000 (max. 500000)
+ 1258 PDF objects out of 1440 (max. 8388607)
+ 1046 compressed objects within 11 object streams
+ 240 named destinations out of 1000 (max. 500000)
  579 words of extra memory for PDF output out of 10000 (max. 10000000)
 

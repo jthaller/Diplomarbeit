@@ -26,7 +26,7 @@
 \contentsline {subsection}{\numberline {2.3.1}Stretcher Design}{11}{subsection.2.3.1}
 \contentsline {section}{\numberline {2.4}Calibration}{12}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Measuring Strain}{14}{subsection.2.4.1}
-\contentsline {section}{\numberline {2.5}Material Characterization}{15}{section.2.5}
+\contentsline {section}{\numberline {2.5}Material Characterization}{16}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Hertzian Contact Mechanics Derivation?}{16}{subsection.2.5.1}
 \contentsline {section}{\numberline {2.6}Putting it all Together}{18}{section.2.6}
 \contentsline {chapter}{\numberline {3}Data Acquisition and Image Analysis}{19}{chapter.3}
@@ -39,19 +39,19 @@
 \contentsline {subsection}{\numberline {3.3.2}Depth and Radius Determination}{24}{subsection.3.3.2}
 \contentsline {chapter}{\numberline {4}Surface Stress and Adhesion Results}{34}{chapter.4}
 \contentsline {section}{\numberline {4.1}Organosilicon Polymer Chemistry}{34}{section.4.1}
-\contentsline {subsubsection}{Silicone Preparation and Spin Coating}{35}{section*.39}
+\contentsline {subsubsection}{Silicone Preparation and Spin Coating}{35}{section*.40}
 \contentsline {section}{\numberline {4.2}Preliminary Data: Gelest}{37}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Standard Candles}{37}{subsection.4.2.1}
 \contentsline {section}{\numberline {4.3}Dow-Corning PDMS}{37}{section.4.3}
-\contentsline {chapter}{\numberline {5}Future Work}{42}{chapter.5}
-\contentsline {section}{\numberline {5.1}Neue Materialen: Gummib\IeC {\"a}rli}{42}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future Techniques}{42}{section.5.2}
-\contentsline {chapter}{\numberline {A}Stretching Apparatus Design}{43}{appendix.A}
-\contentsline {section}{\numberline {A.1}Details of Stretcher Design}{43}{section.A.1}
-\contentsline {chapter}{\numberline {B}Fluorescent Bead Recipe}{46}{appendix.B}
-\contentsline {section}{\numberline {B.1}Preparing a Fluorescent Bead Solution}{46}{section.B.1}
-\contentsline {chapter}{\numberline {C}MATLAB Code}{47}{appendix.C}
-\contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{47}{subsection.C.0.1}
-\contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{48}{subsection.C.0.2}
-\contentsline {subsubsection}{master\_tracking\_gui.m}{48}{section*.50}
-\contentsline {subsection}{\numberline {C.0.3}Silicone Characterization Measurements}{48}{subsection.C.0.3}
+\contentsline {chapter}{\numberline {5}Future Work}{43}{chapter.5}
+\contentsline {section}{\numberline {5.1}Neue Materialen: Gummib\IeC {\"a}rli}{43}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Techniques}{43}{section.5.2}
+\contentsline {chapter}{\numberline {A}Stretching Apparatus Design}{44}{appendix.A}
+\contentsline {section}{\numberline {A.1}Details of Stretcher Design}{44}{section.A.1}
+\contentsline {chapter}{\numberline {B}Fluorescent Bead Recipe}{47}{appendix.B}
+\contentsline {section}{\numberline {B.1}Preparing a Fluorescent Bead Solution}{47}{section.B.1}
+\contentsline {chapter}{\numberline {C}MATLAB Code}{48}{appendix.C}
+\contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{48}{subsection.C.0.1}
+\contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{49}{subsection.C.0.2}
+\contentsline {subsubsection}{master\_tracking\_gui.m}{49}{section*.51}
+\contentsline {subsection}{\numberline {C.0.3}Silicone Characterization Measurements}{49}{subsection.C.0.3}
