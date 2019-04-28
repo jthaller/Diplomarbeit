@@ -107,31 +107,50 @@ After locating all the fluorescent beads and reconstructing our raw image in a u
 
 \begin{figure}[h!]
 	\centering
+	\large \textbf{No Applied Strain (On Glass): Large Sphere}\\
+	\large \textbf{Gelest 9:1 (E=6.3kPa)}
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/side_collapsed}
 	\caption[Collapsed Side Profile]{The constructed image of the outlined sphere with normalized axes. The Axes are in microns.}
 	\label{fig:sidecollapsed}
 \end{figure}
 \begin{figure}[h!]
 	\centering
+	\large \textbf{No Applied Strain (On Glass): Large Sphere}\\
+	\large \textbf{Gelest 9:1 (E=6.3kPa)}
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/side_collapsed_zoomed}
 	\caption[Collapsed Side Profile: Zoomed]{This is a zoomed-in version of figure \ref{fig:sidecollapsed}. It is useful to zoom in and see the the quality of the collapse. A dense collapse leads to a smaller margin of error in fitting a circle to the profile (See Fig. \ref{fig:circlefit}).}
 	\label{fig:sidecollapsedzoomed}
 \end{figure}
 
-It is important to be careful with the circle-fits in the case where the sphere is small enough to sink into the substrate with a depth $ d > r $. In these instances, the the side profile is non-continuous, and we only fit the sphere to the bottom portion of the profile before the break. \todo[inline]{Add an example profile of one of these tiny spheres} 
-
+It is important to be careful with the circle-fits in the case where the sphere is small enough to sink into the substrate with a depth $ d > r $. In these instances, the the side profile is non-continuous, and we only fit the sphere to the bottom portion of the profile before the break. An example of one of these sphere is shown in figures \ref{fig:smallsphere017190404dcglass} and \ref{fig:smallsphere017ciclefitspheredc}.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Chapters/Figures/smallsphere017_190404_DC_glass}
+	\caption[Small Sphere Side Profile]{The collapase side profile for small spheres has fewer fluorescent tracer particles to outline there sphere. There is often a cutoff if the sphere sinks in deeper than its ``waist.''}
+	\label{fig:smallsphere017190404dcglass}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Chapters/Figures/smallsphere017_cicle_fitsphere_DC}
+	\caption[Small Sphere Circle Fit]{For a small sphere where d>r, there is generally a break in the sphere outline. For these circle fits, only the fluorescent beads up to the break are taken into account for the fit.}
+	\label{fig:smallsphere017ciclefitspheredc}
+\end{figure}
 
 
 \begin{figure}[h!]
 	\centering
+	\large \textbf{No Applied Strain (On Glass): Large Sphere}\\
+	\large \textbf{Gelest 9:1 (E=6.3kPa)}
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/circle_fit}
 	\caption[Circle Fit]{This is figure \ref{fig:sidecollapsed}, only with a circle fitted to the indentation sphere. Notice how the surface plane is completely flat and centered at a depth of 0.}
 	\label{fig:circlefit}
 \end{figure}
 \begin{figure}[h!]
 	\centering
+	{\large \textbf{No Applied Strain (On Glass): Large Sphere}}\\
+	{\large \textbf{Gelest 9:1 (E=6.3kPa)}}
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/circle_fit_zoomed}
-	\caption[Circle Fit Zoomed]{This is simply a zoomed in version of Fig. \ref{fig:circlefit}The orange dots are the data points being used to fit the circle. Notice how the sphere fits nicely in the indentation all the way up to the cusp, past the points being used for the fit.}
+	\caption[Circle Fit Zoomed]{This is simply a zoomed in version of Figure \ref{fig:circlefit}. The orange dots are the data points being used to fit the circle. Notice how the sphere fits nicely in the indentation all the way up to the cusp, past the points being used for the fit.}
 	\label{fig:circlefitzoomed}
 \end{figure}
 
@@ -139,7 +158,9 @@ After fitting the circle to the substrate's side profile, we can add the depth v
 
 \begin{figure}
 	\centering
+	{\large \textbf{No Applied Strain (On Glass): Large Sphere}}\\
+	{\large \textbf{Gelest 9:1 (E=6.3kPa)}}
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/single_d_vs_r}
-	\caption[D vs R plot]{All of the above analysis leads to this single point, the depth, $ d $ vs. radius $ r $ for a given sphere. By repeating this process for many spheres of varying size, we can fill out the plot and fit \ref{THEeqn} to the points. Examples of these fits can be found in Chapter 4.}
+	\caption[D vs R plot]{All the above analysis leads to this single point, the depth, $ d $ vs. radius $ r $ for a given sphere. By repeating this process for many spheres of varying size, we can fill out the plot and fit equation \ref{THEeqn} to the points. Examples of these fits can be found in Chapter 4.}
 	\label{fig:singledvsr}
 \end{figure}

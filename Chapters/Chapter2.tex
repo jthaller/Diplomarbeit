@@ -5,7 +5,7 @@ In this chapter we discuss the setup of the experiment from start to finish. Fir
 
 Hertzian Mechanics, developed by Heinrich Hertz in the 1800's, allows for the calculation of stress and deformation based on the elastic moduli of the contacted surfaces, as well as their radii of curvature and applied force. While Hertzian mechanics stood for a long time, it neglected to take into account the adhesion energy of the system.  
 
-In 1971, Johnson, Kendall, and Roberts (JKR) sought to remedy this omission by developing a classical theory of contact mechanics that balances the forces of adhesion with elasticity from the bulk and the surface free energy {\cite{johnson1971surface}}. Today, it is still the standard theory used to interpret and soft contact situation. However, it has recently been shown that while JKR theory is a great improvement over Hertztian Mechanics, it breaks down in the elastocapillary regime. \todo[color=green]{add citation} Specifically, at lengths where 
+In 1971, Johnson, Kendall, and Roberts (JKR) sought to remedy this omission by developing a classical theory of contact mechanics that balances the forces of adhesion with elasticity from the bulk and the surface free energy {\cite{johnson1971surface}}. Today, it is still the standard theory used to interpret and soft contact situation. However, it has recently been shown that while JKR theory is a great improvement over Hertztian Mechanics, it breaks down in the elastocapillary regime.\todo[color=pink]{add citation} Specifically, at lengths where 
 \begin{equation}
 \label{EC_regime}
 L_{c} \leq \frac{\Upsilon}{E}
@@ -15,7 +15,7 @@ the surface energies compete with those of the bulk and can no longer be ignored
 
 
 \subsection{Force Balance Derivation}
-When materials are soft or small enough, three main forces balance to determine the contact mechanics of the system. Consider a marble sinking into a soft, sticky substrate. Adhesive forces increase the contact area between the marble and the substrate. Increasing the contact area has the effect of ``pulling'' the marble into the gel. As a consequence, the substrate is being compressed [vertically], which is counteracted by the elastic forces within the bulk. This compression also has the effect of stretching the surface of the substrate, which is counteracted by substrate's surface tension. Below, we calculate the energy term associated with each of the forces acting on a dense sphere sinking into a soft substrate. \todo[inline, color=green]{Move to later in chapter: For a silica microsphere, we can ignore the weight of the sphere when calculating the elastic energy term. The force of gravity on the microsphere is negligible compared to the other forces. The density of silica (silicon-dioxide) is $2.65$ g/cm$^3$. For a very large sphere with radius (or is this diameter...) 50 microns, gravity applies a force of roughly 1.02e-08 N.}
+When materials are soft or small enough, three main forces balance to determine the contact mechanics of the system. Consider a marble sinking into a soft, sticky substrate. Adhesive forces increase the contact area between the marble and the substrate. Increasing the contact area has the effect of ``pulling'' the marble into the gel. As a consequence, the substrate is being compressed [vertically], which is counteracted by the elastic forces within the bulk. This compression also has the effect of stretching the surface of the substrate, which is counteracted by substrate's surface tension. Below, we calculate the energy term associated with each of the forces acting on a dense sphere sinking into a soft substrate. Note, for such a small sphere, the force of gravity is negligible and need not be taken into consideration. For example, a silica (silicon-dioxide) microsphere has a density is $2.65$ g/cm$^3$. For a very large sphere with radius 50 microns, gravity only applies a force of roughly 1.02e-08 N.
 
 \subsubsection{Elastic Energy}
 The energy required to make a circular indentation of radius R and depth d can be derived from Hertzian contact mechanics \cite{hertz1882uber, style2013surface,cao2016nanoparticles}. Contact between a sphere and an elastic half space\footnote{i.e. the contact area is $ \ll $ the characteristic radius of the object. A flat plan can be thought of as $ R = \infty $}   is a classic Hertzian contact problem. It is easiest to calculate the force and then integrate to determine the potential energy. For two elastic surfaces in contact with no externally applied forces, the force from elastic contact is:
@@ -47,9 +47,7 @@ The energy of adhesion is W multiplied by the surface area in contact (as found 
 \label{W_energy}
 U_{adhesion} \approx -2\pi W R d 
 \end{equation}
-where W is the adhesion energy. \todo[inline,color=yellow]{I think I should explain adhesion somewhere and talk about the Dupre equation 1869. Not sure where I want to put this, however. Maybe some of this stuff and the derivations should actually be in chapter 1. Also ``energy of adhesion = const. * adhesion energy'' lol hmmm}. 
-
-
+where W is the adhesion energy. \todo[inline,color=pink]{I think I should explain adhesion somewhere and talk about the Dupre equation 1869. Not sure where I want to put this, however.}. 
 
 \subsubsection{Surface Energy}
 $\Upsilon$ is the surface stress, which is equal to the energy cost per unit area required to create surface via cutting or stretching the material. For a flat substrate being stretched via the indendation of a sphere, the energetic cost is
@@ -106,11 +104,11 @@ where c is a geometric factor to be determined in the next step. We can re-arran
 2 \pi \Upsilon_{sv}d  + \frac{5cER^{1/2}d^{3/2}}{2 \left( 1-\nu ^2 \right) }  - 2 \pi WR = 0
 \end{equation}
 
-Where $ c = \frac{8}{5\sqrt{3}} $. This value of c is chosen to recover classical JKR theory, which predicts an indentation of $ d =  \left[\frac{\sqrt{3}\pi W (1 - \mu^2)}{2E} \right]^{2/3}R^{1/3}$ \cite{style2013surface, johnson1971surface}. This energy balance was first published in 2013 by Styles et al. in \textit{Nature Communications} \cite{style2013surface}. \todo[inline, color=green]{Why did you want me to mention Jensen PNAS 2015? Wasn't this the phase separation paper? What connection were you thinking I should make here?}
+Where $ c = \frac{8}{5\sqrt{3}} $. This value of c is chosen to recover classical JKR theory, which predicts an indentation of $ d =  \left[\frac{\sqrt{3}\pi W (1 - \mu^2)}{2E} \right]^{2/3}R^{1/3}$ \cite{style2013surface, johnson1971surface}. This energy balance was first published in 2013 by Styles et al. in \textit{Nature Communications} \cite{style2013surface}. \todo[inline, color=pink]{KEJ: Why did you want me to mention Jensen PNAS 2015? Wasn't this the phase separation paper? What connection were you thinking I should make here?}
 
 
 \subsection{Experimental Approach}
-Equation \ref{THEeqn} gives us a quantitative relationship between the spontaneous indentation depth, $ d $, sphere radius, $ R $, and key material properties: $ \Upsilon, E, \nu, \text{and }W $. The Young Modulus, E, and the Poisson ratio, $\nu$ of the substrate can be measured separately for the substrate material. The depth $d$, and the radius $R$ of the sphere can be measured using fluorescent confocal microscopy, as described in section \ref{ch:microscopy}. The only remaining terms, $W$ and $\Upsilon$, the adhesion energy and the surface stress, respectively, can be determined with a two-parameter fit of $ d $ vs. $ R. $ \todo[inline,color=green]{move to ch 5: Alternatively, it is possible to measure the adhesion energy separately. This technique, though not critically important to the experiment, is of interest andf exploring if not just for the benefit of adding the capability to the lab.}
+Equation \ref{THEeqn} gives us a quantitative relationship between the spontaneous indentation depth, $ d $, sphere radius, $ R $, and key material properties: $ \Upsilon, E, \nu, \text{and }W $. The Young Modulus, E, and the Poisson ratio, $\nu$ of the substrate can be measured separately for the substrate material. The depth $d$, and the radius $R$ of the sphere can be measured using fluorescent confocal microscopy, as described in section \ref{ch:microscopy}. The only remaining terms, $W$ and $\Upsilon$, the adhesion energy and the surface stress, respectively, can be determined with a two-parameter fit of $ d $ vs. $ R. $
 
 \section{Preparing a Substrate}
 In the following section, we outline the process of preparing a soft substrate for testing. The process is similar for a zero strain sample and a stretchable sample, and we make clear any distinctions between the two processes. Specific details for our substrate types can be found in Chapter 4.
@@ -151,7 +149,7 @@ Geometrically, the stretching apparatus is constructed of two concentric cylinde
 A tapped screw hole on the side of the apparatus connects the chamber to a syringe via thin, plastic tubing. To pull a vacuum in the channel, we withdraw air using a syringe pump. This allows us to have a consistent withdraw rate and control over the amount of air withdrawn to a high degree of precision.
 
 \section{Calibration}
-Originally, we intended to calibrate the strain value induced by the vacuum to the extent that we could predict the induced strain based on the amount of air withdrawn from the stretching apparatus. We withdrew air from the syringe and measured the movement of glass spheres adhered to the surface using a 10x air lens on our Nikon confocal microscope. Using the transmission detector allowed us to image the surface of our material with a wide field of view. Strain percentage was calculated using MATLAB code \cite{xu2017direct} \todo[color=green]{Better/more citations for strain code?}.
+Originally, we intended to calibrate the strain value induced by the vacuum to the extent that we could predict the induced strain based on the amount of air withdrawn from the stretching apparatus. We withdrew air from the syringe and measured the movement of glass spheres adhered to the surface using a 10x air lens on our Nikon confocal microscope. Using the transmission detector allowed us to image the surface of our material with a wide field of view. Strain percentage was calculated using MATLAB code \cite{xu2017direct} \todo[color=pink]{Better/more citations for strain code?}.
 
 There are several obstacles in calibrating the induced strain. First, the stretching apparatus works best when a large strain is applied. Applying small strains one after another works but there is a threshold to induce stretch. No stretching change is visible if less than 2ml is withdrawn from the cylinder per increment. Thus, there is a limited resolution to our calibration data, which would not be a problem if the strain was linear. However, preliminary measurements indicated that the applied strain was nonlinear. This agrees with the with previous results \cite{na2008time} obtained using a similar device. \emph{note to self, double check this is where that graph I'm thinking about actually showed up}. Lastly, the greatest problem with calibrating strain is that we change substrates often. Even if we were to use the same exact sample, by removing it and setting up the device again, there is no way to standardize a zero-applied strain point. To prepare the stretching device, the sample is placed over the opening and a rubber o-ring is placed around the sample to help affix it in place. The sample must then be stretched and wiggled around slightly to remove any snags that could jeopardize the vacuum's efficacy. This means that every time a new sample is prepared, it is in an unknown and unique state of induced strain. It could even have less than zero strain if the sample is loose in large center opening \emph{Think of better name for this.} 
 
@@ -190,16 +188,16 @@ The induced strain is a tensor of rank two. \emph{If I'm bored and have time, I'
 	\caption[Stretched]{These are placeholders for now. I don't really like how they look and I don't think they're totally necessary. It might be nice to keep them if I can clean them up. Especially if I get some nice stretch data with the new DC}
 	\label{fig:13mlstretched2dlocated}
 \end{figure}
-\todo[inline,color=green]{There's an alternate image where each point is an x for before after. Replace figure with that and zoom in on sphere cluster.}
+\todo[inline,color=pink]{There's an alternate image where each point is an x for before after. Replace figure with that and zoom in on sphere cluster.}
 
 \section{Material Characterization}
 To measure the stiffness of our substrate, we do not use the confocal measurement sample. Instead, when preparing the sample, we cure a surplus of the substrate material in a vial to test the bulk characteristics of the sample. 
 
-We take a standard bulk stiffness measurement using the \todo[color=green]{Include Brand Name}texture analyzer. A rigid cylinder with radius $R = 1.5$ mm is slowly indented into the bulk substrate. The force response vs. indentation depth is recorded for several tests with varying starting heights and locations (See Figure \ref{fig:Bulkstiffness_raw}). We use the average E value obtained from these tests in our W,$ \Upsilon $ fitting. The fitting processed will be reviewed in Chapter 3. 
+We take a standard bulk stiffness measurement using the \todo[color=pink]{Include Brand Name}texture analyzer. A rigid cylinder with radius $R = 1.5$ mm is slowly indented into the bulk substrate. The force response vs. indentation depth is recorded for several tests with varying starting heights and locations (See Figure \ref{fig:Bulkstiffness_raw}). We use the average E value obtained from these tests in our W,$ \Upsilon $ fitting. The fitting processed will be reviewed in Chapter 3. 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Chapters/Figures/190406_DC_1-1RT1-5.png}
-	\caption[Bulk Modulus Test]{Force vs indentation depth for a bulk sample of silicone. Each color representats a separate measurement at varying starting heights and locations on the sample.\todo[inline, color=green]{Do you think the axis values are too small? I haven't seen this printed yet.}}
+	\caption[Bulk Modulus Test]{Force vs indentation depth for a bulk sample of silicone. Each color representats a separate measurement at varying starting heights and locations on the sample.\todo[inline, color=pink]{Do you think the axis values are too small? I haven't seen this printed yet.}}
 	\label{fig:Bulkstiffness_raw}
 \end{figure}
 
@@ -222,7 +220,7 @@ For Silicone, $ \nu \approx .5$ for low strains; for the rigid cylinder, $ E \gg
 E &= \frac{\left( 1-\nu^2 \right) F}{2Rd} \\
 E &= \frac{\left( 1-.5^2 \right) F}{2(1.5 \cross 10^{-3})d}
 \end{align}
-\todo[color=yellow]{Equation alignment doesn't look right}
+\todo[color=pink]{Equation alignment doesn't look right}
 
 
 \section{Putting it all Together}
