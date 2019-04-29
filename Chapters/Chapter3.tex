@@ -11,29 +11,28 @@ Confocal Microscopy is a technique capable of probing a sample with true 3-Dimen
 \end{figure}
 
 
-%\begin{wrapfigure}{r}{.5\textwidth}
-%	
-%	\centering
-%	\vspace{-1.2em}
-%	\includegraphics[width=\linewidth]{confocal_stuff/confocal_orig_fi_1-1}
-%	\caption[Confocal Optics 1]{PLACE HOLDER.}
-%	\label{fig:confocal_1}
-%	
-%	
-%\end{wrapfigure}
+\begin{wrapfigure}{r}{.5\textwidth}
 	
-Fluorescent Confocal Microscopy works by the same general principle, only with the added complexity of optically-excitable fluorophores. These fluorophores absorb light from a narrow range of frequencies and re-emmit fluorescent light at a different known and specific frequency, which can then be measured. This allows for a greater resolution to larger objects, as well as the ability to detect objects that would otherwise be invisible to the microscope.  
-
-Fluorescent Confocal Microscopy works by illuminating the specimen with a laser. The laser light passes through a pinhole, then is reflected by the dichroic mirror and then focused by the objective lens on a small area of the specimen. The re-emitted light from the fluorophores has a longer wavelength than the laser, so it is then transmitted through mirror.  It then then passes through the pinhole where it is travels to the photo-detector.
-\begin{figure}
 	\centering
-	\includegraphics[width=\linewidth]{Chapters/Figures/confocal_fluorescent_diagram}
-	\caption[Fluorescent Confocal Microscopy]{In fluorescent confocal microscopy, a diachroic mirror is used to separate the laser light from that emitted by the excited fluorophores. }
-	\label{fig:confocalfluorescentdiagram}
-\end{figure}
+\includegraphics[width=\linewidth]{Chapters/Figures/confocal_fluorescent_diagram_b}
+\caption[Fluorescent Confocal Microscopy]{In fluorescent confocal microscopy, a diachroic mirror is used to separate the laser light from that emitted by the excited fluorophores. }
+\label{fig:confocalfluorescentdiagram}
+	
+	
+\end{wrapfigure}
+	
+Fluorescent Confocal Microscopy works by the same general principle, only with the added complexity of optically-excitable fluorophores. These fluorophores absorb light from a narrow range of frequencies and re-emit fluorescent light at a different known and specific frequency, which can then be measured. This allows for a greater resolution to larger objects, as well as the ability to detect objects that would otherwise be invisible to the microscope.  
 
-\section{Applying Fluorescent Confocal Microscopy to our Sample}
-In order to see our substrate with fluorescent confocal microscopy, we need to coat the surface of our substrate with tiny fluorescent beads (fluorophores) on the order of 40nm in radius. The detection of these fluorescent beads allows us to see the outline of the substrate's surface, as well as the indenting sphere, which displaces the beads beneath it as in sinks into the substrate. Directions for preparing a fluorescent bead buffer can be found in Appendix section \ref{appendix_beads}. 
+Fluorescent Confocal Microscopy works by illuminating the specimen with a laser. The laser light passes through a pinhole, then is reflected by the dichroic mirror and then focused by the objective lens on a small area of the specimen. The re-emitted light from the fluorophores has a longer wavelength than the laser, so it is then transmitted through mirror.  It then then passes through the pinhole where it is travels to the photodetector. A diagram of this process can be found in figure \ref{fig:confocalfluorescentdiagram}.
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=\linewidth]{Chapters/Figures/confocal_fluorescent_diagram}
+%	\caption[Fluorescent Confocal Microscopy]{In fluorescent confocal microscopy, a diachroic mirror is used to separate the laser light from that emitted by the excited fluorophores. }
+%	\label{fig:confocalfluorescentdiagram}
+%\end{figure}
+
+\section{Applying Fluorescent Confocal Microscopy to the Sample}
+In order to see our substrate with fluorescent confocal microscopy, we need to coat the surface of our substrate with tiny fluorescent beads (fluorophores) on the order of 40nm in radius. The detection of these fluorescent beads allows us to see the outline of the substrate's surface, as well as the indenting sphere, which displaces the beads beneath it as in sinks into the substrate. Directions for preparing a fluorescent bead solution in a borate buffer can be found in Appendix section \ref{appendix_beads}. 
 
 \subsubsection{Fluorescent Confocal Microscopy Data Collection}
 Data was obtained using the Nikon A1R+ Confocal Microscope. To take image stacks of the Fluorescent beads, we use a 50x water-immersion objective lens. We set the laser to 440nm and adjust the power (HV) and gain as needed. Generally these values are around 5.0\% and 40 Volts, respectively. In order to get clear locating, it is important not to saturate the photo-detector. 
@@ -45,7 +44,7 @@ Data was obtained using the Nikon A1R+ Confocal Microscope. To take image stacks
 	\label{fig:ti2diagram1}
 \end{figure}
 
-For silica spheres ranging from $5-50 \mu$m in size, we have found the best scaling factor to be $.104 \mu$m/pixel in the horizontal plane for an image of 1024 x 1024 resolution. We set the vertical step size (z-direction) to $.225 \mu$m/px or $.25 \mu$m/px depending on what the confocal recommended. Both provided adequate vertical resolutions. 16x averaging using the resonant scanner took up to 5 minutes per scan, but provided excellent resolution. 
+For silica spheres ranging from $5-50$ $\mu$m in size, we have found the best scaling factor to be $.104$ $\mu$m/pixel in the horizontal plane for an image of 1024 $ \cross $ 1024 resolution. We set the vertical step size (z-direction) to $.225$ $\mu$m/px or $.25$ $\mu$m/px depending on what the confocal recommended. Both provided adequate vertical resolutions. 16x averaging using the resonant scanner took up to 5 minutes per scan, but provided excellent resolution. 
 
 \subsection{Raw Data Files}
 Using confocal microscopy, we collect a ``stack'' of images, detecting the light from the fluorescent beads. Below (Fig. \ref{fig:190215g91glasssphere011surface}) is a raw data image of the surface of a soft substrate with a glass bead stuck below.
@@ -56,7 +55,7 @@ Using confocal microscopy, we collect a ``stack'' of images, detecting the light
 	\caption[The surface plane of a silica bead in silcone]{The surface plane of a silica bead in Gelest 9:1 Silicone (E = 7.3 kPa). Radius of sphere = 28.7 $\mu$m.}
 	\label{fig:190215g91glasssphere011surface}
 \end{figure}
-The ``black hole'' like image in the top-left corner is the silica sphere. Each small white dot represents a fluorescent bead; together they create a sea of stars that outline the surface plane and the silica sphere. Figure \ref{fig:190215g91glasssphere011surface} is an example of the upper limit of bead coverage density. Any higher concentration of fluorescent beads could result in a difficulty in light bleeding. Note, the sphere is in the top corner of the image to provide maximum information about the leveling of the surface plane. We assume that the surface effects are symmetrical for zero applied strain and equibiaxial strain. Thus, it is more important to gather information in one direction to properly level the surface plane to determine the depth into which the sphere sinks. 
+The object resembling a black hole in the top-left corner is the silica sphere. Each small white dot represents a fluorescent bead; together they create a sea of stars that outline the surface plane and the silica sphere. Figure \ref{fig:190215g91glasssphere011surface} is an example of the upper limit of bead coverage density. Any higher concentration of fluorescent beads could result in a difficulty in light bleeding. Note, the sphere is in the top corner of the image to provide maximum information about the leveling of the surface plane. We assume that the surface effects are symmetrical for zero applied strain and equibiaxial strain. Thus, it is more important to gather information in one direction to properly level the surface plane to determine the depth into which the sphere sinks. 
 
 For each sphere, we take a stack of 50-100 images, depending on the size of the sphere. Figure \ref{fig:sphere011cascade} shows several vertical slices from the bottom of the sphere to just above the surface of the substrate.\todo[inline,color = pink]{wrong auto fig ref?}
 

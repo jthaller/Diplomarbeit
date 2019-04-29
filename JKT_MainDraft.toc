@@ -31,9 +31,9 @@
 \contentsline {section}{\numberline {2.6}Putting it all Together}{18}{section.2.6}
 \contentsline {chapter}{\numberline {3}Data Acquisition and Image Analysis}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Fluorescent Confocal Microscopy}{19}{section.3.1}
-\contentsline {section}{\numberline {3.2}Applying Fluorescent Confocal Microscopy to our Sample}{20}{section.3.2}
+\contentsline {section}{\numberline {3.2}Applying Fluorescent Confocal Microscopy to the Sample}{20}{section.3.2}
 \contentsline {subsubsection}{Fluorescent Confocal Microscopy Data Collection}{20}{section*.32}
-\contentsline {subsection}{\numberline {3.2.1}Raw Data Files}{20}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Raw Data Files}{21}{subsection.3.2.1}
 \contentsline {section}{\numberline {3.3}Image Analysis}{22}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Particle Location}{22}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Depth and Radius Determination}{23}{subsection.3.3.2}
