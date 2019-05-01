@@ -9,17 +9,17 @@
 \contentsline {subsection}{\numberline {1.2.3}Surface Stress Effects in Soft Solids}{2}{subsection.1.2.3}
 \contentsline {subsection}{\numberline {1.2.4}Direct Measurement of Solid Surface Stresses}{4}{subsection.1.2.4}
 \contentsline {subsubsection}{Puzzling Surface Stress Measurements in Gels}{4}{section*.12}
-\contentsline {subsubsection}{Strain Dependence of Surface Stress in Traditional Solids}{5}{section*.13}
-\contentsline {subsubsection}{Surface Tension and Contact with Soft Elastic Solids}{6}{section*.15}
+\contentsline {subsubsection}{Strain Dependence of Surface Stress in Traditional Solids}{5}{section*.14}
+\contentsline {subsubsection}{Surface Tension and Contact with Soft Elastic Solids}{6}{section*.16}
 \contentsline {section}{\numberline {1.3}Outline of the Thesis}{6}{section.1.3}
 \contentsline {chapter}{\numberline {2}Experimental Approach: Setup, Data Acquisition, \& Analysis }{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Measuring Surface Stress via Adhesion}{7}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Beyond Hertzian Mechanics and JKR Theory}{7}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Force Balance Derivation}{8}{subsection.2.1.2}
-\contentsline {subsubsection}{Elastic Energy}{8}{section*.17}
-\contentsline {subsubsection}{Adhesion Energy}{9}{section*.18}
-\contentsline {subsubsection}{Surface Energy}{9}{section*.20}
-\contentsline {subsubsection}{Force Balance}{10}{section*.21}
+\contentsline {subsubsection}{Elastic Energy}{8}{section*.18}
+\contentsline {subsubsection}{Adhesion Energy}{9}{section*.19}
+\contentsline {subsubsection}{Surface Energy}{9}{section*.21}
+\contentsline {subsubsection}{Force Balance}{10}{section*.22}
 \contentsline {subsection}{\numberline {2.1.3}Experimental Approach}{10}{subsection.2.1.3}
 \contentsline {section}{\numberline {2.2}Preparing a Substrate}{10}{section.2.2}
 \contentsline {section}{\numberline {2.3}Stretching Apparatus}{11}{section.2.3}
@@ -32,14 +32,14 @@
 \contentsline {chapter}{\numberline {3}Data Acquisition and Image Analysis}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Fluorescent Confocal Microscopy}{19}{section.3.1}
 \contentsline {section}{\numberline {3.2}Applying Fluorescent Confocal Microscopy to the Sample}{20}{section.3.2}
-\contentsline {subsubsection}{Fluorescent Confocal Microscopy Data Collection}{21}{section*.30}
+\contentsline {subsubsection}{Fluorescent Confocal Microscopy Data Collection}{21}{section*.31}
 \contentsline {subsection}{\numberline {3.2.1}Raw Data Files}{21}{subsection.3.2.1}
 \contentsline {section}{\numberline {3.3}Image Analysis}{22}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Particle Location}{23}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Depth and Radius Determination}{23}{subsection.3.3.2}
 \contentsline {chapter}{\numberline {4}Surface Stress and Adhesion Results}{33}{chapter.4}
 \contentsline {section}{\numberline {4.1}Organosilicon Polymer Chemistry}{33}{section.4.1}
-\contentsline {subsubsection}{Silicone Preparation and Spin Coating}{34}{section*.35}
+\contentsline {subsubsection}{Silicone Preparation and Spin Coating}{34}{section*.36}
 \contentsline {section}{\numberline {4.2}Preliminary Data: Gelest}{36}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Standard Candles}{36}{subsection.4.2.1}
 \contentsline {section}{\numberline {4.3}Dow-Corning PDMS}{36}{section.4.3}
@@ -53,5 +53,5 @@
 \contentsline {chapter}{\numberline {C}MATLAB Code}{47}{appendix.C}
 \contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{47}{subsection.C.0.1}
 \contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{48}{subsection.C.0.2}
-\contentsline {subsubsection}{master\_tracking\_gui.m}{48}{section*.46}
+\contentsline {subsubsection}{master\_tracking\_gui.m}{48}{section*.47}
 \contentsline {subsection}{\numberline {C.0.3}Silicone Characterization Measurements}{48}{subsection.C.0.3}
