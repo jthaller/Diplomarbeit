@@ -6,6 +6,12 @@ Q.~Xu, K.~E. Jensen, R.~Boltyanskiy, R.~Sarfati, R.~W. Style, and E.~R.
 \newblock \emph{Direct measurement of strain-dependent solid surface stress}.
 \newblock Nature communications, 8(1):555 (2017).
 
+\bibitem{GennesPierre-Gillesde2003Cawp}
+P.-G. de~Gennes.
+\newblock \emph{Capillarity and wetting phenomena : drops, bubbles, pearls,
+  waves}.
+\newblock Springer, New York (2003).
+
 \bibitem{cammarata1994surface}
 R.~C. Cammarata and K.~Sieradzki.
 \newblock \emph{Surface and interface stresses}.
@@ -16,11 +22,11 @@ J.~W. Gibbs.
 \newblock \emph{The scientific papers of J. Willard Gibbs}, volume~1.
 \newblock Longmans, Green and Company (1906).
 
-\bibitem{GennesPierre-Gillesde2003Cawp}
-P.-G.~d. Gennes.
-\newblock \emph{Capillarity and wetting phenomena : drops, bubbles, pearls,
-  waves}.
-\newblock Springer, New York (2003).
+\bibitem{GURTIN1978431}
+M.~E. Gurtin and A.~I. Murdoch.
+\newblock \emph{Surface stress in solids}.
+\newblock International Journal of Solids and Structures, 14(6):431 -- 440
+  (1978).
 
 \bibitem{mays1968surface}
 C.~Mays, J.~Vermaak, and D.~Kuhlmann-Wilsdorf.
@@ -55,17 +61,38 @@ R.~W. Style et~al.
 \newblock \emph{Stiffening solids with liquid inclusions}.
 \newblock Nature Physics, 11(1):82 (2015).
 
+\bibitem{mora2015softening}
+S.~Mora and Y.~Pomeau.
+\newblock \emph{Softening of edges of solids by surface tension}.
+\newblock Journal of Physics: Condensed Matter, 27(19):194112 (2015).
+
+\bibitem{mora2010capillarity}
+S.~Mora, T.~Phou, J.-M. Fromental, L.~M. Pismen, and Y.~Pomeau.
+\newblock \emph{Capillarity driven instability of a soft solid}.
+\newblock Physical review letters, 105(21):214301 (2010).
+
+\bibitem{style2013surface}
+R.~W. Style, C.~Hyland, R.~Boltyanskiy, J.~S. Wettlaufer, and E.~R. Dufresne.
+\newblock \emph{Surface tension and contact with soft elastic solids}.
+\newblock Nature communications, 4:2728 (2013).
+
+\bibitem{Jensen2019SoftMatter}
+Z.~Liu et~al.
+\newblock \emph{Effects of strain-dependent surface stress on the adhesive
+  contact of a rigid sphere to a compliant substrate}.
+\newblock Soft Matter, 15:2223--2231 (2019).
+
+\bibitem{Jensen2017PhysRevX}
+K.~E. Jensen, R.~W. Style, Q.~Xu, and E.~R. Dufresne.
+\newblock \emph{Strain-dependent solid surface stress and the stiffness of soft
+  contacts}.
+\newblock Phys. Rev. X, 7:041031 (2017).
+
 \bibitem{jerison2011deformation}
 E.~R. Jerison, Y.~Xu, L.~A. Wilen, and E.~R. Dufresne.
 \newblock \emph{Deformation of an elastic substrate by a three-phase contact
   line}.
 \newblock Physical review letters, 106(18):186103 (2011).
-
-\bibitem{GURTIN1978431}
-M.~E. Gurtin and A.~I. Murdoch.
-\newblock \emph{Surface stress in solids}.
-\newblock International Journal of Solids and Structures, 14(6):431 -- 440
-  (1978).
 
 \bibitem{style2013universal}
 R.~W. Style, R.~Boltyanskiy, Y.~Che, J.~Wettlaufer, L.~A. Wilen, and E.~R.
@@ -73,6 +100,11 @@ R.~W. Style, R.~Boltyanskiy, Y.~Che, J.~Wettlaufer, L.~A. Wilen, and E.~R.
 \newblock \emph{Universal deformation of soft substrates near a contact line
   and the direct measurement of solid surface stresses}.
 \newblock Physical review letters, 110(6):066103 (2013).
+
+\bibitem{xu2018surface}
+Q.~Xu, R.~W. Style, and E.~R. Dufresne.
+\newblock \emph{Surface elastic constants of a soft solid}.
+\newblock Soft matter, 14(6):916--920 (2018).
 
 \bibitem{xu2016surface}
 X.~Xu, A.~Jagota, D.~Paretkar, and C.-Y. Hui.
@@ -122,11 +154,6 @@ H.~R. Hertz.
 \newblock \emph{Über die berührung fester elastischer korper}.
 \newblock Verhandlung des Vereins zur Beforderung des GewerbefleiBes, Berlin,
   p. 449 (1882).
-
-\bibitem{style2013surface}
-R.~W. Style, C.~Hyland, R.~Boltyanskiy, J.~S. Wettlaufer, and E.~R. Dufresne.
-\newblock \emph{Surface tension and contact with soft elastic solids}.
-\newblock Nature communications, 4:2728 (2013).
 
 \bibitem{cao2016nanoparticles}
 Z.~Cao and A.~V. Dobrynin.

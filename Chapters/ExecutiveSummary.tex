@@ -8,9 +8,18 @@ This thesis describes a new method for measuring strain dependent surface stress
 	\label{fig:2017natcomfig}
 \end{figure}
 
-Over the past year, we have helped develop a new method for measuring $\Upsilon(\epsilon)$ in soft solids. Our adhesion-based technique can be applied to a wide variety of stretchable materials. Additionally, we have build our own equibiaxial stretching apparatus, improving upon the earlier published design \cite{xu2017direct} to produce nearly twice the strain in identical materials. Using this technique we have measured the adhesion energy and surface stress in two types of silicone, as well as preliminary $ \Upsilon(\epsilon) $ measurements as we work towards recreate the controversial 2017 measurement.
+Over the past year, we have helped develop a new method for measuring $\Upsilon(\epsilon)$ and $ W(\epsilon) $ in soft solids. By measuring the spontaneous indentation depth of rigid spheres over a range of sizes, we can calculate $ \Upsilon $ and $ W $ using theory derived from our understanding of soft adhesion. Our adhesion-based technique can be applied to a wide variety of stretchable materials. Additionally, we have build our own equibiaxial stretching apparatus, improving upon the earlier published design \cite{xu2017direct} to produce nearly twice the strain in identical materials. Using this technique we have measured the adhesion energy and surface stress in two types of silicone, as well as preliminary $ \Upsilon(\epsilon) $ measurements as we work towards recreating the controversial 2017 measurement.
 
-Our results suggest that the surface tension in gels does significantly change under strain. The figure below is an example of how you can visually see this change for a single silica sphere sitting in a silicone substrate. As the underlying gel is stretched, the surface tension increases, reducing the depth into which the sphere sits. 
+Our $ \Upsilon $ and $ W $ measurements for PDMS on glass (zero applied strain) are encouraging. Measurements of spontaneous indentation depth, d vs. the radius of return solid fits with minimal noise. Additionally, the calculated values values for $ \Upsilon $ and $ W $ agree with previous measurements. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Chapters/Figures/w_ups_fit_G9-1}
+	\caption[Gelest W-$\Upsilon$ Fit]{We fit Equation \ref{THEeqn} to the d vs. R plot for a Gelest 9:1 sample. The best fit line returns parameters of $ W=53 $  and $ \Upsilon=32 $ mNm$^{-1}$.}
+	\label{fig:wupsfitg9-1}
+\end{figure}
+
+Currently, the depth vs. radii measurements for PDMS on a stretchable substrate contain a significantly greater amount of noise than for the same substrate adhered to glass. Until the noise level is reduced, we cannotfit our data to extract $ \Upsilon $ and $ W $ values. However, our preliminary data for results suggest that the surface stress in gels does significantly change under strain. The figure demonstrates visually this $ \Delta\Upsilon $ for a single silica sphere sitting into a silicone substrate. As the underlying gel is stretched, the surface tension increases, reducing the depth into which the sphere sits. 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Chapters/Figures/sc1_unstretched_v_8ml}
@@ -18,7 +27,10 @@ Our results suggest that the surface tension in gels does significantly change u
 	\label{fig:sc1unstretchedv8ml}
 \end{figure}
 
-\todo[inline, color=yellow]{I will continue to update this section. I hope to have a much more compelling graph to share, one more similar to Figure 1.}
+
+
+
+\todo[inline, color=pink]{So the data is plotted according to how it was analyzed (i.e. x-y scaling is supposedly correct.) But I want to go back and check that the scaling was correct for particle locating and stuff.}
 
 %From Charlie:
 %Your executive summary will give a detailed summary of your thesis, hitting the high points and perhaps including a figure or two.  This should have all of the important take-home messages; though details will of course be left for the thesis itself, here you should give enough detail for a reader to have a good idea of the content of the full document.  Importantly, this summary should be able to stand alone, separate from the rest of the document, so although you will be emphasizing the key results of your work, you will probably also want to include a sentence or two of introduction and context for the work you have done.

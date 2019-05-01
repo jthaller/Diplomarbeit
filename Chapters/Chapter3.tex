@@ -21,9 +21,9 @@ Confocal Microscopy is a technique capable of probing a sample with true 3-Dimen
 	
 \end{wrapfigure}
 	
-Fluorescent Confocal Microscopy works by the same general principle, only with the added complexity of optically-excitable fluorophores. These fluorophores absorb light from a narrow range of frequencies and re-emit fluorescent light at a different known and specific frequency, which can then be measured. This allows for a greater resolution to larger objects, as well as the ability to detect objects that would otherwise be invisible to the microscope.  
+Fluorescent Confocal Microscopy works by the same general principle, only with the added complexity of optically-excitable fluorophores. These fluorophores absorb light from a narrow range of frequencies and re-emit fluorescent light at different and narrow frequency which can then be measured. This allows for a greater resolution to larger objects, as well as the ability to detect features that would otherwise be invisible to the microscope.  
 
-Fluorescent Confocal Microscopy works by illuminating the specimen with a laser. The laser light passes through a pinhole, then is reflected by the dichroic mirror and then focused by the objective lens on a small area of the specimen. The re-emitted light from the fluorophores has a longer wavelength than the laser, so it is then transmitted through mirror.  It then then passes through the pinhole where it is travels to the photodetector. A diagram of this process can be found in figure \ref{fig:confocalfluorescentdiagram}.
+Fluorescent Confocal Microscopy works by illuminating the specimen with a laser. The laser light passes through a pinhole, then is reflected by the dichroic mirror and then focused by the objective lens on a small area of the specimen. The re-emitted light from the fluorophores (photoexcitation) has a longer wavelength than the laser light, so only it is transmitted through mirror. The photoexcitation light then passes through the pinhole where it is travels to the photodetector. The net result of the process is a the measurement of photo-excitation light from a single plane of the probed sample. A diagram of this process can be found in figure \ref{fig:confocalfluorescentdiagram}.
 %\begin{figure}[h!]
 %	\centering
 %	\includegraphics[width=\linewidth]{Chapters/Figures/confocal_fluorescent_diagram}
@@ -47,7 +47,7 @@ Data was obtained using the Nikon A1R+ Confocal Microscope. To take image stacks
 For silica spheres ranging from $5-50$ $\mu$m in size, we have found the best scaling factor to be $.104$ $\mu$m/pixel in the horizontal plane for an image of 1024 $ \cross $ 1024 resolution. We set the vertical step size (z-direction) to $.225$ $\mu$m/px or $.25$ $\mu$m/px depending on what the confocal recommended. Both provided adequate vertical resolutions. 16x averaging using the resonant scanner took up to 5 minutes per scan, but provided excellent resolution. 
 
 \subsection{Raw Data Files}
-Using confocal microscopy, we collect a ``stack'' of images, detecting the light from the fluorescent beads. Below (Fig. \ref{fig:190215g91glasssphere011surface}) is a raw data image of the surface of a soft substrate with a glass bead stuck below.
+Using confocal microscopy, we collect a ``stack'' of images, detecting the light from the fluorescent beads. We have included an unprocessed data image (Figure \ref{fig:190215g91glasssphere011surface}) of the surface of a soft substrate with a glass bead stuck below.
 
 \begin{figure}[h!]
 	\centering
@@ -57,20 +57,20 @@ Using confocal microscopy, we collect a ``stack'' of images, detecting the light
 \end{figure}
 The object resembling a black hole in the top-left corner is the silica sphere. Each small white dot represents a fluorescent bead; together they create a sea of stars that outline the surface plane and the silica sphere. Figure \ref{fig:190215g91glasssphere011surface} is an example of the upper limit of bead coverage density. Any higher concentration of fluorescent beads could result in a difficulty in light bleeding. Note, the sphere is in the top corner of the image to provide maximum information about the leveling of the surface plane. We assume that the surface effects are symmetrical for zero applied strain and equibiaxial strain. Thus, it is more important to gather information in one direction to properly level the surface plane to determine the depth into which the sphere sinks. 
 
-For each sphere, we take a stack of 50-100 images, depending on the size of the sphere. Figure \ref{fig:sphere011cascade} shows several vertical slices from the bottom of the sphere to just above the surface of the substrate.\todo[inline,color = pink]{wrong auto fig ref?}
+For each sphere, we take a stack of 50-100 images, depending on the size of the sphere. Table \ref{fig:sphere011cascade} shows several vertical slices from the bottom of the sphere to just above the surface of the substrate.
 
-\begin{figure}[h!]
-		
+\begin{table}[h!]
 	\begin{tabular}{ccc}
 		\includegraphics[width= .33\linewidth]{Chapters/Figures/190215_g91_glass_sphere011_cascade1.png} & \includegraphics[width= .33\linewidth]{Chapters/Figures/190215_g91_glass_sphere011_cascade2.png} & \includegraphics[width= .33\linewidth]{Chapters/Figures/190215_g91_glass_sphere011_cascade3.png} 
 		\\
 		a) & b) & c) \\
 		\includegraphics[width= .33\linewidth]{Chapters/Figures/190215_g91_glass_sphere011_cascade4.png} & \includegraphics[width= .33\linewidth]{Chapters/Figures/190215_g91_glass_sphere011_cascade5.png} & \includegraphics[width= .33\linewidth]{Chapters/Figures/190215_g91_glass_sphere011_cascade6.png}
 		\\
-		d) & e) & f) \label{fig:sphere011cascade}
+		d) & e) & f) 
 	\end{tabular}
-	\caption[Vertical path through image stack]{Images a-f display the x-y plane of the same sample traversing vertically from below the silica sphere to above the surface plane. The scale bar in the bottom right corners represent 10 $\mu$m.}
-\end{figure}
+	\caption[Vertical path through image stack]{Images a-f display the x-y plane of the same sample traversing vertically from below the silica sphere to above the surface plane. The scale bar in the bottom right corners represent 10 $\mu$m.} 
+	\label{fig:sphere011cascade}
+\end{table}
 
 
 \section{Image Analysis}
@@ -96,7 +96,7 @@ Figure \ref{fig:particlelocatedstretched} shows the same sphere but stretched in
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/particle_located_top_view}
+	\includegraphics[width=.8\linewidth]{Chapters/Figures/sphere011_ia/particle_located_top_view}
 	\caption[Particle Located: Top View]{Here is the top view of the same sphere as in the previous figures. This allows us locate the center of the base of the sphere. From this we can construct a side profile (\ref{fig:sidecollapsed})}
 	\label{fig:particlelocatedtopview}
 \end{figure}
