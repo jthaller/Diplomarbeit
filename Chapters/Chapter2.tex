@@ -170,7 +170,7 @@ To track how the substrate stretches, we first find a centrally located group of
 
 To evacuate the cylinder, we use the the Harvard Apparatus\texttrademark \ Elite Pro Syringe Pump with a 50mL Luerlock syringe. Before beginning any stretching, we withdraw a few ml of air to ensure the substrate is flat and not sagging. At this point we take a picture of the brightfield and call it the ``zero applied strain'' image. We compare all stretched data to this image in order to determine the induced strain. Because of the geometry of the stretching apparatus, along with the way the silicone cures and the local strains induced by adhesion, we do not yet have a way to determine the true strain of the silicone. However, we are most interested in the slope of the $\Upsilon$ vs. $\epsilon$ curve, $\Lambda$, so this is not vitally important.
 
-The induced strain is a tensor of rank two. Because we are stretching the substrate equally in all directions, we can just look at the magnitude of the tensor and treat the strain as a scalar.     
+The induced strain is a tensor of rank two. Because we are stretching the substrate equally in all directions, we can just look at the magnitude of the tensor and treat the strain as a scalar \cite{xu2017direct,xu2018surface}.     
 
 
 \begin{figure}[h!]
@@ -191,37 +191,37 @@ The induced strain is a tensor of rank two. Because we are stretching the substr
 \section{Material Characterization}
 To measure the stiffness of our substrate, we do not use the confocal measurement sample. Instead, when preparing the sample, we cure a surplus of the substrate material in a vial to test the bulk characteristics of the sample. 
 
-We take a standard bulk stiffness measurement using the \todo[color=pink]{Include Brand Name}texture analyzer. A rigid cylinder with radius $R = 1.5$ mm is slowly indented into the bulk substrate. The force response vs. indentation depth is recorded for several tests with varying starting heights and locations (See Figure \ref{fig:Bulkstiffness_raw}). We use the average E value obtained from these tests in our W,$ \Upsilon $ fitting. The fitting processed will be reviewed in Chapter 3. 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\linewidth]{Chapters/Figures/190406_DC_1-1RT1-5.png}
-	\caption[Bulk Modulus Test]{Force vs indentation depth for a bulk sample of silicone. Each color representats a separate measurement at varying starting heights and locations on the sample.\todo[inline, color=pink]{Do you think the axis values are too small? I haven't seen this printed yet.}}
-	\label{fig:Bulkstiffness_raw}
-\end{figure}
+We take a standard bulk stiffness measurement using the Texture Technologies TA.XT Plus texture analyzer. A rigid cylinder with radius $R = 1.5$ mm is slowly indented into the bulk substrate. The force response vs. indentation depth is recorded for several tests with varying starting heights and locations (See Figure \ref{fig:Bulkstiffness_raw}). We use the average E value obtained from these tests in our W,$ \Upsilon $ fitting. The fitting processed will be reviewed in Chapter 3. 
 
-\subsection{Hertzian Contact Mechanics Derivation?}
-We calculate the Young's modulus for the bulk sample using classic Hertzian Contact mechanics between a flat, rigid cylinder and an elastic half-space.
+
+\subsection{Hertzian Contact Mechanics Derivation}
+We calculate the Young's modulus for the bulk sample using classic Hertzian contact mechanics between a flat, rigid cylinder and an elastic half-space.
 
 \begin{equation}
 F=2RE^*d
 \end{equation}
-
 where 
 \begin{equation*}
 \frac{1}{E^*} = \frac{1-\nu_1^2}{E1} + \frac{1-\nu_2^2}{E2}
 \end{equation*}
-For Silicone, $ \nu \approx .5$ for low strains; for the rigid cylinder, $ E \gg 1-\nu^2 $, so we can ignore that term. From the Force vs. depth information, we can write an equation for E:
+Here, we are working with a large indenter and a geometry that fixes the contact area. For Silicone, $ \nu \approx .5$ for low strains; for the rigid cylinder, $ E \gg 1-\nu^2 $, so we can ignore that term. From the Force vs. depth information, we can write an equation for E:
 
 \begin{align}
-\frac{1}{E^*} &= \frac{2Rd}{F} \\
-\frac{1 -\nu^2}{E} &= \frac{2Rd}{F} \\
-E &= \frac{\left( 1-\nu^2 \right) F}{2Rd} \\
-E &= \frac{\left( 1-.5^2 \right) F}{2(1.5 \cross 10^{-3})d}
+&\frac{1}{E^*} = \frac{2Rd}{F} \\
+&\frac{1 -\nu^2}{E} = \frac{2Rd}{F} \\
+&E = \frac{\left( 1-\nu^2 \right) F}{2Rd} \\
+&E = \frac{\left( 1-.5^2 \right) F}{2(1.5 \cross 10^{-3})d}
 \end{align}
 \todo[color=pink]{Equation alignment doesn't look right}
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Chapters/Figures/190406_DC_1-1RT1-5.png}
+	\caption[Bulk Modulus Test]{Force vs indentation depth for a bulk sample of silicone. Each color represents a separate measurement at varying starting heights and locations on the sample.\todo[inline, color=pink]{Do you think the axis values are too small? I haven't seen this printed yet.}}
+	\label{fig:Bulkstiffness_raw}
+\end{figure}
 
 \section{Putting it all Together}
-Using the texture analyzer, we can measure $ E $ and $ \nu $ for our substrate. We can then use confocal fluorescent microscopy to measure $ d $ vs. $ R $ for many sphere per sample. We can then run a two parameter fit using this Equation \ref{THEeqn} to determine $ \Upsilon $ and $ W $. Using our equibiaxial stretching apparatus, we can repeat the $ d $ vs. $ R $ measurements at a range of strain to determine $ \Upsilon(\epsilon) $. The process of collecting the $ d $ vs. $ R $ measurements for a single sphere is explained in Chapter 3.
+Using the texture analyzer, we can measure $ E $ for our substrate. Next, we need a way to measure $ d $ vs. $ R $ for many spheres per sample. With these three values measured, only two terms in Equation \ref{THEeqn} remain unknown, $ \Upsilon $ and $ W $. To determine these unknown values, we can run a two parameter fit using Equation \ref{THEeqn}. Using our equibiaxial stretching apparatus, we can then repeat the $ d $ vs. $ R $ measurements at a range of strain to determine $ \Upsilon(\epsilon) $. The process of collecting the $ d $ vs. $ R $ measurements for a single sphere is explained in Chapter 3.
 
 %
