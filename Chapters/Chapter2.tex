@@ -132,26 +132,26 @@ Geometrically, the stretching apparatus is constructed of two concentric cylinde
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.5\linewidth]{Chapters/Figures/exploded_stretcher}
+	\includegraphics[width=.4\linewidth]{Chapters/Figures/exploded_stretcher}
 	\caption[Stretching Apparatus Design]{Here is an exploded view of the stretching apparatus. The substrate goes on top of the base (substrate side down). It is then held down with an o-ring, which sits on the outside ledge. A second ring sits on top of the o-ring and is then held down by the microscope mount (not pictured here).}
 	\label{fig:explodedstretcher}
 \end{figure}
-\begin{figure}
+\begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.7\linewidth]{Chapters/Figures/stretcher_side}
+	\includegraphics[width=0.6\linewidth]{Chapters/Figures/stretcher_side}
 	\caption[Side Profile of Stretching Apparatus]{Above is the side profile of the stretching apparatus. Note the channel attached at the base, and the large center hole at the base where our substrate can be accessed by the microscope.}
 	\label{fig:stretcherside}
 \end{figure}
 
 
-A tapped screw hole on the side of the apparatus connects the chamber to a syringe via thin, plastic tubing. To pull a vacuum in the channel, we withdraw air using a syringe pump. This allows us to have a consistent withdraw rate and control over the amount of air withdrawn to a high degree of precision.
+A tapped screw hole on the side of the apparatus connects the chamber to a syringe via thin, plastic tubing. To pull a vacuum in the channel, we withdraw air using a syringe pump. This allows us to have a consistent withdraw rate and control over the amount of air withdrawn to a high degree of precision. A deconstructive representation of the stretching apparatus can be found in Figure \ref{fig:explodedstretcher}.
 
 \section{Calibration}
-Originally, we intended to calibrate the strain value induced by the vacuum to the extent that we could predict the induced strain based on the amount of air withdrawn from the stretching apparatus. We withdrew air from the syringe and measured the movement of glass spheres adhered to the surface using a 10x air lens on our Nikon confocal microscope. Using the transmission detector allowed us to image the surface of our material with a wide field of view. Strain percentage was calculated using MATLAB code \cite{xu2017direct} \todo[color=pink]{Better/more citations for strain code?}.
+Originally, we intended to calibrate the strain value induced by the vacuum to the extent that we could predict the induced strain based on the amount of air withdrawn from the stretching apparatus. We withdrew air from the syringe and measured the movement of glass spheres adhered to the surface using a 10x air lens on our Nikon confocal microscope. Using the transmission detector allowed us to image the surface of our material with a wide field of view. Strain percentage was calculated using MATLAB code \cite{xu2017direct}.
 
-There are several obstacles in calibrating the induced strain. First, the stretching apparatus works best when a large strain is applied. Applying small strains one after another works but there is a threshold to induce stretch. No stretching change is visible if less than 2ml is withdrawn from the cylinder per increment. Thus, there is a limited resolution to our calibration data, which would not be a problem if the strain was linear. However, preliminary measurements indicated that the applied strain was nonlinear. This agrees with the with previous results \cite{na2008time} obtained using a similar device. \emph{note to self, double check this is where that graph I'm thinking about actually showed up}. Lastly, the greatest problem with calibrating strain is that we change substrates often. Even if we were to use the same exact sample, by removing it and setting up the device again, there is no way to standardize a zero-applied strain point. To prepare the stretching device, the sample is placed over the opening and a rubber o-ring is placed around the sample to help affix it in place. The sample must then be stretched and wiggled around slightly to remove any snags that could jeopardize the vacuum's efficacy. This means that every time a new sample is prepared, it is in an unknown and unique state of induced strain. It could even have less than zero strain if the sample is loose in large center opening \emph{Think of better name for this.} 
+There are several challenges in calibrating the induced strain. First, the stretching apparatus works best when a large strain is applied. Applying small strains one after another works but there is a threshold to induce stretch. No stretching change is visible if less than 2ml is withdrawn from the cylinder per increment. Thus, there is a limited resolution to our calibration data, which would not be a problem if the strain was linear. However, preliminary measurements indicated that the applied strain was nonlinear. This agrees with the with previous results \cite{na2008time} obtained using a similar device. Lastly, the greatest problem with calibrating strain is that we change substrates often. Even if we were to use the same exact sample, by removing it and setting up the device again, there is no way to standardize a zero-applied strain point. To prepare the stretching device, the sample is placed over the opening and a rubber o-ring is placed around the sample to help affix it in place. The sample must then be stretched and wiggled around slightly to remove any snags that could jeopardize the vacuum's efficacy. This means that every time a new sample is prepared, it is in an unknown and unique state of induced strain. Furthermore, before applying any strain, the substrate could be loose and uneven.
 
-It was thus determined best to measure strain every time we applied a new strain to the silicone substrate and compare it to the substrate's original state. This also assured us that we knew the correct strain value to a higher precision for any given data set. Additionally, with the pleasantly unexpected ability to hold strains exceeding 30\%, the $2\mu$m resolution  limit became superfluous in seeking to measure $\Upsilon(\epsilon)$.
+It was thus determined best to measure strain every time we applied a new strain to the silicone substrate and compare it to the substrate's original state. This also assured us that we knew the correct strain value to a higher precision for any given data set. Additionally, with the ability to hold strains exceeding 30\%, the 2mL resolution  limit became superfluous in seeking to measure $\Upsilon(\epsilon)$.
 
 
 \subsection{Measuring Strain}
@@ -159,16 +159,16 @@ To determine the induced strain, we maximized the field of view. This allows us 
 
 \begin{figure}[h!]
 	\begin{tabular}{cc}
-		\includegraphics[width= .48\linewidth]{Chapters/Figures/1xzoom_constellation_zeroStrain.png} & \includegraphics[width= .48\linewidth]{Chapters/Figures/1xzoom_constellation_zeroStrain_supercontrast.png}\\
+		\includegraphics[width= .48\linewidth]{Chapters/Figures/1xzoom_constellation_zeroStrain.png} & \includegraphics[width= .48\linewidth]{Chapters/Figures/1xzoom_constellation_zeroStrain_supercontrast_inverted2.png}\\
 		Fig. A & Fig. B
 	\end{tabular}
-	\caption[Bright-field pre and post image processing]{Figure A shows the calibration constellation before any strain is applied. Fig. B shows the same image after processing. Only the sphere reflections remain.}
+	\caption[Bright-field pre and post image processing]{Figure A shows the calibration constellation before any strain is applied. Fig. B shows the same image after processing, where only the sphere reflections remain (inverted for clarity). This processing allows for the MATLAB locating software to locate each sphere reliably and consistently across different images of the same constellation.}
 		\label{fig:TDpreandpost}
 \end{figure}
 
 To track how the substrate stretches, we first find a centrally located group of spheres, or ``constellation.'' A good constellation is one that easily identifiable for relocation and tracking purposes, and one that has many discrete points in the field of view - i.e. there are plenty of non-overlapping spheres. \emph{It is an added bonus to find 4 spheres perpendicularly located, such that they form the tips of cross.} Though not necessarily, this is useful for a preliminary strain calculation using the built in measuring functions on the Microscope's software. It is nice to track the progression of stretching and ensure the substrate is not preferentially stretching in on direction; this could indicate the substrate is caught in the apparatus. Not only does this ruin the symmetry assumptions being made for our calculation, but it could lead to the substrate tearing if more strain is being applied than expected.
 
-To evacuate the cylinder, we use the the Harvard Apparatus\texttrademark \ Elite Pro Syringe Pump with a 50ml Luerlock syringe. Before beginning any stretching, we withdraw a few ml of air to ensure the substrate is flat and not sagging. At this point we take a picture of the brightfield and call it the ``zero applied strain'' image. We compare all stretched data to this image in order to determine the induced strain. Because of the geometry of the stretching apparatus, along with the way the silicone cures, it is difficult \emph{impossible??} to determine the true strain of the silicone. However, we are most interested in the slope of the $\Upsilon$ vs. $\epsilon$ curve, $\Lambda$, so this is not vitally important.
+To evacuate the cylinder, we use the the Harvard Apparatus\texttrademark \ Elite Pro Syringe Pump with a 50mL Luerlock syringe. Before beginning any stretching, we withdraw a few ml of air to ensure the substrate is flat and not sagging. At this point we take a picture of the brightfield and call it the ``zero applied strain'' image. We compare all stretched data to this image in order to determine the induced strain. Because of the geometry of the stretching apparatus, along with the way the silicone cures and the local strains induced by adhesion, we do not yet have a way to determine the true strain of the silicone. However, we are most interested in the slope of the $\Upsilon$ vs. $\epsilon$ curve, $\Lambda$, so this is not vitally important.
 
 The induced strain is a tensor of rank two. Because we are stretching the substrate equally in all directions, we can just look at the magnitude of the tensor and treat the strain as a scalar.     
 
