@@ -25,8 +25,8 @@
 \contentsline {subsection}{\numberline {2.3.1}Stretcher Design}{12}{subsection.2.3.1}
 \contentsline {section}{\numberline {2.4}Calibration}{12}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Measuring Strain}{14}{subsection.2.4.1}
-\contentsline {section}{\numberline {2.5}Material Characterization}{15}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Hertzian Contact Mechanics Derivation}{16}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.5}Material Characterization}{17}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Hertzian Contact Mechanics Derivation}{17}{subsection.2.5.1}
 \contentsline {section}{\numberline {2.6}Putting it all Together}{17}{section.2.6}
 \contentsline {chapter}{\numberline {3}Data Acquisition and Image Analysis}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Fluorescent Confocal Microscopy}{19}{section.3.1}

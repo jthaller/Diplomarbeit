@@ -159,14 +159,24 @@ To determine the induced strain, we maximized the field of view. This allows us 
 
 \begin{figure}[h!]
 	\begin{tabular}{cc}
-		\includegraphics[width= .48\linewidth]{Chapters/Figures/1xzoom_constellation_zeroStrain.png} & \includegraphics[width= .48\linewidth]{Chapters/Figures/1xzoom_constellation_zeroStrain_supercontrast_inverted2.png}\\
+		\includegraphics[width= .48\linewidth]{Chapters/Figures/181115_unstretched_b_thesis_contrast.png} & \includegraphics[width= .48\linewidth]{Chapters/Figures/181115_stretched_thesis_contrast.png}\\
 		Fig. A & Fig. B
 	\end{tabular}
-	\caption[Bright-field pre and post image processing]{Figure A shows the calibration constellation before any strain is applied. Fig. B shows the same image after processing, where only the sphere reflections remain (inverted for clarity). This processing allows for the MATLAB locating software to locate each sphere reliably and consistently across different images of the same constellation.}
+	\caption[Bright-field pre and post image processing]{Add proper description}
 		\label{fig:TDpreandpost}
 \end{figure}
 
-To track how the substrate stretches, we first find a centrally located group of spheres, or ``constellation.'' A good constellation is one that easily identifiable for relocation and tracking purposes, and one that has many discrete points in the field of view - i.e. there are plenty of non-overlapping spheres. \emph{It is an added bonus to find 4 spheres perpendicularly located, such that they form the tips of cross.} Though not necessarily, this is useful for a preliminary strain calculation using the built in measuring functions on the Microscope's software. It is nice to track the progression of stretching and ensure the substrate is not preferentially stretching in on direction; this could indicate the substrate is caught in the apparatus. Not only does this ruin the symmetry assumptions being made for our calculation, but it could lead to the substrate tearing if more strain is being applied than expected.
+\begin{figure}[h!]
+	\begin{tabular}{cc}
+		\includegraphics[width= .48\linewidth]{Chapters/Figures/particle_located_unstretched.pdf} & \includegraphics[width= .48\linewidth]{Chapters/Figures/particle_located_stretched.pdf}\\
+		Fig. A & Fig. B
+	\end{tabular}
+	\caption[Bright-field pre and post image processing]{Add proper description}
+	\label{fig:TDpreandpost}
+\end{figure}
+
+
+To track how the substrate stretches, we first find a centrally located group of spheres, or ``constellation.'' A good constellation is one that easily identifiable for relocation and tracking purposes, and one that has many discrete points in the field of view - i.e. there are plenty of non-overlapping spheres. It is an added bonus to find 4 spheres perpendicularly located, such that they form the tips of cross. Though not necessarily, this is useful for a preliminary strain calculation using the built in measuring functions on the Microscope's software. It is nice to track the progression of stretching and ensure the substrate is not preferentially stretching in on direction; this could indicate the substrate is caught in the apparatus. Not only does this ruin the symmetry assumptions being made for our calculation, but it could lead to the substrate tearing if more strain is being applied than expected.
 
 To evacuate the cylinder, we use the the Harvard Apparatus\texttrademark \ Elite Pro Syringe Pump with a 50mL Luerlock syringe. Before beginning any stretching, we withdraw a few ml of air to ensure the substrate is flat and not sagging. At this point we take a picture of the brightfield and call it the ``zero applied strain'' image. We compare all stretched data to this image in order to determine the induced strain. Because of the geometry of the stretching apparatus, along with the way the silicone cures and the local strains induced by adhesion, we do not yet have a way to determine the true strain of the silicone. However, we are most interested in the slope of the $\Upsilon$ vs. $\epsilon$ curve, $\Lambda$, so this is not vitally important.
 
