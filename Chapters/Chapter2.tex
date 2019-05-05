@@ -159,44 +159,30 @@ To determine the induced strain, we maximized the field of view. This allows us 
 
 \begin{figure}[h!]
 	\begin{tabular}{cc}
-		\includegraphics[width= .48\linewidth]{Chapters/Figures/181115_unstretched_b_thesis_contrast.png} & \includegraphics[width= .48\linewidth]{Chapters/Figures/181115_stretched_thesis_contrast.png}\\
+		\includegraphics[width= .48\linewidth,frame]{Chapters/Figures/181115_unstretched_b_thesis_contrast.png} & \includegraphics[width= .48\linewidth,frame]{Chapters/Figures/181115_stretched_thesis_contrast.png}\\
 		Fig. A & Fig. B
 	\end{tabular}
-	\caption[Bright-field pre and post image processing]{Add proper description}
+	\caption[Bright-field stretch calibration images]{To calibrate the induced strain of our substrate, we switch to the brightfield to have a wider field of view for calibration. Fig. A shows the sample before stretching, and Fig. B shows the sample after a $ 35\% $ equibiaxial strain.}
 		\label{fig:TDpreandpost}
 \end{figure}
 
+
 \begin{figure}[h!]
 	\begin{tabular}{cc}
-		\includegraphics[width= .48\linewidth]{Chapters/Figures/particle_located_unstretched.pdf} & \includegraphics[width= .48\linewidth]{Chapters/Figures/particle_located_stretched.pdf}\\
+		\includegraphics[width= .5\linewidth]{Chapters/Figures/particle_located_unstretched.pdf} & \includegraphics[width= .5\linewidth]{Chapters/Figures/particle_located_stretched.pdf}\\
 		Fig. A & Fig. B
 	\end{tabular}
-	\caption[Bright-field pre and post image processing]{Add proper description}
-	\label{fig:TDpreandpost}
+	\caption[Particle-Locating for Stretch Calibration]{By adjusting the contrast of the above images, we remove all but the center highlighted reflection of each sphere. This allows our MATLAB software to consistently and reliably locate each sphere to track for strain calculation.}
+	\label{fig:particleTracking}
 \end{figure}
 
 
-To track how the substrate stretches, we first find a centrally located group of spheres, or ``constellation.'' A good constellation is one that easily identifiable for relocation and tracking purposes, and one that has many discrete points in the field of view - i.e. there are plenty of non-overlapping spheres. It is an added bonus to find 4 spheres perpendicularly located, such that they form the tips of cross. Though not necessarily, this is useful for a preliminary strain calculation using the built in measuring functions on the Microscope's software. It is nice to track the progression of stretching and ensure the substrate is not preferentially stretching in on direction; this could indicate the substrate is caught in the apparatus. Not only does this ruin the symmetry assumptions being made for our calculation, but it could lead to the substrate tearing if more strain is being applied than expected.
+To track how the substrate stretches, we first find a centrally located group of spheres, or ``constellation.'' A good constellation is one that easily identifiable for relocation and tracking purposes, and one that has many discrete points in the field of view - i.e. there are plenty of non-overlapping spheres. It is an added bonus to find 4 spheres perpendicularly located, such that they form the tips of cross. This allows for quick strain estimations using the microscope's built-in measuring tools. Though not necessarily, this is useful for a preliminary strain calculation to ensure the substrate is not preferentially stretching in on direction. Asymmetric stretching could be indicative of a caught  the substrate is caught in the apparatus. Not only does this ruin the symmetry assumptions being made for our calculation, but it could lead to the substrate tearing if more strain is being applied than expected.
 
 To evacuate the cylinder, we use the the Harvard Apparatus\texttrademark \ Elite Pro Syringe Pump with a 50mL Luerlock syringe. Before beginning any stretching, we withdraw a few ml of air to ensure the substrate is flat and not sagging. At this point we take a picture of the brightfield and call it the ``zero applied strain'' image. We compare all stretched data to this image in order to determine the induced strain. Because of the geometry of the stretching apparatus, along with the way the silicone cures and the local strains induced by adhesion, we do not yet have a way to determine the true strain of the silicone. However, we are most interested in the slope of the $\Upsilon$ vs. $\epsilon$ curve, $\Lambda$, so this is not vitally important.
 
 The induced strain is a tensor of rank two. Because we are stretching the substrate equally in all directions, we can just look at the magnitude of the tensor and treat the strain as a scalar \cite{xu2017direct,xu2018surface}.     
 
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\linewidth]{Chapters/Figures/13ml_stretched_2D_located}
-	\caption[Unstretched]{}
-	\label{fig:13mlstretched2dlocated}
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\linewidth]{Chapters/Figures/13ml_stretched_2D_located}
-	\caption[Stretched]{These are placeholders for now. I don't really like how they look and I don't think they're totally necessary. It might be nice to keep them if I can clean them up. Especially if I get some nice stretch data with the new DC}
-	\label{fig:13mlstretched2dlocated}
-\end{figure}
-\todo[inline,color=pink]{There's an alternate image where each point is an x for before after. Replace figure with that and zoom in on sphere cluster.}
 
 \section{Material Characterization}
 To measure the stiffness of our substrate, we do not use the confocal measurement sample. Instead, when preparing the sample, we cure a surplus of the substrate material in a vial to test the bulk characteristics of the sample. 
@@ -230,6 +216,15 @@ Here, we are working with a large indenter and a geometry that fixes the contact
 	\caption[Bulk Modulus Test]{Force vs indentation depth for a bulk sample of silicone. Each color represents a separate measurement at varying starting heights and locations on the sample.\todo[inline, color=pink]{Do you think the axis values are too small? I haven't seen this printed yet.}}
 	\label{fig:Bulkstiffness_raw}
 \end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.9\linewidth]{Chapters/Figures/fittedRegionexample}
+	\caption[Bulk stiffness Fit]{Fitting a line to the slope of the force vs. indentation depth for a bulk sample of the testing material allows us to use theory in order to calulate the stiffness, $E$.}
+	\label{fig:fittedregionexample}
+\end{figure}
+
+
 
 \section{Putting it all Together}
 Using the texture analyzer, we can measure $ E $ for our substrate. Next, we need a way to measure $ d $ vs. $ R $ for many spheres per sample. With these three values measured, only two terms in Equation \ref{THEeqn} remain unknown, $ \Upsilon $ and $ W $. To determine these unknown values, we can run a two parameter fit using Equation \ref{THEeqn}. Using our equibiaxial stretching apparatus, we can then repeat the $ d $ vs. $ R $ measurements at a range of strain to determine $ \Upsilon(\epsilon) $. The process of collecting the $ d $ vs. $ R $ measurements for a single sphere is explained in Chapter 3.
