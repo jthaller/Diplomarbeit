@@ -33,9 +33,9 @@
 \contentsline {section}{\numberline {3.2}Applying Fluorescent Confocal Microscopy to the Sample}{20}{section.3.2}
 \contentsline {subsubsection}{Fluorescent Confocal Microscopy Data Collection}{21}{section*.22}
 \contentsline {subsection}{\numberline {3.2.1}Raw Data Files}{21}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Image Analysis}{22}{section.3.3}
+\contentsline {section}{\numberline {3.3}Image Analysis}{23}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Particle Location}{23}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Depth and Radius Determination}{23}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Depth and Radius Determination}{25}{subsection.3.3.2}
 \contentsline {chapter}{\numberline {4}Surface Stress and Adhesion Results}{32}{chapter.4}
 \contentsline {section}{\numberline {4.1}Organosilicon Polymer Chemistry}{32}{section.4.1}
 \contentsline {subsubsection}{Silicone Preparation and Spin Coating}{33}{section*.27}

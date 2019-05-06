@@ -6,12 +6,12 @@ Confocal Microscopy is a technique capable of probing a sample with true 3-Dimen
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{confocal_stuff/confocalpatent_crop2}
-	\caption[Minsky Patent Diagram]{Above is a diagram from Marvin Minky's classic 1961 patent \cite{patent:3013467} for a confocal microscope. A pinhole before the photodetector blocks the out of plane light.}
+	\caption[Minsky Patent Diagram]{Above is a diagram from Marvin Minky's 1961 patent \cite{patent:3013467} for a confocal microscope. A pinhole before the photodetector blocks the out of plane light.}
 	\label{fig:confocalpatent}
 \end{figure}
 
 
-\begin{wrapfigure}{r}{.5\textwidth}
+\begin{wrapfigure}{r}{.6\textwidth}
 	
 	\centering
 \includegraphics[width=\linewidth]{Chapters/Figures/confocal_fluorescent_diagram_b}
@@ -26,7 +26,7 @@ Fluorescent Confocal Microscopy works by the same general principle, only with t
 Fluorescent Confocal Microscopy works by illuminating the specimen with a laser. The laser light passes through a pinhole, then is reflected by the dichroic mirror and then focused by the objective lens on a small area of the specimen. The re-emitted light from the fluorophores (photoexcitation) has a longer wavelength than the laser light, so only it is transmitted through mirror. The photoexcitation light then passes through the pinhole where it is travels to the photodetector. The net result of the process is a the measurement of photo-excitation light from a single plane of the probed sample. A diagram of this process can be found in figure \ref{fig:confocalfluorescentdiagram}.
 %\begin{figure}[h!]
 %	\centering
-%	\includegraphics[width=\linewidth]{Chapters/Figures/confocal_fluorescent_diagram}
+%	\includegraphics[width=.7\linewidth]{Chapters/Figures/confocal_fluorescent_diagram}
 %	\caption[Fluorescent Confocal Microscopy]{In fluorescent confocal microscopy, a diachroic mirror is used to separate the laser light from that emitted by the excited fluorophores. }
 %	\label{fig:confocalfluorescentdiagram}
 %\end{figure}
@@ -35,19 +35,19 @@ Fluorescent Confocal Microscopy works by illuminating the specimen with a laser.
 In order to see our substrate with fluorescent confocal microscopy, we need to coat the surface of our substrate with tiny fluorescent beads (fluorophores) on the order of 40nm in radius. The detection of these fluorescent beads allows us to see the outline of the substrate's surface, as well as the indenting sphere, which displaces the beads beneath it as in sinks into the substrate. Directions for preparing a fluorescent bead solution in a borate buffer can be found in Appendix section \ref{appendix_beads}. 
 
 \subsubsection{Fluorescent Confocal Microscopy Data Collection}
-Data was obtained using the Nikon A1R+ Confocal Microscope. To take image stacks of the Fluorescent beads, we use a 50x water-immersion objective lens. We set the laser to 440nm and adjust the power (HV) and gain as needed. Generally these values are around 5.0\% and 40 Volts, respectively. In order to get clear locating, it is important not to saturate the photo-detector. 
+Data was obtained using the Nikon A1R HD25 Confocal Microscope. To take image stacks of the Fluorescent beads, we use a 60x water-immersion objective lens with a numerical aperture of 1.2. We set the laser to 440nm and adjust the power and gain (HV) as needed. Generally these values are around 5.0\% and 40 Volts, respectively. In order to get clear locating, it is important not to saturate the photo-detector. 
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\linewidth]{confocal_stuff/Ti2_diagram_1}
-	\caption[Nikon Ti2 Microscope Base]{This may only be here because it's pretty....Also, I'd like to remove the measurements when I have time. Also, not sure how to cite the manual yet.}
+	\caption[Nikon Ti2 Microscope Base]{The Nikon A1 Confocal Base}\todo[color=pink,inline]{Include the example setup image and cite the manual!}
 	\label{fig:ti2diagram1}
 \end{figure}
 
 For silica spheres ranging from $5-50$ $\mu$m in size, we have found the best scaling factor to be $.104$ $\mu$m/pixel in the horizontal plane for an image of 1024 $ \cross $ 1024 resolution. We set the vertical step size (z-direction) to $.225$ $\mu$m/px or $.25$ $\mu$m/px depending on what the confocal recommended. Both provided adequate vertical resolutions. 16x averaging using the resonant scanner took up to 5 minutes per scan, but provided excellent resolution. 
 
 \subsection{Raw Data Files}
-Using confocal microscopy, we collect a ``stack'' of images, detecting the light from the fluorescent beads. We have included an unprocessed data image (Figure \ref{fig:190215g91glasssphere011surface}) of the surface of a soft substrate with a glass bead stuck below.
+Using confocal microscopy, we collect a ``stack'' of images, detecting the light from the fluorescent beads. We have included an unprocessed data image (Figure \ref{fig:190215g91glasssphere011surface}) of the surface of a soft substrate with a glass bead adhered at upper let, displacing the surface of this image plane.
 
 \begin{figure}[h!]
 	\centering
@@ -77,7 +77,7 @@ For each sphere, we take a stack of 50-100 images, depending on the size of the 
 In the following section, we will step through the process of analyzing a single sphere. Recall that in order to determine the surface stress and adhesion energy, we must fit equation \ref{THEeqn} to the depth vs. radius measurements for a collection of spheres.  
 
 \subsection{Particle Location}
-To turn a raw image file (saved as a .ome.tif) into usable data, we use a MATLAB program to locate each fluorescent bead. This is plotted in Figure \ref{fig:particlelocatednormalized}. The flat orange plane of points is the surface, and the dark blue are the fluorescent beads pushed underneath the microsphere as it sinks into the substrate. It is easy to see the outline of the microsphere, and we can use this information to determine d and R for the sphere. 
+We use a MATLAB program to locate the fluorescent beads in each 3D raw image stack. This is plotted in Figure \ref{fig:particlelocatednormalized} for the same adhered sphere as in Figures \ref{fig:190215g91glasssphere011surface} and \ref{fig:sphere011cascade}. The flat orange plane of points is the surface, and the dark blue are the fluorescent beads pushed underneath the microsphere as it sinks into the substrate. It is easy to see the outline of the microsphere, and we can use this information to determine d and R for the sphere. 
 Figure \ref{fig:particlelocatedstretched} shows the same sphere but stretched in the vertical axis to see the fluorescent bead density towards the bottom of the sphere. 
 \begin{figure}[h]
 	\centering
@@ -90,7 +90,7 @@ Figure \ref{fig:particlelocatedstretched} shows the same sphere but stretched in
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/particle_located_stretched}
-	\caption[Particle Located: Stretched-Axes]{Fluorescent bead location for the same sphere as Fig.  \ref{fig:particlelocatednormalized}, only now it is stretched vertical axis to showcase the bead density under the bottom of the sphere.}
+	\caption[Particle Located: Stretched-Axes]{Fluorescent bead location for the same sphere as Fig.  \ref{fig:particlelocatednormalized} with vertical axis stretched to showcase the bead density under the bottom of the sphere.}
 	\label{fig:particlelocatedstretched}
 \end{figure}
 
@@ -101,7 +101,7 @@ Figure \ref{fig:particlelocatedstretched} shows the same sphere but stretched in
 	\label{fig:particlelocatedtopview}
 \end{figure}
 \subsection{Depth and Radius Determination}
-After locating all the fluorescent beads and reconstructing our raw image in a useful format, we can then use this information to extract the depth and the radius of the sphere. To accomplish this, we first determine the center of out sphere from the top (x-y plane) and collapse the side profile of the \todo{clunky} sphere. Figure \ref{fig:sidecollapsed} depicts the x-z plane as a cross-section through center of the sphere. We only need half of the sphere's profile to fit a circle. This ensures we have a large field of view to properly level and determine the substrate's surface. Figure \ref{fig:sidecollapsedzoomed} provides a zoomed in view of Fig. \ref{fig:sidecollapsed} to better indicate the resolution to which we try to fit a circle. Note the abrupt cut off around 26 $\mu$m and how the substrate is lifted up above the zero-plane due to adhesion. Also notice the flatness on of the substrate between $ ~26-29 \mu $m. Not all sample have this flat ridge; many sphere lift the substrate to a point which the immediately slopes downward back to the zero-plane. This behavior depends slightly on the sphere size, but it is mainly a reflection of the amount of phase-separation induced. This is a property of the each silicone which depends on the environmental conditions. 
+After locating all the fluorescent beads and reconstructing our raw image in a useful format, we can then use this information to extract the depth and the radius of the sphere. To accomplish this, we first determine the center of the sphere from the top (x-y plane) and collapse the surface profile azimuthally about the sphere's center position. Figure \ref{fig:sidecollapsed} depicts the x-z plane as a cross-section through center of the sphere. We only need half of the sphere's profile to fit a circle. This ensures we have a large field of view to properly level and determine the substrate's surface. Figure \ref{fig:sidecollapsedzoomed} provides a zoomed in view of Fig. \ref{fig:sidecollapsed} to better indicate the resolution to which we try to fit a circle. Note the abrupt cut off around o$r = 26$ $ \mu$m and how the substrate is lifted up above the zero-plane due to adhesion. Also notice the flatness on of the substrate between $r= 26-29$ $\mu $m. Not all sample have this flat ridge; many sphere lift the substrate to a point which the immediately slopes downward back to the zero-plane. This behavior depends slightly on the sphere size, but it is mainly a reflection of the amount of phase-separation induced. This is a property of the each silicone which depends on the environmental conditions. 
 
 
 \begin{figure}[h!]
@@ -109,7 +109,7 @@ After locating all the fluorescent beads and reconstructing our raw image in a u
 	\large \textbf{No Applied Strain (On Glass): Large Sphere}\\ \vspace{.4 em}
 	\large \textbf{Gelest 9:1 (E=6.3kPa)}
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/side_collapsed}
-	\caption[Collapsed Side Profile]{The constructed image of the outlined sphere with normalized axes. The Axes are in microns.}
+	\caption[Collapsed Side Profile]{TThe full surface profile, collapsed azimuthally. From this, the region conforming to the adhered sphere is clearly visible}
 	\label{fig:sidecollapsed}
 \end{figure}
 \begin{figure}[h!]
@@ -117,8 +117,26 @@ After locating all the fluorescent beads and reconstructing our raw image in a u
 	\large \textbf{No Applied Strain (On Glass): Large Sphere}\\ \vspace{.4 em}
 	\large \textbf{Gelest 9:1 (E=6.3kPa)}
 	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/side_collapsed_zoomed}
-	\caption[Collapsed Side Profile: Zoomed]{This is a zoomed-in version of figure \ref{fig:sidecollapsed}. It is useful to zoom in and see the the quality of the collapse. A dense collapse leads to a smaller margin of error in fitting a circle to the profile (See Fig. \ref{fig:circlefit}).}
+	\caption[Collapsed Side Profile: Zoomed]{This is a zoomed-in version of Figure \ref{fig:sidecollapsed}. It is useful to zoom in and see the the quality of the collapse. A dense collapse leads to a smaller margin of error in fitting a circle to the profile (See Fig. \ref{fig:circlefit}).}
 	\label{fig:sidecollapsedzoomed}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\large \textbf{No Applied Strain (On Glass): Large Sphere}\\ \vspace{.4em}
+	\large \textbf{Gelest 9:1 (E=6.3kPa)}
+	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/circle_fit}
+	\caption[Circle Fit]{This is figure \ref{fig:sidecollapsed}, only with a circle fitted to the indentation sphere. Notice how the surface plane is completely flat and centered at a depth of 0.}
+	\label{fig:circlefit}
+\end{figure}
+
+
+\begin{figure}[h!]
+	\centering
+	{\large \textbf{No Applied Strain (On Glass): Large Sphere}}\\ \vspace{.4 em}
+	{\large \textbf{Gelest 9:1 (E=6.3kPa)}}
+	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/circle_fit_zoomed}
+	\caption[Circle Fit Zoomed]{This is simply a zoomed in version of Figure \ref{fig:circlefit}. The orange dots are the data points being used to fit the circle. Notice how the sphere fits nicely in the indentation all the way up to the cusp, past the points being used for the fit.}
+	\label{fig:circlefitzoomed}
 \end{figure}
 
 It is important to be careful with the circle-fits in the case where the sphere is small enough to sink into the substrate with a depth $ d > r $. In these instances, the the side profile is non-continuous, and we only fit the sphere to the bottom portion of the profile before the break. An example of one of these sphere is shown in figures \ref{fig:smallsphere017190404dcglass} and \ref{fig:smallsphere017ciclefitspheredc}.
@@ -136,24 +154,9 @@ It is important to be careful with the circle-fits in the case where the sphere 
 \end{figure}
 
 
-\begin{figure}[h!]
-	\centering
-	\large \textbf{No Applied Strain (On Glass): Large Sphere}\\ \vspace{.4em}
-	\large \textbf{Gelest 9:1 (E=6.3kPa)}
-	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/circle_fit}
-	\caption[Circle Fit]{This is figure \ref{fig:sidecollapsed}, only with a circle fitted to the indentation sphere. Notice how the surface plane is completely flat and centered at a depth of 0.}
-	\label{fig:circlefit}
-\end{figure}
-\begin{figure}[h!]
-	\centering
-	{\large \textbf{No Applied Strain (On Glass): Large Sphere}}\\ \vspace{.4 em}
-	{\large \textbf{Gelest 9:1 (E=6.3kPa)}}
-	\includegraphics[width=\linewidth]{Chapters/Figures/sphere011_ia/circle_fit_zoomed}
-	\caption[Circle Fit Zoomed]{This is simply a zoomed in version of Figure \ref{fig:circlefit}. The orange dots are the data points being used to fit the circle. Notice how the sphere fits nicely in the indentation all the way up to the cusp, past the points being used for the fit.}
-	\label{fig:circlefitzoomed}
-\end{figure}
 
-After fitting the circle to the substrate's side profile, we can add the depth vs the radius. The radius of the sphere is obviously just the radius of the circle, and the depth is the lowest point of the circle in the z-plane, which we center at $ x=0 $ in Figures \ref{fig:circlefit} and \ref{fig:circlefitzoomed}.  
+
+After fitting the circle to the substrate's side profile, we can extract the depth versus radius. The radius of the sphere equals the radius of the circle, and the depth is the lowest point of the circle in the z-plane, which we center at $ x=0 $ in Figures \ref{fig:circlefit} and \ref{fig:circlefitzoomed}.  
 
 %\begin{figure}
 %	\centering
