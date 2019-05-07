@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  6 MAY 2019 21:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  7 MAY 2019 01:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2885,14 +2885,14 @@ put line 108.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/g190218_glass_vs_22percent_dvsR.pdf, id=1170, 626.532pt x 380
-.31253pt>
+<Chapters/Figures/g190218_glass_vs_22percent_dvsR.pdf, id=1170, 627.34375pt x 3
+60.99155pt>
 File: Chapters/Figures/g190218_glass_vs_22percent_dvsR.pdf Graphic file (type p
 df)
 <use Chapters/Figures/g190218_glass_vs_22percent_dvsR.pdf>
 Package pdftex.def Info: Chapters/Figures/g190218_glass_vs_22percent_dvsR.pdf  
 used on input line 115.
-(pdftex.def)             Requested size: 469.75499pt x 285.15825pt.
+(pdftex.def)             Requested size: 469.75499pt x 270.31885pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2906,15 +2906,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [38] [39] [40 <./Chapters/Figures/g190218_glass_vs_22percent_dvsR.pdf>]
 [41]
-<Chapters/Figures/d_vs_r_stretch_vs_no_stretch_DC181115.pdf, id=1200, 623.31589
-pt x 432.79984pt>
-File: Chapters/Figures/d_vs_r_stretch_vs_no_stretch_DC181115.pdf Graphic file (
-type pdf)
-<use Chapters/Figures/d_vs_r_stretch_vs_no_stretch_DC181115.pdf>
-Package pdftex.def Info: Chapters/Figures/d_vs_r_stretch_vs_no_stretch_DC181115
-.pdf  used on input line 137.
-(pdftex.def)             Requested size: 469.75499pt x 326.17082pt.
-<Chapters/Figures/WUps_fit_DC190404.pdf, id=1201, 629.08763pt x 426.62999pt>
+<Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf, id=1206, 637.35129pt x 408.0
+7103pt>
+File: Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf Graphic file (type pdf)
+<use Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf>
+Package pdftex.def Info: Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf  used
+ on input line 137.
+(pdftex.def)             Requested size: 469.75499pt x 300.76608pt.
+<Chapters/Figures/WUps_fit_DC190404.pdf, id=1207, 629.08763pt x 426.62999pt>
 File: Chapters/Figures/WUps_fit_DC190404.pdf Graphic file (type pdf)
 <use Chapters/Figures/WUps_fit_DC190404.pdf>
 Package pdftex.def Info: Chapters/Figures/WUps_fit_DC190404.pdf  used on input 
@@ -2926,15 +2925,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [42
 
- <./Chapters/Figures/d_vs_r_stretch_vs_no_stretch_DC181115.pdf>]) [43 <./Chapte
-rs/Figures/WUps_fit_DC190404.pdf>]
+ <./Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf>] [43 <./Chapters/Figures/
+WUps_fit_DC190404.pdf>]) [44]
 Chapter 5.
-(./Chapters/Chapter5.tex [44
+(./Chapters/Chapter5.tex [45
 
-]) [45]
+]) [46]
 Appendix A.
 (./Chapters/Appendix.tex
-<Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF, id=1240, 794.97pt x
+<Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF, id=1254, 794.97pt x
  614.295pt>
 File: Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF Graphic file (t
 ype pdf)
@@ -2946,7 +2945,7 @@ PDF  used on input line 18.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/Stretcher_outer.pdf, id=1241, 624.10275pt x 483.90598pt>
+<Chapters/Figures/Stretcher_outer.pdf, id=1255, 624.10275pt x 483.90598pt>
 File: Chapters/Figures/Stretcher_outer.pdf Graphic file (type pdf)
 <use Chapters/Figures/Stretcher_outer.pdf>
 Package pdftex.def Info: Chapters/Figures/Stretcher_outer.pdf  used on input li
@@ -2955,12 +2954,12 @@ ne 31.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [46
+) [47
 
-] [47 <./Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF>]
-[48 <./Chapters/Figures/Stretcher_outer.pdf, page is rotated 90 degrees>]
+] [48 <./Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF>]
+[49 <./Chapters/Figures/Stretcher_outer.pdf, page is rotated 90 degrees>]
 Appendix B.
-(./Chapters/Appendix_beads.tex) [49
+(./Chapters/Appendix_beads.tex) [50
 
 ]
 Appendix C.
@@ -2975,16 +2974,16 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
- [50
+ [51
 
 ])
-(./JKT_MainDraft.bbl [51] [52
+(./JKT_MainDraft.bbl [52] [53
 
-] [53])
+] [54])
 
 Package natbib Warning: There were undefined citations.
 
-[54]
+[55]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
  (./JKT_MainDraft.aux)
@@ -2999,9 +2998,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
  ) 
 Here is how much of TeX's memory you used:
- 30115 strings out of 492982
- 570767 string characters out of 6134895
- 642693 words of memory out of 5000000
+ 30116 strings out of 492982
+ 570724 string characters out of 6134895
+ 642694 words of memory out of 5000000
  32905 multiletter control sequences out of 15000+600000
  544827 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3028,10 +3027,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist
 /type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on JKT_MainDraft.pdf (64 pages, 17285283 bytes).
+Output written on JKT_MainDraft.pdf (65 pages, 17254701 bytes).
 PDF statistics:
- 1464 PDF objects out of 1728 (max. 8388607)
- 1202 compressed objects within 13 object streams
- 239 named destinations out of 1000 (max. 500000)
+ 1478 PDF objects out of 1728 (max. 8388607)
+ 1212 compressed objects within 13 object streams
+ 240 named destinations out of 1000 (max. 500000)
  631 words of extra memory for PDF output out of 10000 (max. 10000000)
 
