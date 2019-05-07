@@ -41,18 +41,18 @@
 \contentsline {subsection}{\numberline {4.1.1}Silicone Preparation and Spin-Coating}{34}{subsection.4.1.1}
 \contentsline {section}{\numberline {4.2}Preliminary Data: Gelest}{36}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Standard Candles}{36}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Dow-Corning PDMS}{40}{section.4.3}
-\contentsline {section}{\numberline {4.4}Gelest and Dow-Corning PDMS Conclusions}{41}{section.4.4}
-\contentsline {chapter}{\numberline {5}Future Work}{43}{chapter.5}
-\contentsline {section}{\numberline {5.1}Noise Minimization}{43}{section.5.1}
-\contentsline {section}{\numberline {5.2}New Materials}{43}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Neue Materialen: Gummib\IeC {\"a}rli}{44}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}Future Techniques}{44}{section.5.3}
-\contentsline {chapter}{\numberline {A}Stretching Apparatus Design}{45}{appendix.A}
-\contentsline {section}{\numberline {A.1}Details of Stretcher Design}{45}{section.A.1}
-\contentsline {chapter}{\numberline {B}Fluorescent Bead Recipe}{48}{appendix.B}
-\contentsline {section}{\numberline {B.1}Preparing a Fluorescent Bead Solution}{48}{section.B.1}
-\contentsline {chapter}{\numberline {C}MATLAB Code}{49}{appendix.C}
-\contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{49}{subsection.C.0.1}
-\contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{50}{subsection.C.0.2}
-\contentsline {subsection}{\numberline {C.0.3}Silicone Characterization Measurements}{50}{subsection.C.0.3}
+\contentsline {section}{\numberline {4.3}Dow-Corning PDMS}{41}{section.4.3}
+\contentsline {section}{\numberline {4.4}Gelest and Dow-Corning PDMS Conclusions}{42}{section.4.4}
+\contentsline {chapter}{\numberline {5}Future Work}{44}{chapter.5}
+\contentsline {section}{\numberline {5.1}Noise Minimization}{44}{section.5.1}
+\contentsline {section}{\numberline {5.2}New Materials}{44}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Neue Materialen: Gummib\IeC {\"a}rli}{45}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Future Techniques}{45}{section.5.3}
+\contentsline {chapter}{\numberline {A}Stretching Apparatus Design}{46}{appendix.A}
+\contentsline {section}{\numberline {A.1}Details of Stretcher Design}{46}{section.A.1}
+\contentsline {chapter}{\numberline {B}Fluorescent Bead Recipe}{49}{appendix.B}
+\contentsline {section}{\numberline {B.1}Preparing a Fluorescent Bead Solution}{49}{section.B.1}
+\contentsline {chapter}{\numberline {C}MATLAB Code}{50}{appendix.C}
+\contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{50}{subsection.C.0.1}
+\contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{51}{subsection.C.0.2}
+\contentsline {subsection}{\numberline {C.0.3}Silicone Characterization Measurements}{51}{subsection.C.0.3}
