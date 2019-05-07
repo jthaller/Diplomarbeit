@@ -84,7 +84,7 @@ Below (Fig. \ref{fig:DMS-V31}) is the chemical structure for the vinyl-terminate
 
 
 
-\subsubsection{Silicone Preparation and Spin}
+\subsection{Silicone Preparation and Spin-Coating}
 Before spin-coating it is useful to coat the base with fluorescent beads to help determine the substrate's thickness. The only information obtained by this coating is the location of the substrate's bottom surface, so a dense bead coverage is not required, and could potentially be harmful if there is significant light bleeding\footnote{When photons from the fluorophores are bright enough, they are detected in the adjacent images in the vertical stack}. We coat the base (either glass or PDMS) with 40nm beads for 30 seconds - 1 minute. Full directions for preparing a fluroescent bead solution can be found in Appendix B. After this time, we return the fluorescent beads back to the solution for re-use. A significant number of beads will remain on the base, however. To remove some excess, we gently wash the substrate with de-ionized water. For a coverslip, we simply submerge the entire slip in water and gently remove it at a 45\degree angle, using surface tension to prevent the water from breaking-up into smaller droplets. This process is slightly more difficult for the petri dish due to the larger size. We have had success using a container of water with a large opening. Generally, we have used a 1000mL beaker tilted at an angle. It is also possible to use an autopipet for washing - simply repeat the same process used for the fluorescent bead coating, only use water this time. We have had mixed success with this technique, however, as it leaves a water droplet on the surface and often creates an uneven coating of fluorescent beads which manifests itself as streaks across the surface.
 
 After the first layer of fluorescent beads is coated, it is time to spin coat the soft substrate. We aim to make our spin-coated substrates around 100 $\mu$m, and generally spin them to be between $80-100$ $\mu$m thick. Depending on the silicone, we wait a different amount of time before spin coating onto the prepared base, so that the curing process can increase the silicone's viscosity enough to remain on the base when spun. As an extreme example, consider trying to spin-coat water; it would all fling off the base. We coat our substrate onto coverslips for ``zero applied strain'' data or on PDMS sheets from SMI (Shore Durometer: 40, Thickness=.005'') for stretching data. Gelest 9:1 cures rapidly at room temperature, so no waiting time necessary; For Dow Corning 1:1, we wait 45 minutes - 1 hour after combining parts A and B before spin-coating.
@@ -119,8 +119,6 @@ Not only do we measure the depth and radii for a range of spheres, but we also m
 
 There is a lot of noise for D vs. R data collected with substrates on our stretching apparatus have a lot of noise. As seen in figure \ref{fig:glassvsstretched190218}, the D vs. R data collected on glass is far cleaner than that collected on the stretcher when strained. We can see the trend that under strain, the spheres sink into the substrate less deep. At 22\% strain, we expect zero strain-stiffening of our elastic substrate, and conclude that this change in depth is a result of an increase of surface stress, $ \Upsilon $. Unfortunately, the d vs. R values are too noisy/scattered to make a reasonable fit to extract $ W $ and $ \Upsilon $ values.
 
-
-
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Chapters/Figures/w_ups_fit_G9-1}
@@ -128,7 +126,6 @@ There is a lot of noise for D vs. R data collected with substrates on our stretc
 	\label{fig:wupsfitg9-1}
 \end{figure}
 
-\break 
 \section{Dow-Corning PDMS}
 Because the $ \Upsilon(\epsilon) $ measurement in \textit{Nature Communications} 2017 \cite{xu2017direct} was conducted using a Dow-Corning PDMS substrate, we are especially interested in using this material for our $ \Upsilon(\epsilon) $ measurements. Because there has only been one measurement of $ \Upsilon(\epsilon) $ in soft matter, in order to have value to use as comparison, we need to use use the same material. 
 
@@ -138,7 +135,7 @@ Our first measurements with Dow-Corning PDMS returned largely varying results; t
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{Chapters/Figures/d_vs_r_stretch_vs_no_stretch_DC181115}
-	\caption[D vs. R Dow-Corning]{Here we plot D vs. R for a Dow-Corning PDMS Substrate at two different strains. Notice how at higher strains, the spheres sink in less deep. This can be explained by an increase in $\Upsilon$ or an increase in $E$ for the substrate.}
+	\caption[D vs. R Dow-Corning]{Here we plot d vs. R for a Dow-Corning PDMS Substrate at two different strains. Notice how at higher strains, the spheres sink in less deep. This can be explained by an increase in $\Upsilon$ or an increase in $E$ for the substrate.}
 	\label{fig:dvsrstretchvsnostretchdc181115}
 \end{figure}
 
@@ -149,4 +146,8 @@ Our first measurements with Dow-Corning PDMS returned largely varying results; t
 	\label{fig:wupsfitdc190404}
 \end{figure}
 
-\todo[inline,color=pink]{TexStudio broke the figures and writing up weirdly. Will fix later. Also, I have a stretchable Dow-corning substrate ready to go. I'd like to take this $ \Upsilon(\epsilon) $ measurement next week.}
+\subsection{Gelest and Dow-Corning PDMS Conclusions}
+Our d vs. R data with the Gelest PDMS is clean for samples spun onto glass, and returns reasonable values for $ \Upsilon $ and $ W $. Furthermore, we see a clear change in indentation depth for the individually tracked spheres (standard candles) under strain (Figure \ref{fig:sc1unstretchedv8ml} ).
+
+
+Our d vs. R data with the new Dow-Corning silicone gel is clean for samples spun onto glass, and returns reasonable values for $ \Upsilon $ and $ W $. As of the time writing, we have yet to test a stretchable sample of Dow-Corning PDMS.
