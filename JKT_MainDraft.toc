@@ -38,10 +38,10 @@
 \contentsline {subsection}{\numberline {3.3.2}Depth and Radius Determination}{25}{subsection.3.3.2}
 \contentsline {chapter}{\numberline {4}Surface Stress and Adhesion Results}{33}{chapter.4}
 \contentsline {section}{\numberline {4.1}Organosilicon Polymer Chemistry}{33}{section.4.1}
-\contentsline {subsubsection}{Silicone Preparation and Spin Coating}{34}{section*.24}
+\contentsline {subsubsection}{Silicone Preparation and Spin}{34}{section*.24}
 \contentsline {section}{\numberline {4.2}Preliminary Data: Gelest}{36}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Standard Candles}{36}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Dow-Corning PDMS}{36}{section.4.3}
+\contentsline {section}{\numberline {4.3}Dow-Corning PDMS}{37}{section.4.3}
 \contentsline {chapter}{\numberline {5}Future Work}{42}{chapter.5}
 \contentsline {section}{\numberline {5.1}Noise Minimization}{42}{section.5.1}
 \contentsline {section}{\numberline {5.2}New Materials}{42}{section.5.2}
@@ -54,5 +54,5 @@
 \contentsline {chapter}{\numberline {C}MATLAB Code}{48}{appendix.C}
 \contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{48}{subsection.C.0.1}
 \contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{49}{subsection.C.0.2}
-\contentsline {subsubsection}{master\_tracking\_gui.m}{49}{section*.37}
+\contentsline {subsubsection}{master\_tracking\_gui.m}{49}{section*.34}
 \contentsline {subsection}{\numberline {C.0.3}Silicone Characterization Measurements}{49}{subsection.C.0.3}
