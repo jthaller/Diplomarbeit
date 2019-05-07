@@ -36,13 +36,19 @@ In order to see our substrate with fluorescent confocal microscopy, we need to c
 
 \subsubsection{Fluorescent Confocal Microscopy Data Collection}
 Data was obtained using the Nikon A1R HD25 Confocal Microscope. To take image stacks of the fluorescent beads, we use a 60x water-immersion objective lens with a numerical aperture of 1.2. We set the laser to 440~nm and adjust the power and gain (HV) as needed. Generally these values are around 5.0\% and 40 volts, respectively. In order to get clear resolution for each bead, it is important not to saturate the photo-detector. 
-\todo[inline]{CK had some fair questions about the terms in this section. Do I need to explain them all?}
+\todo[inline]{CK had some fair questions about the terms in this section. Do I need to explain them all? Thoughts on the diagrams? Keep `em? Keep one? Move 'em?}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\linewidth]{confocal_stuff/Ti2_diagram_1}
-	\caption[Nikon Ti2 Microscope Base]{The Nikon A1 Confocal Base}\todo[color=pink,inline]{Include the example setup image and cite the manual!}
+	\caption[Nikon Ti2 Microscope Base]{The Nikon A1 Confocal Base. Image courtesy of Nikon \cite{Nikon_manual}.}
 	\label{fig:ti2diagram1}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Chapters/Figures/confocal_setup}
+	\caption[Confocal Setup]{The general setup for the the confocal microscope. Image courtesy of Nikon \cite{Nikon_manual}.}
+	\label{fig:confocalsetup}
 \end{figure}
 
 For silica spheres ranging from $5-50$ $\mu$m in size, we have found the best scaling factor to be $.104$ $\mu$m/pixel in the horizontal plane for an image of 1024 $ \cross $ 1024 resolution. We set the vertical step size (z-direction) to $.225$ $\mu$m/px or $.25$ $\mu$m/px depending on what the confocal recommended. Both provided adequate vertical resolutions. 16x averaging using the resonant scanner took up to 5 minutes per scan, but provided excellent resolution. 

@@ -4,7 +4,7 @@
 Q.~Xu, K.~E. Jensen, R.~Boltyanskiy, R.~Sarfati, R.~W. Style, and E.~R.
   Dufresne.
 \newblock \emph{Direct measurement of strain-dependent solid surface stress}.
-\newblock Nature communications, 8(1):555 (2017).
+\newblock Nature Communications, 8(1):555 (2017).
 
 \bibitem{GennesPierre-Gillesde2003Cawp}
 P.~de~Gennes, D.~Quere, and F.~Brochard-Wyart.
@@ -49,12 +49,12 @@ R.~Hanneman, M.~Finn, and H.~Gatos.
 \bibitem{martinez1990direct}
 R.~E. Martinez, W.~M. Augustyniak, and J.~A. Golovchenko.
 \newblock \emph{Direct measurement of crystal surface stress}.
-\newblock Physical review letters, 64(9):1035 (1990).
+\newblock Physical Review Letters, 64(9):1035 (1990).
 
 \bibitem{schell1990mechanical}
 A.~Schell-Sorokin and R.~Tromp.
 \newblock \emph{Mechanical stresses in (sub) monolayer epitaxial films}.
-\newblock Physical review letters, 64(9):1039 (1990).
+\newblock Physical Review Letters, 64(9):1039 (1990).
 
 \bibitem{miller2000size}
 R.~E. Miller and V.~B. Shenoy.
@@ -79,14 +79,14 @@ H.~Duan, J.~Wang, Z.~Huang, and B.~L. Karihaloo.
 P.~Sharma and S.~Ganti.
 \newblock \emph{Size-dependent eshelby's tensor for embedded nano-inclusions
   incorporating surface/interface energies}.
-\newblock TRANSACTIONS-AMERICAN SOCIETY OF MECHANICAL ENGINEERS JOURNAL OF
-  APPLIED MECHANICS, 71(5):663--671 (2004).
+\newblock Transactions-American Society of Mechanical Engineers Journal of
+  Applied Mechanics, 71(5):663--671 (2004).
 
 \bibitem{he2008surface}
 J.~He and C.~M. Lilley.
 \newblock \emph{Surface effect on the elastic behavior of static bending
   nanowires}.
-\newblock Nano letters, 8(7):1798--1802 (2008).
+\newblock Nano Letters, 8(7):1798--1802 (2008).
 
 \bibitem{lu2014towards}
 D.~Lu, Y.~M. Xie, Q.~Li, X.~Huang, and S.~Zhou.
@@ -107,12 +107,12 @@ S.~Mora and Y.~Pomeau.
 \bibitem{mora2010capillarity}
 S.~Mora, T.~Phou, J.-M. Fromental, L.~M. Pismen, and Y.~Pomeau.
 \newblock \emph{Capillarity driven instability of a soft solid}.
-\newblock Physical review letters, 105(21):214301 (2010).
+\newblock Physical Review Letters, 105(21):214301 (2010).
 
 \bibitem{style2013surface}
 R.~W. Style, C.~Hyland, R.~Boltyanskiy, J.~S. Wettlaufer, and E.~R. Dufresne.
 \newblock \emph{Surface tension and contact with soft elastic solids}.
-\newblock Nature communications, 4:2728 (2013).
+\newblock Nature Communications, 4:2728 (2013).
 
 \bibitem{Jensen2019SoftMatter}
 Z.~Liu et~al.
@@ -124,14 +124,14 @@ Z.~Liu et~al.
 E.~R. Jerison, Y.~Xu, L.~A. Wilen, and E.~R. Dufresne.
 \newblock \emph{Deformation of an elastic substrate by a three-phase contact
   line}.
-\newblock Physical review letters, 106(18):186103 (2011).
+\newblock Physical Review Letters, 106(18):186103 (2011).
 
 \bibitem{style2013universal}
 R.~W. Style, R.~Boltyanskiy, Y.~Che, J.~Wettlaufer, L.~A. Wilen, and E.~R.
   Dufresne.
 \newblock \emph{Universal deformation of soft substrates near a contact line
   and the direct measurement of solid surface stresses}.
-\newblock Physical review letters, 110(6):066103 (2013).
+\newblock Physical Review Letters, 110(6):066103 (2013).
 
 \bibitem{xu2018surface}
 Q.~Xu, R.~W. Style, and E.~R. Dufresne.
@@ -179,7 +179,7 @@ N.~Nadermann, C.-Y. Hui, and A.~Jagota.
 S.~J. Park, B.~M. Weon, J.~San~Lee, J.~Lee, J.~Kim, and J.~H. Je.
 \newblock \emph{Visualization of asymmetric wetting ridges on soft solids with
   x-ray microscopy}.
-\newblock Nature communications, 5:4369 (2014).
+\newblock Nature Communications, 5:4369 (2014).
 
 \bibitem{tian2018measure}
 Y.~Tian, M.~Ina, Z.~Cao, S.~S. Sheiko, and A.~V. Dobrynin.
@@ -206,13 +206,13 @@ K.~L. K.~L. Johnson.
 \bibitem{johnson1971surface}
 K.~L. Johnson, K.~Kendall, and A.~Roberts.
 \newblock \emph{Surface energy and the contact of elastic solids}.
-\newblock Proc. R. Soc. Lond. A, 324(1558):301--313 (1971).
+\newblock Proceedings of the Royal Society A, 324(1558):301--313 (1971).
 
 \bibitem{hertz1882uber}
 H.~R. Hertz.
 \newblock \emph{Über die berührung fester elastischer korper}.
-\newblock Verhandlung des Vereins zur Beforderung des GewerbefleiBes, Berlin,
-  p. 449 (1882).
+\newblock Verhandlung des Vereins zur Beforderung des Gewerbefleies, Berlin, p.
+  449 (1882).
 
 \bibitem{cao2016nanoparticles}
 Z.~Cao and A.~V. Dobrynin.
@@ -223,11 +223,15 @@ Z.~Cao and A.~V. Dobrynin.
 S.~Na, A.~Trache, J.~Trzeciakowski, Z.~Sun, G.~Meininger, and J.~Humphrey.
 \newblock \emph{Time-dependent changes in smooth muscle cell stiffness and
   focal adhesion area in response to cyclic equibiaxial stretch}.
-\newblock Annals of biomedical engineering, 36(3):369--380 (2008).
+\newblock Annals of Biomedical Engineering, 36(3):369--380 (2008).
 
 \bibitem{patent:3013467}
 M.~Minsky.
-\newblock \emph{Microscopy apparatus} (1961).
+\newblock \emph{Microscopy {A}pparatus} (1961).
+
+\bibitem{Nikon_manual}
+Nikon Corporation, 1300 Walt Whitman Road, Melville, N.Y. 11747-3064, U.S.A.
+\newblock \emph{A1 HD25 A1R HD25 Brochure} (2018).
 
 \bibitem{Andreotti2020}
 J.~H.~S. Bruno~Andreotti.
