@@ -56,6 +56,44 @@ A.~Schell-Sorokin and R.~Tromp.
 \newblock \emph{Mechanical stresses in (sub) monolayer epitaxial films}.
 \newblock Physical review letters, 64(9):1039 (1990).
 
+\bibitem{miller2000size}
+R.~E. Miller and V.~B. Shenoy.
+\newblock \emph{Size-dependent elastic properties of nanosized structural
+  elements}.
+\newblock Nanotechnology, 11(3):139 (2000).
+
+\bibitem{dingreville2005surface}
+R.~Dingreville, J.~Qu, and M.~Cherkaoui.
+\newblock \emph{Surface free energy and its effect on the elastic behavior of
+  nano-sized particles, wires and films}.
+\newblock Journal of the Mechanics and Physics of Solids, 53(8):1827--1854
+  (2005).
+
+\bibitem{duan2005eshelby}
+H.~Duan, J.~Wang, Z.~Huang, and B.~L. Karihaloo.
+\newblock \emph{Eshelby formalism for nano-inhomogeneities}.
+\newblock Proceedings of the Royal Society A: Mathematical, Physical and
+  Engineering Sciences, 461(2062):3335--3353 (2005).
+
+\bibitem{sharma2004size}
+P.~Sharma and S.~Ganti.
+\newblock \emph{Size-dependent eshelby's tensor for embedded nano-inclusions
+  incorporating surface/interface energies}.
+\newblock TRANSACTIONS-AMERICAN SOCIETY OF MECHANICAL ENGINEERS JOURNAL OF
+  APPLIED MECHANICS, 71(5):663--671 (2004).
+
+\bibitem{he2008surface}
+J.~He and C.~M. Lilley.
+\newblock \emph{Surface effect on the elastic behavior of static bending
+  nanowires}.
+\newblock Nano letters, 8(7):1798--1802 (2008).
+
+\bibitem{lu2014towards}
+D.~Lu, Y.~M. Xie, Q.~Li, X.~Huang, and S.~Zhou.
+\newblock \emph{Towards ultra-stiff materials: surface effects on nanoporous
+  materials}.
+\newblock Applied Physics Letters, 105(10):101903 (2014).
+
 \bibitem{style2015stiffening}
 R.~W. Style et~al.
 \newblock \emph{Stiffening solids with liquid inclusions}.
@@ -100,6 +138,11 @@ Q.~Xu, R.~W. Style, and E.~R. Dufresne.
 \newblock \emph{Surface elastic constants of a soft solid}.
 \newblock Soft matter, 14(6):916--920 (2018).
 
+\bibitem{liang2018surface}
+H.~Liang, Z.~Cao, Z.~Wang, and A.~V. Dobrynin.
+\newblock \emph{Surface stresses and a force balance at a contact line}.
+\newblock Langmuir, 34(25):7497--7502 (2018).
+
 \bibitem{xu2016surface}
 X.~Xu, A.~Jagota, D.~Paretkar, and C.-Y. Hui.
 \newblock \emph{Surface tension measurement from the indentation of clamped
@@ -137,6 +180,23 @@ S.~J. Park, B.~M. Weon, J.~San~Lee, J.~Lee, J.~Kim, and J.~H. Je.
 \newblock \emph{Visualization of asymmetric wetting ridges on soft solids with
   x-ray microscopy}.
 \newblock Nature communications, 5:4369 (2014).
+
+\bibitem{tian2018measure}
+Y.~Tian, M.~Ina, Z.~Cao, S.~S. Sheiko, and A.~V. Dobrynin.
+\newblock \emph{How to measure work of adhesion and surface tension of soft
+  polymeric materials}.
+\newblock Macromolecules, 51(11):4059--4067 (2018).
+
+\bibitem{CaoZhen2014EAaW}
+Z.~Cao, M.~J. Stevens, and A.~V. Dobrynin.
+\newblock \emph{Elastocapillarity: Adhesion and wetting in soft polymeric
+  systems}.
+\newblock Macromolecules., 47(18):6515--6521 (2014).
+
+\bibitem{caoAdhesion}
+Z.~Cao, M.~J. Stevens, and A.~V. Dobrynin.
+\newblock \emph{Adhesion and wetting of nanoparticles on soft surfaces}.
+\newblock Macromolecules, 47(9):3203--3209 (2014).
 
 \bibitem{johnson1971surface}
 K.~L. Johnson, K.~Kendall, and A.~Roberts.
