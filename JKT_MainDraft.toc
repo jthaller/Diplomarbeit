@@ -52,6 +52,7 @@
 \contentsline {section}{\numberline {A.1}Details of Stretcher Design}{47}{section.A.1}
 \contentsline {chapter}{\numberline {B}Fluorescent Bead Recipe}{50}{appendix.B}
 \contentsline {section}{\numberline {B.1}Preparing a Fluorescent Bead Solution}{50}{section.B.1}
+\contentsline {subsubsection}{Borate Buffer}{50}{section*.18}
 \contentsline {chapter}{\numberline {C}MATLAB Code}{51}{appendix.C}
 \contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{51}{subsection.C.0.1}
 \contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{52}{subsection.C.0.2}
