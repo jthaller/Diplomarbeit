@@ -1,21 +1,21 @@
-In this chapter we discuss the setup of the experiment from start to finish. First we discuss the underlying theory required for the technique. Next, we walk through the walk through the experimental setup, the process of acquiring data and processing it for a single sphere. Finally we address the stretching apparatus, including its calibration process, and analyzing the results. Further details can be found in the appendices.
+In this chapter we discuss the setup of the experiment from start to finish. First we discuss the underlying theory required for the technique. Next, we walk through the experimental setup, followed by the process of acquiring and processing data for a single sphere. Finally we address the stretching apparatus, including its calibration process, and analyzing the results. Further details can be found in the appendices.
 
 \section{Measuring Surface Stress via Adhesion}
 \subsection{Beyond Hertzian Mechanics and JKR Theory}
 
-Hertzian Mechanics, developed by Heinrich Hertz in the 1800's, allows for the calculation of stress and deformation based on the elastic moduli of the contacted surfaces, as well as their radii of curvature and applied force. While Hertzian mechanics stood for a long time, it neglected to take into account the adhesion energy of the system.  
+Hertzian Mechanics, developed by Heinrich Hertz in the 1800's, allows for the calculation of stress and deformation based on the elastic moduli of the contacted surfaces, as well as their radii of curvature and applied force. These classical results are still relevant for isotropic materials in situations with minimal friction, small contact area \cite{JohnsonHertzBOOK}. While Hertzian mechanics stood for a long time, it neglected to take into account the adhesion energy of the system.  
 
-In 1971, Johnson, Kendall, and Roberts (JKR) sought to remedy this omission by developing a classical theory of contact mechanics that balances the forces of adhesion with elasticity from the bulk and the surface free energy {\cite{johnson1971surface}}. Today, it is still the standard theory used to interpret and soft contact situation. However, it has recently been shown that while JKR theory is a great improvement over Hertztian Mechanics, it breaks down in the elastocapillary regime \cite{style2013surface}. Specifically, at lengths where 
+In 1971, Johnson, Kendall, and Roberts (JKR) sought to remedy this omission by developing a classical theory of contact mechanics that balances the forces of adhesion with elasticity from the bulk and the surface free energy {\cite{johnson1971surface}}. Today, it is still the standard theory used to interpret and soft contact situation. However, it has recently been shown that while JKR theory is a great improvement over Hertzian Mechanics, it breaks down in the elastocapillary regime \cite{style2013surface}. Specifically, at lengths where 
 \begin{equation}
 \label{EC_regime}
-L_{c} \leq \frac{\Upsilon}{E}
+L \leq L_{c} = \frac{\Upsilon}{E}
 \end{equation}
 the surface energies compete with those of the bulk and can no longer be ignored. Fittingly, $L_c$ is referred to as the elastocapillary length. By understanding the role of surface tension in soft adhesion, we can measure the physical properties of a balanced system in the elastocapillary regime and hence measure the surface stress and adhesion energy from the balance of forces.
 
 
 
 \subsection{Force Balance Derivation}
-When materials are soft or small enough, three main forces balance to determine the contact mechanics of the system. Consider a marble sinking into a soft, sticky substrate. Adhesive forces increase the contact area between the marble and the substrate. Increasing the contact area has the effect of ``pulling'' the marble into the gel. As a consequence, the substrate is being compressed [vertically], which is counteracted by the elastic forces within the bulk. This compression also has the effect of stretching the surface of the substrate, which is counteracted by substrate's surface tension. Below, we calculate the energy term associated with each of the forces acting on a dense sphere sinking into a soft substrate. Note, for such a small sphere, the force of gravity is negligible and need not be taken into consideration. For example, a silica (silicon-dioxide) microsphere has a density is $2.65$ g/cm$^3$. For a very large sphere with radius 50 microns, gravity only applies a force of roughly 1.02e-08 N.
+When materials are soft or small enough, three main forces balance to determine the contact mechanics of the system. Consider a marble sinking into a soft, sticky substrate. Adhesive forces increase the contact area between the marble and the substrate. Increasing the contact area has the effect of ``pulling'' the marble into the gel. As a consequence, the substrate is being compressed [vertically], which is counteracted by the elastic forces within the bulk. This compression also has the effect of stretching the surface of the substrate, which is counteracted by substrate's surface tension. Below, we calculate the energy term associated with each of the forces acting on a dense sphere sinking into a soft substrate. Note, for such a small sphere, the force of gravity is negligible and need not be taken into consideration. For example, a silica (silicon-dioxide) microsphere has a density is $2.65$ g/cm$^3$. For a very large sphere with radius 50 microns, gravity only applies a force of roughly $ 1.02 \times 10^{-8} $ N.
 
 \subsubsection{Elastic Energy}
 The energy required to make a circular indentation of radius R and depth d can be derived from Hertzian contact mechanics \cite{hertz1882uber, style2013surface,cao2016nanoparticles}. Contact between a sphere and an elastic half space\footnote{i.e. the contact area is $ \ll $ the characteristic radius of the object. A flat plane can be thought of as $ R = \infty $}   is a classic Hertzian contact problem. It is easiest to calculate the force and then integrate to determine the potential energy. For two elastic surfaces in contact with no externally applied forces, the force from elastic contact is:
@@ -50,7 +50,7 @@ U_{adhesion} \approx -2\pi W R d
 
 
 \subsubsection{Surface Energy}
-$\Upsilon$ is the surface stress, which is equal to the energy cost per unit area required to create surface via cutting or stretching the material. For a flat substrate being stretched via the indendation of a sphere, the energetic cost is
+$\Upsilon$ is the surface stress, which is equal to the energy cost per unit area required to create surface via cutting or stretching the material. For a flat substrate being stretched via the indentation of a sphere, the energetic cost is
 \begin{equation}
 \label{generic_surface_energy}
 U_{surface} = \pi \Upsilon_{sv}\Delta A
@@ -111,14 +111,14 @@ Equation \ref{THEeqn} gives us a quantitative relationship between the spontaneo
 \section{Preparing a Substrate}
 In the following section, we outline the process of preparing a soft substrate for testing. The process is similar for a zero strain sample and a stretchable sample, and we make clear any distinctions between the two processes. Specific details for each substrate material tested can be found in Chapter 4.
 
-Before preparing the substrate, we prepare the base surface on which the substrate will be coated. For a non-stretched sample, we use a glass coverslip, and for a stretched sample we use a thin, commercially available PDMS sheet from Specialty Manufacturing Incorporated. This base sheet is much stiffer ($ E\approx 1 $ MPa) than the substrate being tested.\todo[color=pink]{Check specs of sheet} We first coat this base layer with fluorescent beads in order to later locate the bottom of our substrate. In preparing our substrate, there are two important factors to consider: thickness and evenness of the surface. The substrate must be thick enough such that the the indenting spheres are not affected by the stiffness of the glass or PDMS base. This bottom layer of fluorescent beads allows us to easily gauge the thickness of our substrate. It is important that our substrate has an even surface, otherwise it is difficult to determine the sphere's depth, $ d $. To achieve this, we use a technique called spin-coating where we place our uncured substrate (when it still is a liquid) on the base and spin it rapidly for a period of time. The angular momentum  flings the fluid away from the center of the base. The result of this process is an even coating which will cure into our substrate over the next day.
+Before preparing the substrate, we prepare the base surface on which the substrate will be coated. For a non-stretched sample, we use a glass coverslip, and for a stretched sample we use a thin, commercially available PDMS sheet from Specialty Manufacturing Incorporated. This base sheet is much stiffer ($ E\approx 1 $ MPa) than the substrate being tested. We first coat this base layer with fluorescent beads in order to later locate the bottom of our substrate. In preparing our substrate, there are two important factors to consider: thickness and evenness of the surface. The substrate must be thick enough such that the the indenting spheres are not affected by the stiffness of the glass or PDMS base. This bottom layer of fluorescent beads allows us to easily gauge the thickness of our substrate. It is important that our substrate has an even surface, otherwise it is difficult to determine the sphere's depth, $ d $. To achieve this, we use a technique called spin-coating where we place our uncured substrate (when it still is a liquid) on the base and spin it rapidly for a period of time. The angular momentum  flings the fluid away from the center of the base. The result of this process is an even coating which will cure into our substrate over the next day.
 
-Once cured, we deposit a second layer of fluorescent beads on the surface. These act as tracer particles which outline the indentation sphere. Using fluorescent confocal microscopy, we are able to precisely locate each fluorescent bead and outline the indentation sphere. It is important that the beads are dense enough to give a high resolution, yet not so dense as to become indistinguishable; this presents a challenge the MATLAB particle locating software. For a stretchable sample, we place the substrate, now cured onto the stretchable PDMS base, onto the lubricated stretching apparatus (described below). It is important remove any small bubbles on the stretcher's ring to ensure an airtight seal. 
+Once cured, we deposit a second layer of fluorescent beads on the surface. These act as tracer particles which outline the indentation sphere. These fluorescent beads are on the order of $ 10^3 $ times smaller than the indention sphere, and will thus, not influence how the sphere interacts with the substrate. Using fluorescent confocal microscopy, we are able to precisely locate each fluorescent bead and outline the indentation sphere. It is important that the beads are dense enough to give a high resolution, yet not so dense as to become indistinguishable; this presents a challenge the MATLAB particle locating software. For a stretchable sample, we place the substrate, now cured onto the stretchable PDMS base, onto the lubricated stretching apparatus (described below). It is important remove any small bubbles on the stretcher's ring to ensure an airtight seal. 
 
 The final preparation step is to sprinkle silica spheres of a range in size on top of the silicone. This should be done at least 30 minutes before collecting data so that the spheres have time to settle into an equilibrium state into the silicone. From a side view, the final setup should look like Figure \ref{fig:substrategraphic}.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.9\linewidth]{Chapters/Figures/substrate_graphic_new}
+	\includegraphics[width=.85\linewidth]{Chapters/Figures/substrate_graphic_new}
 	\caption[Prepared Substrate Profile]{Above is the side profile of a prepared substrate sample. There are two layers of fluorescent beads: the bottom layer is used to measure the substrate's thickness, and the surface layer is used to outline the profile of the larger, indenting sphere. The soft substrate sits on an underlayer, namely glass or a stretchable PDMS silicone.}
 	\label{fig:substrategraphic}
 \end{figure}
@@ -129,13 +129,6 @@ Our interest is not just in  measuring $W$ and $\Upsilon$ for a given substrate,
 
 \subsection{Stretcher Design}
 Geometrically, the stretching apparatus is constructed of two concentric cylinders connected at the base to create a channel between them. The top of each ring is flat, apart from a slight chamfer to reduce the risk of ripping the sheet as it is stretched. Each ring is then coated in Dow Corning vacuum grease to make a seal. It is critical that the inner ring has an ample amount of grease so that when a vacuum is pulled in the channel, the sheet will stretch from the center outwards  and not from the edges inwards. The sheet is held in place with an o-ring wrapped around the outside of the cylinder, which is then clamped down by a removable outer ring using a tension clamp. The tension provided by the o-ring and clamp ensure that a solid vacuum is kept and the edges of the sheet are minimally stretched into the trough.
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=.4\linewidth]{Chapters/Figures/exploded_stretcher}
-	\caption[Stretching Apparatus Design]{Here is an exploded view of the stretching apparatus. The substrate goes on top of the base (substrate side down). It is then held down with an o-ring, which sits on the outside ledge. A second ring sits on top of the o-ring and is then held down by the microscope mount (not pictured here).}
-	\label{fig:explodedstretcher}
-\end{figure}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.6\linewidth]{Chapters/Figures/stretcher_side}
@@ -143,20 +136,26 @@ Geometrically, the stretching apparatus is constructed of two concentric cylinde
 	\label{fig:stretcherside}
 \end{figure}
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.35\linewidth]{Chapters/Figures/exploded_stretcher}
+	\caption[Stretching Apparatus Design]{Here is an exploded view of the stretching apparatus. The substrate goes on top of the base (substrate side down). It is then held down with an o-ring, which sits on the outside ledge. A second ring sits on top of the o-ring and is then held down by the microscope mount (not pictured here).}
+	\label{fig:explodedstretcher}
+\end{figure}
 
-A tapped screw hole on the side of the apparatus connects the chamber to a syringe via thin, plastic tubing. To pull a vacuum in the channel, we withdraw air using a syringe pump. This allows us to have a consistent withdraw rate and control over the amount of air withdrawn to a high degree of precision. A deconstructive representation of the stretching apparatus can be found in Figure \ref{fig:explodedstretcher}.
+
+A tapped screw hole on the side of the apparatus connects the chamber to a syringe via thin, plastic tubing. To pull a vacuum in the channel, we withdraw air using a syringe pump. This allows us to have a consistent withdraw rate and control over the amount of air withdrawn to a high degree of precision. A deconstructed representation of the stretching apparatus can be found in Figure \ref{fig:explodedstretcher}.
 
 \section{Calibration}
-Originally, we intended to calibrate the strain value induced by the vacuum to the extent that we could predict the induced strain based on the amount of air withdrawn from the stretching apparatus. We withdrew air from the syringe and measured the movement of glass spheres adhered to the surface using a 10x air lens on our Nikon confocal microscope. Using the transmission detector allowed us to image the surface of our material with a wide field of view. Strain percentage was calculated using MATLAB code \cite{xu2017direct}.
+Originally, we intended to calibrate the strain value induced by the vacuum to by predicting the induced strain based on the amount of air withdrawn from the stretching apparatus. We withdrew air from the syringe and measured the movement of glass spheres adhered to the surface using a 10x air lens on our Nikon confocal microscope. Using the transmission detector allowed us to image the surface of our material with a wide field of view. Strain percentage was calculated using MATLAB code \cite{xu2017direct}.
 
 There are several challenges in calibrating the induced strain. First, the stretching apparatus works best when a large strain is applied. Applying small strains one after another works but there is a threshold to induce stretch. No stretching change is visible if less than 2ml is withdrawn from the cylinder per increment. Thus, there is a limited resolution to our calibration data, which would not be a problem if the strain was linear. However, preliminary measurements indicated that the applied strain was nonlinear. This agrees with the with previous results \cite{na2008time} obtained using a similar device. Lastly, the greatest problem with calibrating strain is that we change substrates often. Even if we were to use the same exact sample, by removing it and setting up the device again, there is no way to standardize a zero-applied strain point. To prepare the stretching device, the sample is placed over the opening and a rubber o-ring is placed around the sample to help affix it in place. The sample must then be stretched and wiggled around slightly to remove any snags that could jeopardize the vacuum's efficacy. This means that every time a new sample is prepared, it is in an unknown and unique state of induced strain. Furthermore, before applying any strain, the substrate could be loose and uneven.
 
-It was thus determined best to measure strain every time we applied a new strain to the silicone substrate and compare it to the substrate's original state. This also assured us that we knew the correct strain value to a higher precision for any given data set. Additionally, with the ability to hold strains exceeding 30\%, the 2mL resolution  limit became superfluous in seeking to measure $\Upsilon(\epsilon)$.
+It was thus determined best to measure strain using the confocal every time we applied a new strain to the silicone substrate and compare it to the substrate's original state. This also assured us that we knew the correct strain value to a higher precision for any given data set.
 
 
 \subsection{Measuring Strain}
-To determine the induced strain, we maximized the field of view. This allows us to see how more spheres are shifting, and thus gives a more accurate estimate of induced strain. As such, we decided to switch to the bright-field and measure how the spheres were shifting when stretched. We used a 10x air lens in conjunction with the transmission detector on our Nikon Confocal. We adjust the settings to give decent contrast, but it is more important to have the spheres in focus. For our Nikon this usually means setting the Power (HV) to 80. Each sphere reflects light, and it is this reflection that our particle locating software tracks after some image processing. An example image is located below (Fig.\ref{fig:TDpreandpost}), next to the same image after adjusting the contrast to help our tracking software with particle locating: 
-
+To determine the induced strain, we maximized the field of view and track the relative location of the indentation spheres. This allows us to see how more spheres are shifting, and thus gives a more accurate estimate of induced strain. As such, we decided to switch to the bright-field to image the spheres for each strain. We used a 10x air lens in conjunction with the transmission detector on our Nikon Confocal. We adjust the settings to give decent contrast, but it is more important to have the spheres in focus. For our Nikon this usually means setting the laser Power (HV) to 80\todo{Keep this?}. Each sphere reflects light, and it is this reflection that our particle locating software tracks after some image processing. An example image is located below (Fig.\ref{fig:TDpreandpost}), next to the same image after adjusting the contrast to help our tracking software with particle locating: 
 \begin{figure}[h!]
 	\begin{tabular}{cc}
 		\includegraphics[width= .48\linewidth,frame]{Chapters/Figures/181115_unstretched_b_thesis_contrast.png} & \includegraphics[width= .48\linewidth,frame]{Chapters/Figures/181115_stretched_thesis_contrast.png}\\
@@ -165,7 +164,6 @@ To determine the induced strain, we maximized the field of view. This allows us 
 	\caption[Bright-field stretch calibration images]{To calibrate the induced strain of our substrate, we switch to the brightfield to have a wider field of view for calibration. Fig. A shows the sample before stretching, and Fig. B shows the sample after a $ 35\% $ equibiaxial strain.}
 		\label{fig:TDpreandpost}
 \end{figure}
-
 
 \begin{figure}[h!]
 	\begin{tabular}{cc}
@@ -177,12 +175,10 @@ To determine the induced strain, we maximized the field of view. This allows us 
 \end{figure}
 
 
-To track how the substrate stretches, we first find a centrally located group of spheres, or ``constellation.'' A good constellation is one that easily identifiable for relocation and tracking purposes, and one that has many discrete points in the field of view - i.e. there are plenty of non-overlapping spheres. It is an added bonus to find 4 spheres perpendicularly located, such that they form the tips of cross. This allows for quick strain estimations using the microscope's built-in measuring tools. Though not necessarily, this is useful for a preliminary strain calculation to ensure the substrate is not preferentially stretching in on direction. Asymmetric stretching could be indicative of a caught  the substrate is caught in the apparatus. Not only does this ruin the symmetry assumptions being made for our calculation, but it could lead to the substrate tearing if more strain is being applied than expected.
+To track how the substrate stretches, we first find a centrally located group of spheres, or ``constellation.'' A good constellation is one that easily identifiable for relocation and tracking purposes, and one that has many discrete points in the field of view - i.e. there are plenty of non-overlapping spheres. It is an added bonus to find 4 spheres perpendicularly located, such that they form the tips of cross. This allows for quick strain estimations using the microscope's built-in measuring tools. Though not necessarily, this is useful for a preliminary strain calculation to ensure the substrate is not preferentially stretching in on direction. Asymmetric stretching could be indicative of a caught  the substrate is caught in the apparatus. Not only does this ruin the symmetry assumptions being made for our calculation, but it could lead to the substrate tearing if more strain is being applied than expected. 
 
-To evacuate the cylinder, we use the the Harvard Apparatus\texttrademark \ Elite Pro Syringe Pump with a 50mL Luerlock syringe. Before beginning any stretching, we withdraw a few ml of air to ensure the substrate is flat and not sagging. At this point we take a picture of the brightfield and call it the ``zero applied strain'' image. We compare all stretched data to this image in order to determine the induced strain. Because of the geometry of the stretching apparatus, along with the way the silicone cures and the local strains induced by adhesion, we do not yet have a way to determine the true strain of the silicone. However, we are most interested in the slope of the $\Upsilon$ vs. $\epsilon$ curve, $\Lambda$, so this is not vitally important.
-
-The induced strain is a tensor of rank two. Because we are stretching the substrate equally in all directions, we can just look at the magnitude of the tensor and treat the strain as a scalar \cite{xu2017direct,xu2018surface}.     
-
+To evacuate the cylinder, we use the the Harvard Apparatus\texttrademark \ Elite Pro Syringe Pump with a 50mL Luerlock syringe. Before beginning any stretching, we withdraw a few ml of air to ensure the substrate is flat and not sagging. At this point we take a picture of the brightfield and call it the ``zero applied strain'' image. We compare all stretched data to this image in order to determine the induced strain. Using MATLAB software, we can locate each sphere (Figure \ref{fig:particleTracking}) and track their change in location for different strains. From this we can calculate the induced strain, a tensor of rank two. However, because we are stretching the substrate equally in all directions, we can just look at the magnitude of the tensor and treat the strain as a scalar \cite{xu2017direct,xu2018surface}. Because of the geometry of the stretching apparatus, along with the way the silicone cures and the local strains induced by adhesion, we do not yet have a way to determine the true strain of the silicone. However, we are most interested in the slope of the $\Upsilon$ vs. $\epsilon$ curve, $\Lambda$, so this is not vitally important.
+   
 
 \section{Material Characterization}
 To measure the stiffness of our substrate, we do not use the confocal measurement sample. Instead, when preparing the sample, we cure a surplus of the substrate material in a vial to test the bulk characteristics of the sample. 
@@ -191,7 +187,7 @@ We take a standard bulk stiffness measurement using the Texture Technologies TA.
 
 
 \subsection{Hertzian Contact Mechanics Derivation}
-We calculate the Young's modulus for the bulk sample using classic Hertzian contact mechanics between a flat, rigid cylinder and an elastic half-space.
+We calculate the Young's modulus for the bulk sample using classic Hertzian contact mechanics between a flat, rigid cylinder and an elastic half-space. Here, $ R $ is the radius of the indenter and $ d $ is the indentation depth of the probe. We can define the applied force as:
 
 \begin{equation}
 F=2RE^*d
@@ -200,7 +196,7 @@ where
 \begin{equation*}
 \frac{1}{E^*} = \frac{1-\nu_1^2}{E1} + \frac{1-\nu_2^2}{E2}
 \end{equation*}
-Here, we are working with a large indenter and a geometry that fixes the contact area. For Silicone, $ \nu \approx .5$ for low strains; for the rigid cylinder, $ E \gg 1-\nu^2 $, so we can ignore that term. From the Force vs. depth information, we can write an equation for E:
+We are working with a large indenter and a geometry that fixes the contact area. For Silicone, $ \nu \approx .5$ for low strains; for the rigid cylinder, $ E \gg 1-\nu^2 $, so we can ignore that term. From the force vs. depth information, we can write an equation for E:
 
 \begin{align}
 &\frac{1}{E^*} = \frac{2Rd}{F} \\
@@ -227,6 +223,6 @@ Here, we are working with a large indenter and a geometry that fixes the contact
 
 
 \section{Putting it all Together}
-Using the texture analyzer, we can measure $ E $ for our substrate. Next, we need a way to measure $ d $ vs. $ R $ for many spheres per sample. With these three values measured, only two terms in Equation \ref{THEeqn} remain unknown, $ \Upsilon $ and $ W $. To determine these unknown values, we can run a two parameter fit using Equation \ref{THEeqn}. Using our equibiaxial stretching apparatus, we can then repeat the $ d $ vs. $ R $ measurements at a range of strain to determine $ \Upsilon(\epsilon) $. The process of collecting the $ d $ vs. $ R $ measurements for a single sphere is explained in Chapter 3.
+Using the texture analyzer, we can measure $ E $ for our substrate. Next, we need a way to measure the spontaneous indentation depth, $ d $ vs. radius $ R $ for many spheres per sample. With these three values measured, only two terms in Equation \ref{THEeqn} remain unknown, $ \Upsilon $ and $ W $. To determine these unknown values, we can run a two parameter fit using Equation \ref{THEeqn}. Using our equibiaxial stretching apparatus, we can then repeat the $ d $ vs. $ R $ measurements at a range of strain to determine $ \Upsilon(\epsilon) $. The process of collecting the $ d $ vs. $ R $ measurements for a single sphere is explained in Chapter 3.
 
 %

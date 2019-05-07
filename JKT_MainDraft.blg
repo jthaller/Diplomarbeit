@@ -4,45 +4,45 @@ The top-level auxiliary file: JKT_MainDraft.aux
 The style file: goodStyle.bst
 Database file #1: bibliography.bib
 Warning--I didn't find a database entry for "Jensen2017PhysRevX"
-You've used 40 entries,
+You've used 41 entries,
             2244 wiz_defined-function locations,
-            772 strings with 11117 characters,
-and the built_in function-call counts, 15340 in all, are:
-= -- 1086
-> -- 532
+            779 strings with 11240 characters,
+and the built_in function-call counts, 15565 in all, are:
+= -- 1100
+> -- 536
 < -- 2
-+ -- 248
-- -- 124
-* -- 945
-:= -- 1726
-add.period$ -- 119
-call.type$ -- 40
++ -- 250
+- -- 125
+* -- 953
+:= -- 1753
+add.period$ -- 122
+call.type$ -- 41
 change.case$ -- 38
 chr.to.int$ -- 0
-cite$ -- 40
-duplicate$ -- 1488
-empty$ -- 1482
-format.name$ -- 160
-if$ -- 3344
+cite$ -- 41
+duplicate$ -- 1513
+empty$ -- 1512
+format.name$ -- 161
+if$ -- 3397
 int.to.chr$ -- 0
-int.to.str$ -- 40
-missing$ -- 396
-newline$ -- 202
-num.names$ -- 40
-pop$ -- 547
+int.to.str$ -- 41
+missing$ -- 403
+newline$ -- 207
+num.names$ -- 41
+pop$ -- 559
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 299
+skip$ -- 303
 stack$ -- 0
 substring$ -- 832
-swap$ -- 1033
+swap$ -- 1046
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 95
-width$ -- 42
-write$ -- 437
+while$ -- 96
+width$ -- 43
+write$ -- 447
 (There was 1 warning)

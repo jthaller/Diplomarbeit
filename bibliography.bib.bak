@@ -496,7 +496,7 @@
   publisher = {American Chemical Society},
 }
 
-@Article{doi:10.1021/ma500317q,
+@Article{caoAdhesion,
   author  = {Cao, Zhen and Stevens, Mark J. and Dobrynin, Andrey V.},
   title   = {Adhesion and Wetting of Nanoparticles on Soft Surfaces},
   journal = {Macromolecules},
@@ -505,6 +505,18 @@
   number  = {9},
   pages   = {3203-3209},
   doi     = {10.1021/ma500317q},
+}
+
+@Book{JohnsonHertzBOOK,
+  title     = {Contact mechanics},
+  publisher = {Cambridge University Press},
+  year      = {1985},
+  author    = {Johnson, K. L. (Kenneth Langstreth)},
+  address   = {Cambridge},
+  isbn      = {1139171739},
+  abstract  = {This treatise is concerned with the stresses and deformation of solid bodies in contact with each other, along curved surfaces which touch initially at a point or along a line. Examples are a railway wheel and rail, or a pair of gear wheel teeth. Professor Johnson first reviews the development of the theory of contact stresses since the problem was originally addressed by H. Hertz in 1882. Next he discusses the influence of friction and the topographical roughness of surfaces, and this is incorporated into the theory of contact mechanics. An important feature is the treatment of bodies which deform plastically or viscoelastically. In addition to stationary contact, an appreciable section of the book is concerned with bodies which are in sliding or rolling contact, or which collide.},
+  keywords  = {Mechanics, Applied; Surfaces (Technology); Rolling contact; Contact mechanics},
+  language  = {eng},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
