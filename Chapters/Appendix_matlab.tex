@@ -1,8 +1,8 @@
 %appendix3
+Below, we list and briefly explain the function of each MATLAB program used in analyzing the raw TIF images.
+
 
 \def\code#1{\texttt{#1}}
-
-Looking at previous majumder theses, they all seem to include appendices with their matlab code. I think I have too much to include the actual code, but I think it would be useful to include what .m files I use, what they do, and in what order to run them. How else will someone know what to do with them? I also think it would be useful to put them in my github account in a new project folder and permilink there.
 
 \subsection{Confocal Analysis Codes}
 Below I list the MATLAB codes used in analyzing the raw .ome.tif files obtained from the confocal imaging process. I will list them in the order executed to obtain the desired d vs. R values. In each description, I will also include the required files needed to run the script.
@@ -17,31 +17,47 @@ Below I list the MATLAB codes used in analyzing the raw .ome.tif files obtained 
 \begin{itemize}
 	\item Locates the fluorescent beads
 	\item Returns a .txt file with the locating information and creates a figure 
-	\item INCLUDE FIGURE HERE
+	\item Produces Figure \ref{fig:particlelocatednormalized}
 \end{itemize}
 \subsubsection*{process\_and\_collapse\_confocal\_data.m}
 \begin{itemize}
-	\item Estimate the center point of the sphere in the format of \code{[x,y] + return}
+	\item Estimate the center point of the sphere in the format of \code{[x,y] + return} using Figure \ref{fig:particlelocatedtopview}
 	\item Follow the directions printed on the screen to collapse the side profile of the sphere
-	\item INSERT SIDE PROFILE. CAPTION: A PROPERLY COLLAPSE SIDE PROFILE LOOKS AS FOLLOWS
+	\item Creates Figure \ref{fig:sidecollapsed}
 \end{itemize}
 \subsubsection*{circle\_fit\_confocal\_profiles.m}
 \begin{itemize}
 	\item You must edit this script for the first time you analyze a sphere for a given data set.
 	\item This script fits a circle to the collapsed side profile
-	\item Script saves the d vs r value as a .mat file, adds the \code{[d,r]} data to a list of all \code{[d,r]} values (or creates that list if it's the first time being run for a data set), and plots the d vs. r data
+	\item Script saves the d vs r value as a .mat file, adds the \code{[d,R]} data to a list of all \code{[d,R]} values (or creates that list if it's the first time being run for a data set), and plots the d vs. R data
+	\item Produces Figure \ref{fig:circlefit}
 \end{itemize}
 
 \subsection{Strain Calculation Codes}
-The codes used for calculating the strain are credited to Rob Styles (I think. I need to check who wrote what).  
+The codes used for calculating the strain are credited to Rob Style and Ross Boltyauski
+\subsubsection*{master\_tracking\_gui.m}
+\begin{itemize}
+	\item This program requires many additional scripts, though it has easy to follow directions. Instead, we provide example code for measuring the strain. The final output is 'C', the strain-tensor, and 'T', the displacement vector.
+	\item \code{params = master\_tracking\_gui(`sample1\_unstretched.tif')}
+	\item \code{params(2) = master\_tracking\_gui(`sample1\_stretched.tif')}
+\end{itemize}
+\subsubsection*{stretch\_est\_gui.m}
+\begin{itemize}
+	
+	\item Now grab the peak positions out of the data structure:
+	\item \code{r = params(1).pks(:,1:2)}
+	\item \code{r2 = params(2).pks(:,1:2)}
+	\item \code{[A,t] = stretch\_est(r,r2)}
+	\item \code{[C,T] = stretch\_refine(r,r2,A,t,2,1)}
+	
+\end{itemize}
 
-\subsubsection{master\_tracking\_gui.m}
 
 
 \subsection{Silicone Characterization Measurements}
-To measure the stiffness of our silicone (Young's Modulus, E), we use the \emph{something something Texture Analyzer}. We measure the force of resistance (N) vs. depth of compression (m) for several points near the center of the bulk. We only use points near the center to isolate the silicone. Measuring near the sides could include the restorative force from the walls of the container.
+To measure the stiffness of our silicone (Young Modulus, E), we use the TA XTPlus Texture Analyzer. We measure the force of resistance (N) vs. depth of compression (m) for several points near the center of the bulk, which we export as .txt files. We only use points near the center to isolate the silicone. Measuring near the sides could include the restorative force from the walls of the container.
 \subsubsection*{measure\_modulus.m}
 \begin{itemize}
-	\item Calculates the average slope of this curve. This is the Young's Modulus of the substrate.  $(\sigma/\epsilon)$
+	\item Calculates the average slope of this curve. This is the Young Modulus of the substrate.  $(\sigma/\epsilon)$
 	\item The requested starting position is the x-axis value where the linear slope approximately begins. It is better to overshoot the starting value than undershoot it
 \end{itemize}

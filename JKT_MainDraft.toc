@@ -55,5 +55,4 @@
 \contentsline {chapter}{\numberline {C}MATLAB Code}{49}{appendix.C}
 \contentsline {subsection}{\numberline {C.0.1}Confocal Analysis Codes}{49}{subsection.C.0.1}
 \contentsline {subsection}{\numberline {C.0.2}Strain Calculation Codes}{50}{subsection.C.0.2}
-\contentsline {subsubsection}{master\_tracking\_gui.m}{50}{section*.30}
 \contentsline {subsection}{\numberline {C.0.3}Silicone Characterization Measurements}{50}{subsection.C.0.3}

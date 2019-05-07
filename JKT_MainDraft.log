@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  7 MAY 2019 02:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  7 MAY 2019 02:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2958,14 +2958,14 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
  [49
 
-])
-(./JKT_MainDraft.bbl [50] [51
+] [50])
+(./JKT_MainDraft.bbl [51] [52
 
-] [52])
+] [53])
 
 Package natbib Warning: There were undefined citations.
 
-[53]
+[54]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
  (./JKT_MainDraft.aux)
@@ -2980,8 +2980,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
  ) 
 Here is how much of TeX's memory you used:
- 30108 strings out of 492982
- 570602 string characters out of 6134895
+ 30110 strings out of 492982
+ 570620 string characters out of 6134895
  641519 words of memory out of 5000000
  32901 multiletter control sequences out of 15000+600000
  544827 words of font info for 75 fonts, out of 8000000 for 9000
@@ -3009,10 +3009,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist
 /type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on JKT_MainDraft.pdf (63 pages, 17268875 bytes).
+Output written on JKT_MainDraft.pdf (64 pages, 17273264 bytes).
 PDF statistics:
- 1479 PDF objects out of 1728 (max. 8388607)
- 1211 compressed objects within 13 object streams
- 236 named destinations out of 1000 (max. 500000)
+ 1488 PDF objects out of 1728 (max. 8388607)
+ 1219 compressed objects within 13 object streams
+ 238 named destinations out of 1000 (max. 500000)
  631 words of extra memory for PDF output out of 10000 (max. 10000000)
 
