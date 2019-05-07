@@ -7,7 +7,7 @@ Q.~Xu, K.~E. Jensen, R.~Boltyanskiy, R.~Sarfati, R.~W. Style, and E.~R.
 \newblock Nature communications, 8(1):555 (2017).
 
 \bibitem{GennesPierre-Gillesde2003Cawp}
-P.-G. de~Gennes.
+P.~de~Gennes, D.~Quere, and F.~Brochard-Wyart.
 \newblock \emph{Capillarity and wetting phenomena : drops, bubbles, pearls,
   waves}.
 \newblock Springer, New York (2003).
@@ -161,12 +161,12 @@ S.~Na, A.~Trache, J.~Trzeciakowski, Z.~Sun, G.~Meininger, and J.~Humphrey.
 \newblock Annals of biomedical engineering, 36(3):369--380 (2008).
 
 \bibitem{patent:3013467}
-M.~Marvin.
+M.~Minsky.
 \newblock \emph{Microscopy apparatus} (1961).
 
 \bibitem{Andreotti2020}
 J.~H.~S. Bruno~Andreotti.
 \newblock \emph{Statics \& dynamics of soft wetting}.
-\newblock Annual Review of Fluid Mechanics (2020).
+\newblock Annual Review (2020).
 
 \end{thebibliography}

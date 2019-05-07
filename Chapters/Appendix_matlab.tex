@@ -23,7 +23,7 @@ Below I list the MATLAB codes used in analyzing the raw .ome.tif files obtained 
 \begin{itemize}
 	\item Estimate the center point of the sphere in the format of \code{[x,y] + return} using Figure \ref{fig:particlelocatedtopview}
 	\item Follow the directions printed on the screen to collapse the side profile of the sphere
-	\item Creates Figure \ref{fig:sidecollapsed}
+	\item Produces Figure \ref{fig:sidecollapsed}
 \end{itemize}
 \subsubsection*{circle\_fit\_confocal\_profiles.m}
 \begin{itemize}
@@ -37,7 +37,7 @@ Below I list the MATLAB codes used in analyzing the raw .ome.tif files obtained 
 The codes used for calculating the strain are credited to Rob Style and Ross Boltyauski
 \subsubsection*{master\_tracking\_gui.m}
 \begin{itemize}
-	\item This program requires many additional scripts, though it has easy to follow directions. Instead, we provide example code for measuring the strain. The final output is 'C', the strain-tensor, and 'T', the displacement vector.
+	\item This program requires many additional scripts, though it has easy to follow directions. Instead, we provide example code for measuring the strain. The final output is `C,' the strain-tensor, and `T,' the displacement vector.
 	\item \code{params = master\_tracking\_gui(`sample1\_unstretched.tif')}
 	\item \code{params(2) = master\_tracking\_gui(`sample1\_stretched.tif')}
 \end{itemize}
@@ -51,8 +51,6 @@ The codes used for calculating the strain are credited to Rob Style and Ross Bol
 	\item \code{[C,T] = stretch\_refine(r,r2,A,t,2,1)}
 	
 \end{itemize}
-
-
 
 \subsection{Silicone Characterization Measurements}
 To measure the stiffness of our silicone (Young Modulus, E), we use the TA XTPlus Texture Analyzer. We measure the force of resistance (N) vs. depth of compression (m) for several points near the center of the bulk, which we export as .txt files. We only use points near the center to isolate the silicone. Measuring near the sides could include the restorative force from the walls of the container.

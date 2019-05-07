@@ -6,37 +6,37 @@ Database file #1: bibliography.bib
 Warning--I didn't find a database entry for "Jensen2017PhysRevX"
 You've used 30 entries,
             2244 wiz_defined-function locations,
-            705 strings with 9187 characters,
-and the built_in function-call counts, 11153 in all, are:
-= -- 780
-> -- 381
+            705 strings with 9196 characters,
+and the built_in function-call counts, 11228 in all, are:
+= -- 785
+> -- 390
 < -- 2
-+ -- 178
-- -- 89
-* -- 669
-:= -- 1265
++ -- 182
+- -- 91
+* -- 676
+:= -- 1271
 add.period$ -- 89
 call.type$ -- 30
 change.case$ -- 28
 chr.to.int$ -- 0
 cite$ -- 30
-duplicate$ -- 1097
-empty$ -- 1088
-format.name$ -- 114
-if$ -- 2435
+duplicate$ -- 1102
+empty$ -- 1090
+format.name$ -- 117
+if$ -- 2452
 int.to.chr$ -- 0
 int.to.str$ -- 30
-missing$ -- 291
+missing$ -- 293
 newline$ -- 152
 num.names$ -- 30
-pop$ -- 406
+pop$ -- 411
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 220
+skip$ -- 223
 stack$ -- 0
 substring$ -- 567
-swap$ -- 752
+swap$ -- 757
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
