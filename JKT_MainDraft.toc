@@ -31,7 +31,7 @@
 \contentsline {chapter}{\numberline {3}Data Acquisition and Image Analysis}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Fluorescent Confocal Microscopy}{19}{section.3.1}
 \contentsline {section}{\numberline {3.2}Applying Fluorescent Confocal Microscopy to the Sample}{20}{section.3.2}
-\contentsline {subsubsection}{Fluorescent Confocal Microscopy Data Collection}{21}{section*.17}
+\contentsline {subsubsection}{Fluorescent Confocal Microscopy Data Collection}{21}{section*.16}
 \contentsline {subsection}{\numberline {3.2.1}Raw Data Files}{21}{subsection.3.2.1}
 \contentsline {section}{\numberline {3.3}Image Analysis}{23}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Particle Location}{23}{subsection.3.3.1}
