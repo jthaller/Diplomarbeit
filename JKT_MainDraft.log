@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  6 MAY 2019 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  6 MAY 2019 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2934,7 +2934,7 @@ Chapter 5.
 ]) [45]
 Appendix A.
 (./Chapters/Appendix.tex
-<Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF, id=1239, 794.97pt x
+<Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF, id=1240, 794.97pt x
  614.295pt>
 File: Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF Graphic file (t
 ype pdf)
@@ -2946,7 +2946,7 @@ PDF  used on input line 18.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/Stretcher_outer.pdf, id=1240, 624.10275pt x 483.90598pt>
+<Chapters/Figures/Stretcher_outer.pdf, id=1241, 624.10275pt x 483.90598pt>
 File: Chapters/Figures/Stretcher_outer.pdf Graphic file (type pdf)
 <use Chapters/Figures/Stretcher_outer.pdf>
 Package pdftex.def Info: Chapters/Figures/Stretcher_outer.pdf  used on input li
@@ -2991,7 +2991,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `JKT_MainDraft.out' has not changed.
-(rerunfilecheck)             Checksum: D1B76C705F651F7FFB1DC98D56521E18;3708.
+(rerunfilecheck)             Checksum: 599D791C66811294523E72359986CD59;3701.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3000,8 +3000,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
  ) 
 Here is how much of TeX's memory you used:
  30115 strings out of 492982
- 570777 string characters out of 6134895
- 642696 words of memory out of 5000000
+ 570767 string characters out of 6134895
+ 642693 words of memory out of 5000000
  32905 multiletter control sequences out of 15000+600000
  544827 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3028,10 +3028,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist
 /type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on JKT_MainDraft.pdf (64 pages, 17284651 bytes).
+Output written on JKT_MainDraft.pdf (64 pages, 17285283 bytes).
 PDF statistics:
- 1463 PDF objects out of 1728 (max. 8388607)
- 1201 compressed objects within 13 object streams
+ 1464 PDF objects out of 1728 (max. 8388607)
+ 1202 compressed objects within 13 object streams
  239 named destinations out of 1000 (max. 500000)
  631 words of extra memory for PDF output out of 10000 (max. 10000000)
 
