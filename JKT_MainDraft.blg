@@ -3,46 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: JKT_MainDraft.aux
 The style file: goodStyle.bst
 Database file #1: bibliography.bib
-Warning--I didn't find a database entry for "Jensen2017PhysRevX"
-You've used 42 entries,
+You've used 41 entries,
             2244 wiz_defined-function locations,
-            784 strings with 11376 characters,
-and the built_in function-call counts, 15721 in all, are:
-= -- 1111
-> -- 537
+            774 strings with 11022 characters,
+and the built_in function-call counts, 15380 in all, are:
+= -- 1086
+> -- 528
 < -- 2
-+ -- 251
-- -- 125
-* -- 959
-:= -- 1767
-add.period$ -- 124
-call.type$ -- 42
-change.case$ -- 38
++ -- 247
+- -- 123
+* -- 940
+:= -- 1730
+add.period$ -- 122
+call.type$ -- 41
+change.case$ -- 37
 chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 1534
-empty$ -- 1533
-format.name$ -- 161
-if$ -- 3434
+cite$ -- 41
+duplicate$ -- 1507
+empty$ -- 1494
+format.name$ -- 158
+if$ -- 3355
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 407
-newline$ -- 211
-num.names$ -- 41
-pop$ -- 565
+int.to.str$ -- 41
+missing$ -- 400
+newline$ -- 207
+num.names$ -- 40
+pop$ -- 551
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 307
+skip$ -- 300
 stack$ -- 0
-substring$ -- 832
-swap$ -- 1057
+substring$ -- 805
+swap$ -- 1038
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 96
-width$ -- 44
-write$ -- 456
-(There was 1 warning)
+while$ -- 94
+width$ -- 43
+write$ -- 447

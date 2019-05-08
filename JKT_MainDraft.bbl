@@ -109,17 +109,6 @@ S.~Mora, T.~Phou, J.-M. Fromental, L.~M. Pismen, and Y.~Pomeau.
 \newblock \emph{Capillarity driven instability of a soft solid}.
 \newblock Physical Review Letters, 105(21):214301 (2010).
 
-\bibitem{style2013surface}
-R.~W. Style, C.~Hyland, R.~Boltyanskiy, J.~S. Wettlaufer, and E.~R. Dufresne.
-\newblock \emph{Surface tension and contact with soft elastic solids}.
-\newblock Nature Communications, 4:2728 (2013).
-
-\bibitem{Jensen2019SoftMatter}
-Z.~Liu et~al.
-\newblock \emph{Effects of strain-dependent surface stress on the adhesive
-  contact of a rigid sphere to a compliant substrate}.
-\newblock Soft Matter, 15:2223--2231 (2019).
-
 \bibitem{jerison2011deformation}
 E.~R. Jerison, Y.~Xu, L.~A. Wilen, and E.~R. Dufresne.
 \newblock \emph{Deformation of an elastic substrate by a three-phase contact
@@ -142,6 +131,11 @@ Q.~Xu, R.~W. Style, and E.~R. Dufresne.
 H.~Liang, Z.~Cao, Z.~Wang, and A.~V. Dobrynin.
 \newblock \emph{Surface stresses and a force balance at a contact line}.
 \newblock Langmuir, 34(25):7497--7502 (2018).
+
+\bibitem{style2013surface}
+R.~W. Style, C.~Hyland, R.~Boltyanskiy, J.~S. Wettlaufer, and E.~R. Dufresne.
+\newblock \emph{Surface tension and contact with soft elastic solids}.
+\newblock Nature Communications, 4:2728 (2013).
 
 \bibitem{xu2016surface}
 X.~Xu, A.~Jagota, D.~Paretkar, and C.-Y. Hui.
@@ -199,7 +193,7 @@ Z.~Cao, M.~J. Stevens, and A.~V. Dobrynin.
 \newblock Macromolecules, 47(9):3203--3209 (2014).
 
 \bibitem{JohnsonHertzBOOK}
-K.~L. K.~L. Johnson.
+K.~L. Johnson.
 \newblock \emph{Contact mechanics}.
 \newblock Cambridge University Press, Cambridge (1985).
 
@@ -225,9 +219,10 @@ S.~Na, A.~Trache, J.~Trzeciakowski, Z.~Sun, G.~Meininger, and J.~Humphrey.
   focal adhesion area in response to cyclic equibiaxial stretch}.
 \newblock Annals of Biomedical Engineering, 36(3):369--380 (2008).
 
-\bibitem{patent:3013467}
+\bibitem{minsky2}
 M.~Minsky.
-\newblock \emph{Microscopy {A}pparatus} (1961).
+\newblock \emph{Microscopy {A}pparatus}.
+\newblock US Patent Number 3013467. (1961).
 
 \bibitem{Nikon_manual}
 Nikon Corporation, 1300 Walt Whitman Road, Melville, N.Y. 11747-3064, U.S.A.
@@ -236,6 +231,6 @@ Nikon Corporation, 1300 Walt Whitman Road, Melville, N.Y. 11747-3064, U.S.A.
 \bibitem{Andreotti2020}
 J.~H.~S. Bruno~Andreotti.
 \newblock \emph{Statics \& dynamics of soft wetting}.
-\newblock Annual Review (2020).
+\newblock Annual Review of Fluid Mechanics (2020).
 
 \end{thebibliography}
