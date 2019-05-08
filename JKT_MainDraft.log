@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  8 MAY 2019 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  8 MAY 2019 18:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2843,7 +2843,7 @@ Overfull \hbox (11.82004pt too wide) in paragraph at lines 61--63
  []
 
 [35] [36]
-<Chapters/Figures/stretch_v_unstretched_0-88-ST1.pdf, id=1320, 506.93832pt x 37
+<Chapters/Figures/stretch_v_unstretched_0-88-ST1.pdf, id=1322, 506.93832pt x 37
 1.13657pt>
 File: Chapters/Figures/stretch_v_unstretched_0-88-ST1.pdf Graphic file (type pd
 f)
@@ -2855,7 +2855,7 @@ sed on input line 108.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/stretch_v_unstretched_0-22-ST1.pdf, id=1321, 496.19052pt x 36
+<Chapters/Figures/stretch_v_unstretched_0-22-ST1.pdf, id=1323, 496.19052pt x 36
 8.69038pt>
 File: Chapters/Figures/stretch_v_unstretched_0-22-ST1.pdf Graphic file (type pd
 f)
@@ -2863,7 +2863,7 @@ f)
 Package pdftex.def Info: Chapters/Figures/stretch_v_unstretched_0-22-ST1.pdf  u
 sed on input line 114.
 (pdftex.def)             Requested size: 469.75499pt x 349.04433pt.
-<Chapters/Figures/g190218_glass_vs_22percent_dvsR.pdf, id=1324, 627.34375pt x 3
+<Chapters/Figures/g190218_glass_vs_22percent_dvsR.pdf, id=1326, 627.34375pt x 3
 60.99155pt>
 File: Chapters/Figures/g190218_glass_vs_22percent_dvsR.pdf Graphic file (type p
 df)
@@ -2885,14 +2885,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [37] [38 <./Chapters/Figures/stretch_v_unstretched_0-88-ST1.pdf>] [39 <./Chapte
 rs/Figures/stretch_v_unstretched_0-22-ST1.pdf>] [40 <./Chapters/Figures/g190218
 _glass_vs_22percent_dvsR.pdf>] [41]
-<Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf, id=1386, 637.35129pt x 408.0
+<Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf, id=1393, 637.35129pt x 408.0
 7103pt>
 File: Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf Graphic file (type pdf)
 <use Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf>
 Package pdftex.def Info: Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf  used
  on input line 145.
 (pdftex.def)             Requested size: 469.75499pt x 300.76608pt.
-<Chapters/Figures/WUps_fit_DC190404.pdf, id=1387, 629.08763pt x 426.62999pt>
+<Chapters/Figures/WUps_fit_DC190404.pdf, id=1394, 629.08763pt x 426.62999pt>
 File: Chapters/Figures/WUps_fit_DC190404.pdf Graphic file (type pdf)
 <use Chapters/Figures/WUps_fit_DC190404.pdf>
 Package pdftex.def Info: Chapters/Figures/WUps_fit_DC190404.pdf  used on input 
@@ -2905,7 +2905,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [42
 
  <./Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf>]
-<Chapters/Figures/190218G_tilted_axis_example.pdf, id=1403, 468.02441pt x 335.9
+<Chapters/Figures/190218G_tilted_axis_example.pdf, id=1410, 468.02441pt x 335.9
 7469pt>
 File: Chapters/Figures/190218G_tilted_axis_example.pdf Graphic file (type pdf)
 <use Chapters/Figures/190218G_tilted_axis_example.pdf>
@@ -2924,7 +2924,7 @@ Chapter 5.
 ]) [46]
 Appendix A.
 (./Chapters/Appendix.tex
-<Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF, id=1441, 794.97pt x
+<Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF, id=1448, 794.97pt x
  614.295pt>
 File: Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF Graphic file (t
 ype pdf)
@@ -2936,7 +2936,7 @@ PDF  used on input line 17.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/Stretcher_outer.pdf, id=1442, 619.48878pt x 474.20645pt>
+<Chapters/Figures/Stretcher_outer.pdf, id=1449, 619.48878pt x 474.20645pt>
 File: Chapters/Figures/Stretcher_outer.pdf Graphic file (type pdf)
 <use Chapters/Figures/Stretcher_outer.pdf>
 Package pdftex.def Info: Chapters/Figures/Stretcher_outer.pdf  used on input li
@@ -2985,9 +2985,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
  ) 
 Here is how much of TeX's memory you used:
- 30089 strings out of 492982
- 570998 string characters out of 6134895
- 629277 words of memory out of 5000000
+ 30090 strings out of 492982
+ 571010 string characters out of 6134895
+ 628285 words of memory out of 5000000
  32871 multiletter control sequences out of 15000+600000
  544827 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3011,10 +3011,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on JKT_MainDraft.pdf (67 pages, 17954894 bytes).
+Output written on JKT_MainDraft.pdf (67 pages, 17955880 bytes).
 PDF statistics:
- 1694 PDF objects out of 1728 (max. 8388607)
- 1364 compressed objects within 14 object streams
- 243 named destinations out of 1000 (max. 500000)
+ 1701 PDF objects out of 1728 (max. 8388607)
+ 1369 compressed objects within 14 object streams
+ 244 named destinations out of 1000 (max. 500000)
  643 words of extra memory for PDF output out of 10000 (max. 10000000)
 
