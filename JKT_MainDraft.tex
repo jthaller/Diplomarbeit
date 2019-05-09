@@ -26,6 +26,13 @@
 \usepackage{sidecap}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage[section]{placeins}
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
 
 
 
@@ -102,7 +109,7 @@ Williamstown, Massachusetts\\
 \today % you might choose to set a permanent date, but \today will put in today's date
 \end{center}
 \end{titlepage}
-
+\afterpage{\blankpage}
 % \frontmatter defines the pieces of the thesis which will use roman numerals for page numbering
 \frontmatter 
 
@@ -112,12 +119,15 @@ Williamstown, Massachusetts\\
 % \input will reference a particular .tex file.  Here we are grabbing a file entitled Abstract stored in the folder Chapters
 \chapter{Abstract}
 \input{Chapters/Abstract}
+\afterpage{\blankpage}
+
 \chapter{Executive Summary}
 \input{Chapters/ExecutiveSummary}
+\afterpage{\blankpage}
 
 \chapter{Acknowledgements}
 \input{Chapters/Acknowledgements}
-
+\afterpage{\blankpage}
 %\tableofcontents will create a table of contents.  By default it will include entries for any \chapter, \section, and \subsection command that appears in your thesis unless you have called the tag with an asterisk
 \tableofcontents
 
@@ -129,14 +139,17 @@ Williamstown, Massachusetts\\
 \chapter{Introduction}
 \input{Chapters/Chapter1}
 
+
 \chapter{Experimental Approach: Setup, Data Acquisition, \& Analysis }
 \input{Chapters/Chapter2}
 
 \chapter{Data Acquisition and Image Analysis}
 \input{Chapters/Chapter3}
+\afterpage{\blankpage}
 
 \chapter{Surface Stress and Adhesion Results}
 \input{Chapters/Chapter4}
+\afterpage{\blankpage}
 
 \chapter{Future Work}
 \input{Chapters/Chapter5}
@@ -145,15 +158,18 @@ Williamstown, Massachusetts\\
 \appendix 
 \chapter[Stretching Apparatus Design]{Stretching Apparatus Engineering Design Documents}
 \input{Chapters/Appendix}
+\afterpage{\blankpage}
 
 %\chapter{Substrate Stiffness Measurement}
 %\input{Chapters/Appendix_stiffness}
 
 \chapter{Fluorescent Bead Recipe}
 \input{Chapters/Appendix_beads}
+\afterpage{\blankpage}
 
 \chapter{MATLAB Code}
 \input{Chapters/Appendix_matlab}
+\afterpage{\blankpage}
 
 
 % \bibliographystyle tells LaTeX how you want to format your bibliography.  There are many standard formats.  apsrev is fairly typical, but feel free to explore other options if the mood strikes.  

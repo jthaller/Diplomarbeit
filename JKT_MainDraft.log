@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  8 MAY 2019 18:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.21)  8 MAY 2019 20:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -840,6 +840,12 @@ LaTeX Info: Redefining \addtolength on input line 81.
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks46
+\AP@partial=\box44
+\AP@footins=\box45
+)
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
@@ -953,11 +959,11 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \l__regex_submatch_int=\count279
 \l__regex_zeroth_submatch_int=\count280
 \g__regex_trace_regex_int=\count281
-\c_empty_box=\box44
-\l_tmpa_box=\box45
-\l_tmpb_box=\box46
-\g_tmpa_box=\box47
-\g_tmpb_box=\box48
+\c_empty_box=\box46
+\l_tmpa_box=\box47
+\l_tmpb_box=\box48
+\g_tmpa_box=\box49
+\g_tmpb_box=\box50
 \l__box_top_dim=\dimen189
 \l__box_bottom_dim=\dimen190
 \l__box_left_dim=\dimen191
@@ -966,8 +972,8 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \l__box_bottom_new_dim=\dimen194
 \l__box_left_new_dim=\dimen195
 \l__box_right_new_dim=\dimen196
-\l__box_internal_box=\box49
-\l__coffin_internal_box=\box50
+\l__box_internal_box=\box51
+\l__coffin_internal_box=\box52
 \l__coffin_internal_dim=\dimen197
 \l__coffin_offset_x_dim=\dimen198
 \l__coffin_offset_y_dim=\dimen199
@@ -975,14 +981,14 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \l__coffin_y_dim=\dimen257
 \l__coffin_x_prime_dim=\dimen258
 \l__coffin_y_prime_dim=\dimen259
-\c_empty_coffin=\box51
-\l__coffin_aligned_coffin=\box52
-\l__coffin_aligned_internal_coffin=\box53
-\l_tmpa_coffin=\box54
-\l_tmpb_coffin=\box55
-\l__coffin_display_coffin=\box56
-\l__coffin_display_coord_coffin=\box57
-\l__coffin_display_pole_coffin=\box58
+\c_empty_coffin=\box53
+\l__coffin_aligned_coffin=\box54
+\l__coffin_aligned_internal_coffin=\box55
+\l_tmpa_coffin=\box56
+\l_tmpb_coffin=\box57
+\l__coffin_display_coffin=\box58
+\l__coffin_display_coord_coffin=\box59
+\l__coffin_display_pole_coffin=\box60
 \l__coffin_display_offset_dim=\dimen260
 \l__coffin_display_x_dim=\dimen261
 \l__coffin_display_y_dim=\dimen262
@@ -997,7 +1003,7 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count282
-\l__driver_tmp_box=\box59
+\l__driver_tmp_box=\box61
 ))
 Package: xparse 2018/02/21 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count283
@@ -1990,11 +1996,11 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box60
-\AM@global@opts=\toks46
-\AM@toc@title=\toks47
+\AM@pagebox=\box62
+\AM@global@opts=\toks47
+\AM@toc@title=\toks48
 \c@AM@survey=\count289
-\AM@templatesizebox=\box61
+\AM@templatesizebox=\box63
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
@@ -2008,8 +2014,8 @@ LaTeX Info: Redefining \bm on input line 207.
 \wrapoverhang=\dimen272
 \WF@size=\dimen273
 \c@WF@wrappedlines=\count290
-\WF@box=\box62
-\WF@everypar=\toks48
+\WF@box=\box64
+\WF@everypar=\toks49
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -2053,7 +2059,7 @@ Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
+Package atveryend Info: \AP@enddocument detected (standard20110627).
 Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
@@ -2123,7 +2129,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip60
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 61.
+Package hyperref Info: Option `colorlinks' set `true' on input line 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
@@ -2137,7 +2143,7 @@ Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
 (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box63
+\collectedbox=\box65
 )
 \tc@llx=\dimen278
 \tc@lly=\dimen279
@@ -2159,7 +2165,7 @@ Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 )
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box64
+\@vwid@box=\box66
 \sift@deathcycles=\count302
 \@vwid@loff=\dimen286
 \@vwid@roff=\dimen287
@@ -2174,20 +2180,20 @@ LaTeX Warning: Label `fig:wupsfitg9-1' multiply defined.
 )
 \openout1 = `JKT_MainDraft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2223,14 +2229,14 @@ LaTeX Font Info:    ... okay on input line 66.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 66.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 66.
+LaTeX Info: Redefining \celsius on input line 73.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 73.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 66.
-Package gensymb Info: Using \Omega for \ohm on input line 66.
+LaTeX Info: Redefining \ohm on input line 73.
+Package gensymb Info: Using \Omega for \ohm on input line 73.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -2238,15 +2244,15 @@ Package gensymb Warning: Not defining \micro.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count303
 \scratchdimen=\dimen288
-\scratchbox=\box65
+\scratchbox=\box67
 \nofMPsegments=\count304
 \nofMParguments=\count305
-\everyMPshowfont=\toks49
+\everyMPshowfont=\toks50
 \MPscratchCnt=\count306
 \MPscratchDim=\dimen289
 \MPnumerator=\count307
 \makeMPintoPDFobject=\count308
-\everyMPtoPDFconversion=\toks50
+\everyMPtoPDFconversion=\toks51
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -2289,7 +2295,7 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip73
 \JustifyingParindent=\skip74
 )
-\AtBeginShipoutBox=\box66
+\AtBeginShipoutBox=\box68
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -2299,7 +2305,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring ON on input line 66.
+Package hyperref Info: Link coloring ON on input line 73.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2309,9 +2315,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count309
 )
-LaTeX Info: Redefining \ref on input line 66.
-LaTeX Info: Redefining \pageref on input line 66.
-LaTeX Info: Redefining \nameref on input line 66.
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
 
 (./JKT_MainDraft.out) (./JKT_MainDraft.out)
 \@outlinefile=\write5
@@ -2320,13 +2326,15 @@ LaTeX Info: Redefining \nameref on input line 66.
 <Chapters/Figures/seal.PNG, id=208, 486.81876pt x 481.8pt>
 File: Chapters/Figures/seal.PNG Graphic file (type png)
 <use Chapters/Figures/seal.PNG>
-Package pdftex.def Info: Chapters/Figures/seal.PNG  used on input line 87.
+Package pdftex.def Info: Chapters/Figures/seal.PNG  used on input line 94.
 (pdftex.def)             Requested size: 117.43874pt x 116.22249pt.
  [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Chapters/Figures/seal.PN
-G>] (./Chapters/Abstract.tex
+G>] [0
+
+] (./Chapters/Abstract.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -2338,25 +2346,28 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )) [1
 
+]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.124 \chapter
+              {Executive Summary} [1
 
-]
-(./Chapters/ExecutiveSummary.tex
-<Chapters/Figures/2017natcomfig.png, id=225, 720.291pt x 616.704pt>
+] (./Chapters/ExecutiveSummary.tex
+<Chapters/Figures/2017natcomfig.png, id=232, 720.291pt x 616.704pt>
 File: Chapters/Figures/2017natcomfig.png Graphic file (type png)
 <use Chapters/Figures/2017natcomfig.png>
 Package pdftex.def Info: Chapters/Figures/2017natcomfig.png  used on input line
  6.
 (pdftex.def)             Requested size: 324.13208pt x 277.51422pt.
- [2
-
- <./Chapters/Figures/2017natcomfig.png>]
-<Chapters/Figures/w_ups_fit_G9-1.pdf, id=236, 631.1901pt x 371.25064pt>
+ [2 <./Chapters/Figures/2017natcomfig.png>]
+<Chapters/Figures/w_ups_fit_G9-1.pdf, id=243, 631.1901pt x 371.25064pt>
 File: Chapters/Figures/w_ups_fit_G9-1.pdf Graphic file (type pdf)
 <use Chapters/Figures/w_ups_fit_G9-1.pdf>
 Package pdftex.def Info: Chapters/Figures/w_ups_fit_G9-1.pdf  used on input lin
 e 17.
 (pdftex.def)             Requested size: 469.75499pt x 276.29599pt.
-<Chapters/Figures/stretch_v_unstretched_0-88-ST1_INTRO.pdf, id=240, 503.27884pt
+<Chapters/Figures/stretch_v_unstretched_0-88-ST1_INTRO.pdf, id=247, 503.27884pt
  x 371.43301pt>
 File: Chapters/Figures/stretch_v_unstretched_0-88-ST1_INTRO.pdf Graphic file (t
 ype pdf)
@@ -2364,18 +2375,27 @@ ype pdf)
 Package pdftex.def Info: Chapters/Figures/stretch_v_unstretched_0-88-ST1_INTRO.
 pdf  used on input line 25.
 (pdftex.def)             Requested size: 469.75499pt x 346.71pt.
+ [3 <./Chapters/Figures/w_ups_fit_G9-1.pdf>]) [4 <./Chapters/Figures/stretch_v_
+unstretched_0-88-ST1_INTRO.pdf>]pdfTeX warning (ext4): destination with the sam
+e identifier (name{page.iv}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.128 \chapter
+              {Acknowledgements} [4
 
-[3 <./Chapters/Figures/w_ups_fit_G9-1.pdf>]) [4 <./Chapters/Figures/stretch_v_u
-nstretched_0-88-ST1_INTRO.pdf>] (./Chapters/Acknowledgements.tex) [5
+] (./Chapters/Acknowledgements.tex) [5]pdfTeX warning (ext4): destination with 
+the same identifier (name{page.v}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.132 \tableofcontents
+                       [5
 
-]
-(./JKT_MainDraft.toc [6
-
-])
+] (./JKT_MainDraft.toc [6])
 \tf@toc=\write6
 \openout6 = `JKT_MainDraft.toc'.
 
- [7] (./JKT_MainDraft.lof [8
+ [7] (./JKT_MainDraft.lof
+[8
 
 ])
 \tf@lof=\write7
@@ -2384,7 +2404,7 @@ nstretched_0-88-ST1_INTRO.pdf>] (./Chapters/Acknowledgements.tex) [5
  [9]
 Chapter 1.
 (./Chapters/Chapter1.tex
-<Chapters/Figures/surface_energy_origin.pdf, id=515, 832.10875pt x 407.5225pt>
+<Chapters/Figures/surface_energy_origin.pdf, id=529, 832.10875pt x 407.5225pt>
 File: Chapters/Figures/surface_energy_origin.pdf Graphic file (type pdf)
 <use Chapters/Figures/surface_energy_origin.pdf>
 Package pdftex.def Info: Chapters/Figures/surface_energy_origin.pdf  used on in
@@ -2399,13 +2419,13 @@ l.21
 
 
 ] [2 <./Chapters/Figures/surface_energy_origin.pdf>]
-<Chapters/Figures/phase_diagram.PNG, id=572, 347.6187pt x 185.493pt>
+<Chapters/Figures/phase_diagram.PNG, id=586, 347.6187pt x 185.493pt>
 File: Chapters/Figures/phase_diagram.PNG Graphic file (type png)
 <use Chapters/Figures/phase_diagram.PNG>
 Package pdftex.def Info: Chapters/Figures/phase_diagram.PNG  used on input line
  40.
 (pdftex.def)             Requested size: 281.85585pt x 150.40982pt.
-<Chapters/Figures/phase_diagram.pdf, id=574, 433.62pt x 273.02pt>
+<Chapters/Figures/phase_diagram.pdf, id=588, 433.62pt x 273.02pt>
 File: Chapters/Figures/phase_diagram.pdf Graphic file (type pdf)
 <use Chapters/Figures/phase_diagram.pdf>
 Package pdftex.def Info: Chapters/Figures/phase_diagram.pdf  used on input line
@@ -2424,7 +2444,7 @@ ANALYSIS  \OT1/cmr/m/n/12 8
  []
 
 [8]
-<Chapters/Figures/SphericalCap.pdf, id=737, 175.99236pt x 175.99236pt>
+<Chapters/Figures/SphericalCap.pdf, id=752, 175.99236pt x 175.99236pt>
 File: Chapters/Figures/SphericalCap.pdf Graphic file (type pdf)
 <use Chapters/Figures/SphericalCap.pdf>
 Package pdftex.def Info: Chapters/Figures/SphericalCap.pdf  used on input line 
@@ -2463,7 +2483,7 @@ ANALYSIS  \OT1/cmr/m/n/12 10
  []
 
 [10]
-<Chapters/Figures/substrate_graphic_new.pdf, id=773, 618.46445pt x 339.59413pt>
+<Chapters/Figures/substrate_graphic_new.pdf, id=786, 618.46445pt x 339.59413pt>
 
 File: Chapters/Figures/substrate_graphic_new.pdf Graphic file (type pdf)
 <use Chapters/Figures/substrate_graphic_new.pdf>
@@ -2477,13 +2497,13 @@ ANALYSIS  \OT1/cmr/m/n/12 11
  []
 
 [11 <./Chapters/Figures/substrate_graphic_new.pdf>]
-<Chapters/Figures/stretcher_side.pdf, id=825, 114.36458pt x 41.19322pt>
+<Chapters/Figures/stretcher_side.pdf, id=839, 114.36458pt x 41.19322pt>
 File: Chapters/Figures/stretcher_side.pdf Graphic file (type pdf)
 <use Chapters/Figures/stretcher_side.pdf>
 Package pdftex.def Info: Chapters/Figures/stretcher_side.pdf  used on input lin
 e 134.
 (pdftex.def)             Requested size: 281.85585pt x 101.5402pt.
-<Chapters/Figures/exploded_stretcher.pdf, id=826, 106.83167pt x 191.67735pt>
+<Chapters/Figures/exploded_stretcher.pdf, id=840, 106.83167pt x 191.67735pt>
 File: Chapters/Figures/exploded_stretcher.pdf Graphic file (type pdf)
 <use Chapters/Figures/exploded_stretcher.pdf>
 Package pdftex.def Info: Chapters/Figures/exploded_stretcher.pdf  used on input
@@ -2506,7 +2526,7 @@ ANALYSIS  \OT1/cmr/m/n/12 13
  []
 
 [13 <./Chapters/Figures/exploded_stretcher.pdf>]
-<Chapters/Figures/181115_unstretched_b_thesis_contrast_RGB.pdf, id=844, 764.104
+<Chapters/Figures/181115_unstretched_b_thesis_contrast_RGB.pdf, id=858, 764.104
 69pt x 766.36313pt>
 File: Chapters/Figures/181115_unstretched_b_thesis_contrast_RGB.pdf Graphic fil
 e (type pdf)
@@ -2514,7 +2534,7 @@ e (type pdf)
 Package pdftex.def Info: Chapters/Figures/181115_unstretched_b_thesis_contrast_
 RGB.pdf  used on input line 161.
 (pdftex.def)             Requested size: 225.48038pt x 226.14532pt.
-<Chapters/Figures/181115_stretched_thesis_contrast_RGB.pdf, id=845, 770.88pt x 
+<Chapters/Figures/181115_stretched_thesis_contrast_RGB.pdf, id=859, 770.88pt x 
 770.88pt>
 File: Chapters/Figures/181115_stretched_thesis_contrast_RGB.pdf Graphic file (t
 ype pdf)
@@ -2530,7 +2550,7 @@ Overfull \hbox (6.80574pt too wide) in paragraph at lines 160--164
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/particle_located_unstretched.pdf, id=846, 367.67656pt x 356.6
+<Chapters/Figures/particle_located_unstretched.pdf, id=860, 367.67656pt x 356.6
 092pt>
 File: Chapters/Figures/particle_located_unstretched.pdf Graphic file (type pdf)
 
@@ -2538,7 +2558,7 @@ File: Chapters/Figures/particle_located_unstretched.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapters/Figures/particle_located_unstretched.pdf  use
 d on input line 170.
 (pdftex.def)             Requested size: 234.87749pt x 227.80467pt.
-<Chapters/Figures/particle_located_stretched.pdf, id=847, 358.66489pt x 357.039
+<Chapters/Figures/particle_located_stretched.pdf, id=861, 358.66489pt x 357.039
 pt>
 File: Chapters/Figures/particle_located_stretched.pdf Graphic file (type pdf)
 <use Chapters/Figures/particle_located_stretched.pdf>
@@ -2584,14 +2604,14 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/Figures/particle_located_str
 etched.pdf): PDF inclusion: multiple pdfs with page group included in a single 
 page
 >]
-<Chapters/Figures/190406_DC_1-1RT1-5_fixed.pdf, id=899, 2472.93245pt x 1881.629
+<Chapters/Figures/190406_DC_1-1RT1-5_fixed.pdf, id=912, 2472.93245pt x 1881.629
 73pt>
 File: Chapters/Figures/190406_DC_1-1RT1-5_fixed.pdf Graphic file (type pdf)
 <use Chapters/Figures/190406_DC_1-1RT1-5_fixed.pdf>
 Package pdftex.def Info: Chapters/Figures/190406_DC_1-1RT1-5_fixed.pdf  used on
  input line 210.
 (pdftex.def)             Requested size: 375.80542pt x 285.93604pt.
-<Chapters/Figures/fittedRegionexample.pdf, id=900, 733.99219pt x 401.24907pt>
+<Chapters/Figures/fittedRegionexample.pdf, id=913, 733.99219pt x 401.24907pt>
 File: Chapters/Figures/fittedRegionexample.pdf Graphic file (type pdf)
 <use Chapters/Figures/fittedRegionexample.pdf>
 Package pdftex.def Info: Chapters/Figures/fittedRegionexample.pdf  used on inpu
@@ -2612,13 +2632,13 @@ ANALYSIS  \OT1/cmr/m/n/12 18
 [18 <./Chapters/Figures/fittedRegionexample.pdf>]
 Chapter 3.
 (./Chapters/Chapter3.tex
-<confocal_stuff/confocalpatent_crop3.pdf, id=1039, 768.3555pt x 449.50938pt>
+<confocal_stuff/confocalpatent_crop3.pdf, id=1053, 768.3555pt x 449.50938pt>
 File: confocal_stuff/confocalpatent_crop3.pdf Graphic file (type pdf)
 <use confocal_stuff/confocalpatent_crop3.pdf>
 Package pdftex.def Info: confocal_stuff/confocalpatent_crop3.pdf  used on input
  line 8.
 (pdftex.def)             Requested size: 469.75499pt x 274.81763pt.
-<Chapters/Figures/confocal_fluorescent_diagram_b.pdf, id=1042, 587.28412pt x 73
+<Chapters/Figures/confocal_fluorescent_diagram_b.pdf, id=1056, 587.28412pt x 73
 5.22415pt>
 File: Chapters/Figures/confocal_fluorescent_diagram_b.pdf Graphic file (type pd
 f)
@@ -2639,13 +2659,13 @@ Overfull \hbox (2.55733pt too wide) in paragraph at lines 26--33
  []
 
 [20 <./Chapters/Figures/confocal_fluorescent_diagram_b.pdf>]
-<confocal_stuff/Ti2_diagram_1.png, id=1096, 963.6pt x 515.9275pt>
+<confocal_stuff/Ti2_diagram_1.png, id=1110, 963.6pt x 515.9275pt>
 File: confocal_stuff/Ti2_diagram_1.png Graphic file (type png)
 <use confocal_stuff/Ti2_diagram_1.png>
 Package pdftex.def Info: confocal_stuff/Ti2_diagram_1.png  used on input line 4
 2.
 (pdftex.def)             Requested size: 375.80542pt x 201.2109pt.
-<Chapters/Figures/confocal_setup.pdf, id=1098, 1262.95937pt x 610.88155pt>
+<Chapters/Figures/confocal_setup.pdf, id=1112, 1262.95937pt x 610.88155pt>
 File: Chapters/Figures/confocal_setup.pdf Graphic file (type pdf)
 <use Chapters/Figures/confocal_setup.pdf>
 Package pdftex.def Info: Chapters/Figures/confocal_setup.pdf  used on input lin
@@ -2653,7 +2673,7 @@ e 48.
 (pdftex.def)             Requested size: 328.82706pt x 159.04916pt.
  [21 <./confocal_stuff/Ti2_diagram_1.png> <./Chapters/Figures/confocal_setup.pd
 f>]
-<Chapters/Figures/190215_g91_glass_sphere011_surface.png, id=1117, 1027.84pt x 
+<Chapters/Figures/190215_g91_glass_sphere011_surface.png, id=1130, 1027.84pt x 
 1027.84pt>
 File: Chapters/Figures/190215_g91_glass_sphere011_surface.png Graphic file (typ
 e png)
@@ -2662,7 +2682,7 @@ Package pdftex.def Info: Chapters/Figures/190215_g91_glass_sphere011_surface.pn
 g  used on input line 60.
 (pdftex.def)             Requested size: 352.31624pt x 352.31538pt.
  [22 <./Chapters/Figures/190215_g91_glass_sphere011_surface.png (PNG copy)>]
-<Chapters/Figures/190215_g91_glass_sphere011_cascade1.png, id=1124, 1027.84pt x
+<Chapters/Figures/190215_g91_glass_sphere011_cascade1.png, id=1137, 1027.84pt x
  1027.84pt>
 File: Chapters/Figures/190215_g91_glass_sphere011_cascade1.png Graphic file (ty
 pe png)
@@ -2670,7 +2690,7 @@ pe png)
 Package pdftex.def Info: Chapters/Figures/190215_g91_glass_sphere011_cascade1.p
 ng  used on input line 70.
 (pdftex.def)             Requested size: 155.02pt x 155.01625pt.
-<Chapters/Figures/190215_g91_glass_sphere011_cascade2.png, id=1125, 1027.84pt x
+<Chapters/Figures/190215_g91_glass_sphere011_cascade2.png, id=1138, 1027.84pt x
  1027.84pt>
 File: Chapters/Figures/190215_g91_glass_sphere011_cascade2.png Graphic file (ty
 pe png)
@@ -2678,7 +2698,7 @@ pe png)
 Package pdftex.def Info: Chapters/Figures/190215_g91_glass_sphere011_cascade2.p
 ng  used on input line 70.
 (pdftex.def)             Requested size: 155.02pt x 155.01625pt.
-<Chapters/Figures/190215_g91_glass_sphere011_cascade3.png, id=1126, 1027.84pt x
+<Chapters/Figures/190215_g91_glass_sphere011_cascade3.png, id=1139, 1027.84pt x
  1027.84pt>
 File: Chapters/Figures/190215_g91_glass_sphere011_cascade3.png Graphic file (ty
 pe png)
@@ -2686,7 +2706,7 @@ pe png)
 Package pdftex.def Info: Chapters/Figures/190215_g91_glass_sphere011_cascade3.p
 ng  used on input line 70.
 (pdftex.def)             Requested size: 155.02pt x 155.01625pt.
-<Chapters/Figures/190215_g91_glass_sphere011_cascade4.png, id=1127, 1027.84pt x
+<Chapters/Figures/190215_g91_glass_sphere011_cascade4.png, id=1140, 1027.84pt x
  1027.84pt>
 File: Chapters/Figures/190215_g91_glass_sphere011_cascade4.png Graphic file (ty
 pe png)
@@ -2694,7 +2714,7 @@ pe png)
 Package pdftex.def Info: Chapters/Figures/190215_g91_glass_sphere011_cascade4.p
 ng  used on input line 73.
 (pdftex.def)             Requested size: 155.02pt x 155.01625pt.
-<Chapters/Figures/190215_g91_glass_sphere011_cascade5.png, id=1128, 1027.84pt x
+<Chapters/Figures/190215_g91_glass_sphere011_cascade5.png, id=1141, 1027.84pt x
  1027.84pt>
 File: Chapters/Figures/190215_g91_glass_sphere011_cascade5.png Graphic file (ty
 pe png)
@@ -2702,7 +2722,7 @@ pe png)
 Package pdftex.def Info: Chapters/Figures/190215_g91_glass_sphere011_cascade5.p
 ng  used on input line 73.
 (pdftex.def)             Requested size: 155.02pt x 155.01625pt.
-<Chapters/Figures/190215_g91_glass_sphere011_cascade6.png, id=1129, 1027.84pt x
+<Chapters/Figures/190215_g91_glass_sphere011_cascade6.png, id=1142, 1027.84pt x
  1027.84pt>
 File: Chapters/Figures/190215_g91_glass_sphere011_cascade6.png Graphic file (ty
 pe png)
@@ -2721,7 +2741,7 @@ s/Figures/190215_g91_glass_sphere011_cascade3.png (PNG copy)> <./Chapters/Figur
 es/190215_g91_glass_sphere011_cascade4.png (PNG copy)> <./Chapters/Figures/1902
 15_g91_glass_sphere011_cascade5.png (PNG copy)> <./Chapters/Figures/190215_g91_
 glass_sphere011_cascade6.png (PNG copy)>]
-<Chapters/Figures/sphere011_ia/particle_located_normalized.pdf, id=1140, 613.34
+<Chapters/Figures/sphere011_ia/particle_located_normalized.pdf, id=1154, 613.34
 375pt x 184.58011pt>
 File: Chapters/Figures/sphere011_ia/particle_located_normalized.pdf Graphic fil
 e (type pdf)
@@ -2729,7 +2749,7 @@ e (type pdf)
 Package pdftex.def Info: Chapters/Figures/sphere011_ia/particle_located_normali
 zed.pdf  used on input line 90.
 (pdftex.def)             Requested size: 469.75499pt x 141.3751pt.
-<Chapters/Figures/sphere011_ia/particle_located_stretched.pdf, id=1145, 474.840
+<Chapters/Figures/sphere011_ia/particle_located_stretched.pdf, id=1159, 474.840
 93pt x 270.82874pt>
 File: Chapters/Figures/sphere011_ia/particle_located_stretched.pdf Graphic file
  (type pdf)
@@ -2741,7 +2761,7 @@ ed.pdf  used on input line 98.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/sphere011_ia/particle_located_top_view.pdf, id=1148, 393.5522
+<Chapters/Figures/sphere011_ia/particle_located_top_view.pdf, id=1162, 393.5522
 2pt x 374.64796pt>
 File: Chapters/Figures/sphere011_ia/particle_located_top_view.pdf Graphic file 
 (type pdf)
@@ -2753,7 +2773,7 @@ w.pdf  used on input line 105.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [24 <./Chapters/Figures/sphere011_ia/particle_located_normalized.pdf>]
-<Chapters/Figures/sphere011_ia/side_collapsed.pdf, id=1170, 624.54497pt x 387.4
+<Chapters/Figures/sphere011_ia/side_collapsed.pdf, id=1184, 624.54497pt x 387.4
 634pt>
 File: Chapters/Figures/sphere011_ia/side_collapsed.pdf Graphic file (type pdf)
 <use Chapters/Figures/sphere011_ia/side_collapsed.pdf>
@@ -2764,7 +2784,7 @@ Package pdftex.def Info: Chapters/Figures/sphere011_ia/side_collapsed.pdf  used
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/sphere011_ia/side_collapsed_zoomed.pdf, id=1171, 613.63972pt 
+<Chapters/Figures/sphere011_ia/side_collapsed_zoomed.pdf, id=1185, 613.63972pt 
 x 382.57504pt>
 File: Chapters/Figures/sphere011_ia/side_collapsed_zoomed.pdf Graphic file (typ
 e pdf)
@@ -2775,7 +2795,7 @@ f  used on input line 125.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/sphere011_ia/circle_fit.pdf, id=1176, 611.9894pt x 368.45856p
+<Chapters/Figures/sphere011_ia/circle_fit.pdf, id=1190, 611.9894pt x 368.45856p
 t>
 File: Chapters/Figures/sphere011_ia/circle_fit.pdf Graphic file (type pdf)
 <use Chapters/Figures/sphere011_ia/circle_fit.pdf>
@@ -2785,7 +2805,7 @@ input line 133.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/sphere011_ia/circle_fit_zoomed.pdf, id=1179, 619.02753pt x 35
+<Chapters/Figures/sphere011_ia/circle_fit_zoomed.pdf, id=1193, 619.02753pt x 35
 3.73001pt>
 File: Chapters/Figures/sphere011_ia/circle_fit_zoomed.pdf Graphic file (type pd
 f)
@@ -2796,7 +2816,7 @@ sed on input line 143.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/smallsphere017_190404_DC_glass.pdf, id=1184, 615.03795pt x 42
+<Chapters/Figures/smallsphere017_190404_DC_glass.pdf, id=1198, 615.03795pt x 42
 7.78859pt>
 File: Chapters/Figures/smallsphere017_190404_DC_glass.pdf Graphic file (type pd
 f)
@@ -2804,7 +2824,7 @@ f)
 Package pdftex.def Info: Chapters/Figures/smallsphere017_190404_DC_glass.pdf  u
 sed on input line 151.
 (pdftex.def)             Requested size: 469.75499pt x 326.735pt.
-<Chapters/Figures/smallsphere017_cicle_fitsphere_DC.pdf, id=1185, 572.31602pt x
+<Chapters/Figures/smallsphere017_cicle_fitsphere_DC.pdf, id=1199, 572.31602pt x
  434.18906pt>
 File: Chapters/Figures/smallsphere017_cicle_fitsphere_DC.pdf Graphic file (type
  pdf)
@@ -2818,7 +2838,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/d_vs_R_190215_sphere11highlight.pdf, id=1188, 620.68214pt x 4
+<Chapters/Figures/d_vs_R_190215_sphere11highlight.pdf, id=1202, 620.68214pt x 4
 51.56282pt>
 File: Chapters/Figures/d_vs_R_190215_sphere11highlight.pdf Graphic file (type p
 df)
@@ -2833,17 +2853,22 @@ pters/Figures/sphere011_ia/side_collapsed.pdf>] [28 <./Chapters/Figures/sphere0
 it.pdf>] [30 <./Chapters/Figures/sphere011_ia/circle_fit_zoomed.pdf>] [31 <./Ch
 apters/Figures/smallsphere017_190404_DC_glass.pdf>] [32 <./Chapters/Figures/sma
 llsphere017_cicle_fitsphere_DC.pdf>] [33 <./Chapters/Figures/d_vs_R_190215_sphe
-re11highlight.pdf>]
-Chapter 4.
-(./Chapters/Chapter4.tex [34
+re11highlight.pdf>]pdfTeX warning (ext4): destination with the same identifier 
+(name{page.33}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.150 \chapter
+              {Surface Stress and Adhesion Results} [33
 
 ]
+Chapter 4.
+(./Chapters/Chapter4.tex [34]
 Overfull \hbox (11.82004pt too wide) in paragraph at lines 61--63
  [][] 
  []
 
 [35] [36]
-<Chapters/Figures/stretch_v_unstretched_0-88-ST1.pdf, id=1322, 506.93832pt x 37
+<Chapters/Figures/stretch_v_unstretched_0-88-ST1.pdf, id=1339, 506.93832pt x 37
 1.13657pt>
 File: Chapters/Figures/stretch_v_unstretched_0-88-ST1.pdf Graphic file (type pd
 f)
@@ -2855,7 +2880,7 @@ sed on input line 108.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/stretch_v_unstretched_0-22-ST1.pdf, id=1323, 496.19052pt x 36
+<Chapters/Figures/stretch_v_unstretched_0-22-ST1.pdf, id=1340, 496.19052pt x 36
 8.69038pt>
 File: Chapters/Figures/stretch_v_unstretched_0-22-ST1.pdf Graphic file (type pd
 f)
@@ -2863,7 +2888,7 @@ f)
 Package pdftex.def Info: Chapters/Figures/stretch_v_unstretched_0-22-ST1.pdf  u
 sed on input line 114.
 (pdftex.def)             Requested size: 469.75499pt x 349.04433pt.
-<Chapters/Figures/g190218_glass_vs_22percent_dvsR.pdf, id=1326, 627.34375pt x 3
+<Chapters/Figures/g190218_glass_vs_22percent_dvsR.pdf, id=1343, 627.34375pt x 3
 60.99155pt>
 File: Chapters/Figures/g190218_glass_vs_22percent_dvsR.pdf Graphic file (type p
 df)
@@ -2885,14 +2910,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [37] [38 <./Chapters/Figures/stretch_v_unstretched_0-88-ST1.pdf>] [39 <./Chapte
 rs/Figures/stretch_v_unstretched_0-22-ST1.pdf>] [40 <./Chapters/Figures/g190218
 _glass_vs_22percent_dvsR.pdf>] [41]
-<Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf, id=1393, 637.35129pt x 408.0
+<Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf, id=1411, 637.35129pt x 408.0
 7103pt>
 File: Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf Graphic file (type pdf)
 <use Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf>
 Package pdftex.def Info: Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf  used
  on input line 145.
 (pdftex.def)             Requested size: 469.75499pt x 300.76608pt.
-<Chapters/Figures/WUps_fit_DC190404.pdf, id=1394, 629.08763pt x 426.62999pt>
+<Chapters/Figures/WUps_fit_DC190404.pdf, id=1412, 629.08763pt x 426.62999pt>
 File: Chapters/Figures/WUps_fit_DC190404.pdf Graphic file (type pdf)
 <use Chapters/Figures/WUps_fit_DC190404.pdf>
 Package pdftex.def Info: Chapters/Figures/WUps_fit_DC190404.pdf  used on input 
@@ -2905,7 +2930,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [42
 
  <./Chapters/Figures/d_vs_r_stretch_vs_nostretch.pdf>]
-<Chapters/Figures/190218G_tilted_axis_example.pdf, id=1410, 468.02441pt x 335.9
+<Chapters/Figures/190218G_tilted_axis_example.pdf, id=1427, 468.02441pt x 335.9
 7469pt>
 File: Chapters/Figures/190218G_tilted_axis_example.pdf Graphic file (type pdf)
 <use Chapters/Figures/190218G_tilted_axis_example.pdf>
@@ -2917,14 +2942,19 @@ Package pdftex.def Info: Chapters/Figures/190218G_tilted_axis_example.pdf  used
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [43 <./Chapters/Figures/WUps_fit_DC190404.pdf>]) [44 <./Chapters/Figures/190218
-G_tilted_axis_example.pdf>]
-Chapter 5.
-(./Chapters/Chapter5.tex [45
+G_tilted_axis_example.pdf>]pdfTeX warning (ext4): destination with the same ide
+ntifier (name{page.44}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.154 \chapter
+              {Future Work} [44
 
-]) [46]
+]
+Chapter 5.
+(./Chapters/Chapter5.tex [45]) [46]
 Appendix A.
 (./Chapters/Appendix.tex
-<Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF, id=1448, 794.97pt x
+<Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF, id=1468, 794.97pt x
  614.295pt>
 File: Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF Graphic file (t
 ype pdf)
@@ -2936,7 +2966,7 @@ PDF  used on input line 17.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapters/Figures/Stretcher_outer.pdf, id=1449, 619.48878pt x 474.20645pt>
+<Chapters/Figures/Stretcher_outer.pdf, id=1469, 619.48878pt x 474.20645pt>
 File: Chapters/Figures/Stretcher_outer.pdf Graphic file (type pdf)
 <use Chapters/Figures/Stretcher_outer.pdf>
 Package pdftex.def Info: Chapters/Figures/Stretcher_outer.pdf  used on input li
@@ -2948,7 +2978,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) [47
 
 ] [48 <./Chapters/Figures/Stretcher_body_with_screwtap_updated.PDF>]
-[49 <./Chapters/Figures/Stretcher_outer.pdf>]
+[49 <./Chapters/Figures/Stretcher_outer.pdf>]pdfTeX warning (ext4): destination
+ with the same identifier (name{page.49}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.166 \chapter
+              {Fluorescent Bead Recipe} [49
+
+]
 Appendix B.
 (./Chapters/Appendix_beads.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
@@ -2958,7 +2996,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
-) [50
+) [50]pdfTeX warning (ext4): destination with the same identifier (name{page.50
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.170 \chapter
+              {MATLAB Code} [50
 
 ]
 Appendix C.
@@ -2967,28 +3010,31 @@ Appendix C.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 7.
 
-[51
+[51] [52]) (./JKT_MainDraft.bbl [53]pdfTeX warning (ext4): destination with the
+ same identifier (name{page.53}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \begin{thebibliography}{10}
+                                [53
 
-] [52]) (./JKT_MainDraft.bbl [53] [54
-
-] [55] [56]) [57]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+] [54] [55] [56]) [57]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
  (./JKT_MainDraft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
 Package rerunfilecheck Info: File `JKT_MainDraft.out' has not changed.
 (rerunfilecheck)             Checksum: 22EEF173F825FD5F3CA0B15986853545;3617.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  ) 
 Here is how much of TeX's memory you used:
- 30090 strings out of 492982
- 571010 string characters out of 6134895
- 629285 words of memory out of 5000000
- 32871 multiletter control sequences out of 15000+600000
+ 30110 strings out of 492982
+ 571308 string characters out of 6134895
+ 629871 words of memory out of 5000000
+ 32887 multiletter control sequences out of 15000+600000
  544827 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,17n,88p,10417b,805s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3011,10 +3057,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on JKT_MainDraft.pdf (67 pages, 17956185 bytes).
+Output written on JKT_MainDraft.pdf (76 pages, 17957884 bytes).
 PDF statistics:
- 1701 PDF objects out of 1728 (max. 8388607)
- 1369 compressed objects within 14 object streams
- 244 named destinations out of 1000 (max. 500000)
+ 1731 PDF objects out of 2073 (max. 8388607)
+ 1390 compressed objects within 14 object streams
+ 245 named destinations out of 1000 (max. 500000)
  643 words of extra memory for PDF output out of 10000 (max. 10000000)
 
