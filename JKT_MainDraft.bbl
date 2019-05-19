@@ -137,6 +137,23 @@ R.~W. Style, C.~Hyland, R.~Boltyanskiy, J.~S. Wettlaufer, and E.~R. Dufresne.
 \newblock \emph{Surface tension and contact with soft elastic solids}.
 \newblock Nature Communications, 4:2728 (2013).
 
+\bibitem{tian2018measure}
+Y.~Tian, M.~Ina, Z.~Cao, S.~S. Sheiko, and A.~V. Dobrynin.
+\newblock \emph{How to measure work of adhesion and surface tension of soft
+  polymeric materials}.
+\newblock Macromolecules, 51(11):4059--4067 (2018).
+
+\bibitem{CaoZhen2014EAaW}
+Z.~Cao, M.~J. Stevens, and A.~V. Dobrynin.
+\newblock \emph{Elastocapillarity: Adhesion and wetting in soft polymeric
+  systems}.
+\newblock Macromolecules., 47(18):6515--6521 (2014).
+
+\bibitem{caoAdhesion}
+Z.~Cao, M.~J. Stevens, and A.~V. Dobrynin.
+\newblock \emph{Adhesion and wetting of nanoparticles on soft surfaces}.
+\newblock Macromolecules, 47(9):3203--3209 (2014).
+
 \bibitem{xu2016surface}
 X.~Xu, A.~Jagota, D.~Paretkar, and C.-Y. Hui.
 \newblock \emph{Surface tension measurement from the indentation of clamped
@@ -174,23 +191,6 @@ S.~J. Park, B.~M. Weon, J.~San~Lee, J.~Lee, J.~Kim, and J.~H. Je.
 \newblock \emph{Visualization of asymmetric wetting ridges on soft solids with
   x-ray microscopy}.
 \newblock Nature Communications, 5:4369 (2014).
-
-\bibitem{tian2018measure}
-Y.~Tian, M.~Ina, Z.~Cao, S.~S. Sheiko, and A.~V. Dobrynin.
-\newblock \emph{How to measure work of adhesion and surface tension of soft
-  polymeric materials}.
-\newblock Macromolecules, 51(11):4059--4067 (2018).
-
-\bibitem{CaoZhen2014EAaW}
-Z.~Cao, M.~J. Stevens, and A.~V. Dobrynin.
-\newblock \emph{Elastocapillarity: Adhesion and wetting in soft polymeric
-  systems}.
-\newblock Macromolecules., 47(18):6515--6521 (2014).
-
-\bibitem{caoAdhesion}
-Z.~Cao, M.~J. Stevens, and A.~V. Dobrynin.
-\newblock \emph{Adhesion and wetting of nanoparticles on soft surfaces}.
-\newblock Macromolecules, 47(9):3203--3209 (2014).
 
 \bibitem{JohnsonHertzBOOK}
 K.~L. Johnson.

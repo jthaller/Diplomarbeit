@@ -62,22 +62,41 @@ where $\Delta A$ is the change in surface area when stretched by part of an inde
 \end{equation}
 Let $ a $ be the base radius of the circle projected on the plane of the substrate's surface. Let $ R $ be the radius of the indenting sphere, and $ d $ be the depth into which it is stretching. We can find a relationship between these variables using the Pythagorean theorem.
 
-\begin{SCfigure}[][h]
+\begin{figure}[h]
 	\begin{minipage}{.5\textwidth}
-	\begin{align*}
-	&a^2 + (R-d)^2 = R^2 \\
-	&a^2 + R^2 - 2Rd +d^2 = R^2 \\
-	&a^2 = 2Rd -d^2 \\
-	&a^2 + d^2 = 2Rd
-	\end{align*}
+		\begin{align*}
+		&a^2 + (R-d)^2 = R^2 \\
+		&a^2 + R^2 - 2Rd +d^2 = R^2 \\
+		&a^2 = 2Rd -d^2 \\
+		&a^2 + d^2 = 2Rd
+		\end{align*}
 	\end{minipage}%
 	\begin{minipage}{.5\textwidth}
-	\centering
-	\caption{Spherical Cap Geometry}
-	\includegraphics[width=.5\linewidth]{Chapters/Figures/SphericalCap}
-	\label{fig:sphericalcap}
+		\centering
+		\caption{Spherical Cap Geometry} \vspace{2em}
+		\includegraphics[width=.5\linewidth]{Chapters/Figures/SphericalCap}
+		\label{fig:sphericalcap}
 	\end{minipage}
-\end{SCfigure}
+\end{figure}
+
+
+%\begin{SCfigure}[][h]
+%	\begin{minipage}{.5\textwidth}
+%	\begin{align*}
+%	&a^2 + (R-d)^2 = R^2 \\
+%	&a^2 + R^2 - 2Rd +d^2 = R^2 \\
+%	&a^2 = 2Rd -d^2 \\
+%	&a^2 + d^2 = 2Rd
+%	\end{align*}
+%	\end{minipage}%
+%	\begin{minipage}{.5\textwidth}
+%	\centering
+%	\caption{Spherical Cap Geometry}
+%	\includegraphics[width=.5\linewidth]{Chapters/Figures/SphericalCap}
+%	\label{fig:sphericalcap}
+%	\end{minipage}
+%\end{SCfigure}
+\pagebreak
 \noindent Now, solving for $ \Delta A $ and using the above relationship in the last step, we find:
 \begin{align*}
 \Delta A &= 2\pi Rd - \pi a^2 \\
@@ -116,13 +135,13 @@ Before preparing the substrate, we prepare the base surface on which the substra
 Once cured, we deposit a second layer of fluorescent beads on the surface. These act as tracer particles which outline the indentation sphere. These fluorescent beads are on the order of $ 10^3 $ times smaller than the indention sphere, and will thus, not influence how the sphere interacts with the substrate. Using fluorescent confocal microscopy, we are able to precisely locate each fluorescent bead and outline the indentation sphere. It is important that the bead spacing is dense enough to give a high resolution, yet not so dense as to become indistinguishable; high bead density presents a challenge for the MATLAB particle locating software. For a stretchable sample, we place the substrate, now cured onto the stretchable PDMS base, onto the lubricated stretching apparatus (described below). It is important remove any small bubbles on the stretcher's ring to ensure an airtight seal. 
 
 The final preparation step is to sprinkle silica spheres of varying size on top of the silicone. This should be done at least 30 minutes before collecting data so that the spheres have time to settle into an equilibrium state into the silicone. From a side view, the final setup should look like Figure \ref{fig:substrategraphic}.
+
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.85\linewidth]{Chapters/Figures/substrate_graphic_new}
-	\caption[Prepared Substrate Profile]{Above is the side profile of a prepared substrate sample. There are two layers of fluorescent beads: the bottom layer is used to measure the substrate's thickness, and the surface layer is used to outline the profile of the larger, indenting sphere. The soft substrate sits on a base layer, namely glass or a stretchable PDMS silicone.}
+	\includegraphics[width=.8\linewidth]{Chapters/Figures/substrate_graphic_new}
+	\caption[Prepared Substrate Profile]{Side profile of a prepared substrate sample. There are two layers of fluorescent beads: the bottom layer is used to measure the substrate's thickness, and the surface layer is used to outline the profile of the larger, indenting sphere. The soft substrate sits on a base layer, namely glass or a stretchable PDMS silicone.}
 	\label{fig:substrategraphic}
 \end{figure}
-
 
 \section{Stretching Apparatus}
 Our interest is not just in  measuring $W$ and $\Upsilon$ for a given substrate, but in understanding how those values change when under strain. To accomplish this, we designed and built our own equibiaxial stretching apparatus capable of maintaining up to 35\% strain in our silicone samples. The design is based off of previous work designed for stretching biological tissues \cite{na2008time} and is similar in design to the apparatus used in the 2017 $\Upsilon(\epsilon)$ measurements \cite{xu2017direct}. Below is a general description of the design; detailed design documents can be found in Appendix A.
@@ -132,14 +151,14 @@ Geometrically, the stretching apparatus is constructed of two concentric cylinde
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.6\linewidth]{Chapters/Figures/stretcher_side}
-	\caption[Side Profile of Stretching Apparatus]{Above is the side profile of the stretching apparatus. Note the channel attached at the base, and the large center hole at the base where our substrate can be accessed by the microscope.}
+	\caption[Side Profile of Stretching Apparatus]{Side profile of the stretching apparatus. Note the channel attached at the base, and the large center hole at the base where the substrate can be accessed by the microscope.}
 	\label{fig:stretcherside}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.35\linewidth]{Chapters/Figures/exploded_stretcher}
-	\caption[Stretching Apparatus Design]{Here is an exploded view of the stretching apparatus. The substrate goes on top of the base (substrate side down). It is then held down with an o-ring, which sits on the outside ledge. A second ring sits on top of the o-ring and is then held down by the microscope mount (not pictured here).}
+	\caption[Stretching Apparatus Design]{Exploded view of the stretching apparatus. The substrate goes on top of the base (substrate side down). It is then held down with an o-ring, which sits on the outside ledge. A second ring sits on top of the o-ring and is then held down by the microscope mount (not pictured).}
 	\label{fig:explodedstretcher}
 \end{figure}
 
@@ -149,19 +168,19 @@ A tapped screw hole on the side of the apparatus connects the chamber to a syrin
 \section{Calibration}
 Originally, we intended to calculate the strain induced by the vacuum by predicting the induced strain based on the amount of air withdrawn from the stretching apparatus. To measure strain, we withdraw air from the syringe and measure the movement of glass spheres adhered to the surface using a 10x air lens on our Nikon confocal microscope. Using the transmission detector allows us to image the surface of our material with a wide field of view. Strain percentage is calculated using MATLAB code \cite{xu2017direct}.
 
-There are several challenges in calibrating the induced strain. First, the stretching apparatus works best when a large strain is applied. Applying small strains one after another works, but there is a threshold to induce stretch. No stretching change is visible if less than 2ml is withdrawn from the cylinder per increment. Thus, there is a limited resolution to our calibration data, which would not be a problem if the strain was linear. However, preliminary measurements indicated that the applied strain was nonlinear. This agrees with the with previous results \cite{na2008time} obtained using a similar device. Lastly, the greatest problem with calibrating strain is that we change substrates often. Even if we were to use the same exact sample, by removing it and setting up the device again, there is no way to standardize a zero-applied strain point. To prepare the stretching device, the sample is placed over the opening and a rubber o-ring is placed around the sample to help affix it in place. The sample must then be stretched and wiggled around slightly to remove any snags that could jeopardize the vacuum's efficacy. This means that every time a new sample is prepared, it is in an unknown and unique state of induced strain. Furthermore, before applying any strain, the substrate could be loose and uneven. Thus, to flatten the sample it must be stretched slightly.
+There are several challenges in calibrating the induced strain. First, the stretching apparatus works best when a large strain is applied. Applying small strains one after another works, but there is a threshold to induce stretch. No stretching change is visible if less than 2~ml is withdrawn from the cylinder per increment. Thus, there is a limited resolution to our calibration data, which would not be a problem if the strain was linear. However, preliminary measurements indicated that the applied strain was nonlinear. This agrees with the with previous results \cite{na2008time} obtained using a similar device. Lastly, the most significant challenge with calibrating strain is that we change substrates often. Even if we were to use the same exact sample, by removing it and setting up the device again, there is no way to standardize a zero-applied strain point. To prepare the stretching device, the sample is placed over the opening and a rubber o-ring is placed around the sample to help affix it in place. The sample must then be stretched and wiggled around slightly to remove any snags that could jeopardize the vacuum's efficacy. This means that every time a new sample is prepared, it is in an unknown and unique state of induced strain. Furthermore, before applying any strain, the substrate could be loose and uneven. Thus, to flatten the sample it must be stretched slightly.
 
 It was thus determined best to measure strain using the confocal every time we applied a new strain to the silicone substrate and compare it to the substrate's original state. This also assured us that we knew the correct strain value to a higher precision for any given data set.
 
 
 \subsection{Measuring Strain}
-To determine the induced strain, we maximize the field of view and track the relative location of the indentation spheres. This allows us to see how more spheres are shifting, and thus gives a more accurate estimate of induced strain. As such, we decided to switch to the bright-field to image the spheres for each strain. We used a 10x air lens in conjunction with the transmission detector on our Nikon Confocal. We adjust the settings to give decent contrast, but it is more important to have the spheres in focus. Each sphere reflects light, and it is this reflection that our particle locating software tracks after some image processing. An example image is located below (Fig.\ref{fig:TDpreandpost}), next to the same image after adjusting the contrast to help our tracking software with particle locating: 
+To determine the induced strain, we maximize the field of view and track the relative location of the indentation spheres. This allows us to see how more spheres are shifting, and thus gives a more accurate estimate of induced strain. As such, we decided to switch to the bright-field to image the spheres for each strain. We used a 10x air lens in conjunction with the transmission detector on our Nikon A1R Confocal. We adjust the settings to give decent contrast, but it is more important to have the spheres in focus. Each sphere reflects light, and it is this reflection that our particle locating software tracks after some image processing. An example image is located below (Fig.\ref{fig:TDpreandpost}), next to the same image after adjusting the contrast to help our tracking software with particle locating: 
 \begin{figure}[h!]
 	\begin{tabular}{cc}
 		\includegraphics[width= .48\linewidth,frame]{Chapters/Figures/181115_unstretched_b_thesis_contrast_RGB.pdf} & \includegraphics[width= .48\linewidth,frame]{Chapters/Figures/181115_stretched_thesis_contrast_RGB.pdf}\\
 		Fig. A & Fig. B
 	\end{tabular}
-	\caption[Bright-field stretch calibration images]{To calibrate the induced strain of our substrate, we switch to the brightfield to have a wider field of view for calibration. Fig. A shows the sample before stretching, and Fig. B shows the sample after a $ 35\% $ equibiaxial strain. The three colored circles have been added to highlight the same spheres before and after stretching. Both of the images are 1.68~mm $ \times $ 1.68~mm.}
+	\caption[Bright-field stretch calibration images]{Fig. A shows the sample before stretching, and Fig. B shows the sample after a $ 35\% $ equibiaxial strain. To calibrate the induced strain of our substrate, we switch to the brightfield to have a wider field of view for calibration. The three colored circles have been added to highlight the same spheres before and after stretching. Both of the images are 1.68~mm $ \times $ 1.68~mm.}
 		\label{fig:TDpreandpost}
 \end{figure}
 
@@ -170,7 +189,7 @@ To determine the induced strain, we maximize the field of view and track the rel
 		\includegraphics[width= .5\linewidth]{Chapters/Figures/particle_located_unstretched.pdf} & \includegraphics[width= .5\linewidth]{Chapters/Figures/particle_located_stretched.pdf}\\
 		Fig. A & Fig. B
 	\end{tabular}
-	\caption[Particle-Locating for Stretch Calibration]{By adjusting the contrast of the above images, we remove all but the center highlighted reflection of each sphere. This allows our MATLAB software to consistently and reliably locate each sphere to track for strain calculation.}
+	\caption[Particle-Locating for Stretch Calibration]{The spheres in Figure \ref{fig:TDpreandpost} as located by MATLAB software. By adjusting the contrast of the above images (Fig. \ref{fig:TDpreandpost}), we remove all but the center highlighted reflection of each sphere. This allows our MATLAB software to consistently and reliably locate each sphere to track for strain calculation. The white circles are the center reflection of each sphere and the red crosses are the points being tracked for strain calibration by MATLAB.}
 	\label{fig:particleTracking}
 \end{figure}
 
@@ -215,7 +234,7 @@ We are working with a large indenter and a geometry that fixes the contact area.
 \begin{figure}
 	\centering
 	\includegraphics[width=.9\linewidth]{Chapters/Figures/fittedRegionexample}
-	\caption[Bulk stiffness Fit]{Fitting a line to the slope of the force vs. indentation depth for a bulk sample of the testing material allows us to use theory in order to calulate the stiffness, $E$.}
+	\caption[Bulk stiffness Fit]{Fitting a line to the slope of the force~vs.~indentation depth for a bulk sample of the testing material allows us to use theory in order to calculate the stiffness, $E$.}
 	\label{fig:fittedregionexample}
 \end{figure}
 
